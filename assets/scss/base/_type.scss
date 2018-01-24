@@ -1,3 +1,6 @@
+/* ==========================================
+    @Type 
+=========================================== */
 body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 16px;
@@ -6,7 +9,7 @@ body {
 }
 
 blockquote {
-    border-left: 2px solid $primary-color;
+    border-left: 2px solid;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 1.4em;
     font-style: italic;
@@ -100,7 +103,7 @@ code {
 }
 
 a {
-    color: $primary-color;
+    color: $dark-blue;
     text-decoration: none;
     &:hover,
     &:focus {
@@ -152,7 +155,7 @@ ul {
 }
 
 .subtle {
-    color: $subtle-color;
+    color: $dark-blue;
 }
 
 .text-center {
@@ -179,29 +182,29 @@ hr {
     margin: 4.24% 0;
 }
 
-.red {
-    color: $red !important;
-}
+// .red {
+//     color: $red !important;
+// }
 
-.green {
-    color: $green;
-}
+// .green {
+//     color: $green;
+// }
 
-.white {
-    color: $white;
-}
+// .white {
+//     color: $white;
+// }
 
-.green {
-    color: $green !important;
-}
+// .green {
+//     color: $green !important;
+// }
 
-.blue {
-    color: $primary-color;
-}
+// .blue {
+//     color: $primary-color;
+// }
 
-.grey {
-    color: $light-grey;
-}
+// .grey {
+//     color: $light-grey;
+// }
 
 .small-icon {
     font-size: 25px !important;
@@ -210,29 +213,355 @@ hr {
     position: relative;
 }
 
-input.icon {
-    padding: 0px;
+@mixin icons02 {
+  font-family: FontAwesome5Free;
+  font-size: 64px;
+  color: $light-blue;
 }
 
-input.icon::-webkit-input-placeholder {
-    font-family: 'FontAwesome', arial, sans-serif;
+@mixin icons01 {
+  font-family: FontAwesome5FreeSolid;
+  font-size: 64px;
+  color: $light-blue;
 }
 
-input.icon::-moz-placeholder {
-    font-family: 'FontAwesome', arial, sans-serif;
+@mixin H01 {
+  font-family: HelveticaNeue-Cond;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.08;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: $white;
 }
 
-input.icon::-ms-input-placeholder {
-    font-family: 'FontAwesome', arial, sans-serif;
+@mixin H01---Mobile {
+  font-family: HelveticaNeue-Cond;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.06;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: $white;
 }
 
-input.empty {
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
+@mixin H02---white-dropshadow {
+  font-family: HelveticaNeue-Cond;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 0.89;
+  letter-spacing: 1px;
+  text-align: left;
+  color: $white;
 }
 
-input {
-    font-family: 'FontAwesome', arial, sans-serif;
+@mixin H02---center-dark-blue {
+  font-family: HelveticaNeue-Cond;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  color: $dark-blue;
+}
+
+@mixin H03---dark-blue {
+  font-family: HelveticaNeue-Cond;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: $dark-blue;
+}
+
+@mixin H03---center-white-dropshadow {
+  font-family: HelveticaNeue-Cond;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: $white;
+}
+
+@mixin footer---phone-CTA {
+  font-family: HelveticaNeue-Cond;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: left;
+  color: $teal;
+}
+
+@mixin H02---Mobile {
+  font-family: HelveticaNeue-Cond;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: $dark-blue;
+}
+
+@mixin H03---Mobile-center-white {
+  font-family: HelveticaNeue-Cond;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: $white;
+}
+
+@mixin header---phone-CTA {
+  font-family: HelveticaNeue-Cond;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: left;
+  color: $teal;
+}
+
+@mixin H04 {
+  font-family: HelveticaNeue-Cond;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-align: left;
+  color: $dark-blue;
+}
+
+@mixin H05---white {
+  font-family: HelveticaNeue-Cond;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: left;
+  color: $white;
+}
+
+@mixin H05---center-dark-blue {
+  font-family: HelveticaNeue-Cond;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  color: $dark-blue;
+}
+
+@mixin H06---center-dark-blue {
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: $dark-blue;
+}
+
+@mixin H06---orange {
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: $orange;
+}
+
+@mixin iocns03 {
+  font-family: FontAwesome5Brands;
+  font-size: 22px;
+  color: $light-blue;
+}
+
+@mixin H07 {
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: $dark-blue;
+}
+
+@mixin H08 {
+  font-family: HelveticaNeue-Cond;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: $white;
+}
+
+@mixin H09 {
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.11;
+  letter-spacing: 1px;
+  text-align: left;
+  color: $white;
+}
+
+@mixin Nav01---uppercase {
+  font-family: HelveticaNeue-Cond;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 0.89;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: $white;
+}
+
+@mixin Nav02 {
+  font-family: HelveticaNeue-Cond;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: $white;
+}
+
+@mixin P01---18-Roman55-left-grey {
+  font-family: HelveticaNeue-Roman;
+  font-size: 18px;
+  line-height: 1.44;
+  text-align: left;
+  color: $grey;
+}
+
+@mixin H10---UPPERCASE {
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: $dark-blue;
+}
+
+@mixin button01---uppercase {
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-align: center;
+  color: $white;
+}
+
+@mixin Homepage-Caption {
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-stretch: condensed;
+  line-height: 1;
+  letter-spacing: 0.2px;
+  text-align: right;
+  color: $white;
+}
+
+@mixin P02---dark-blue {
+  font-family: HelveticaNeue-Roman;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: $dark-blue;
+}
+
+@mixin P02---center-light-grey {
+  font-family: HelveticaNeue-Roman;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: $light-grey;
+}
+
+@mixin P02---grey {
+  font-family: HelveticaNeue-Roman;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: $grey;
+}
+
+@mixin P02---center-white {
+  font-family: HelveticaNeue-Roman;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: $white;
+}
+
+@mixin P02---grey-bullet-list {
+  font-family: HelveticaNeue-Roman;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: $grey;
+}
+
+@mixin P02---white {
+  font-family: HelveticaNeue-Roman;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: $white;
+}
+
+@mixin button02---uppercase {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 1px;
+  text-align: center;
+  color: $white;
+}
+
+@mixin P03 {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: $grey;
+}
+
+@mixin Form-active-text---14-RomanCon57-left-grey {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-stretch: condensed;
+  line-height: 1.5;
+  text-align: left;
+  color: $grey;
+}
+
+@mixin Form-default-text---14-RomanCon57-Italic-left-light-grey {
+  font-family: HelveticaNeue-Obl;
+  font-size: 14px;
+  font-stretch: condensed;
+  line-height: 1.5;
+  text-align: left;
+  color: $silver;
+}
+
+@mixin footer-links---uppercase {
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  text-align: center;
+  color: $white;
+}
+
+@mixin P04---Caption-Breadcrumbs {
+  font-family: HelveticaNeue-Roman;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: left;
+  color: $grey;
 }

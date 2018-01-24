@@ -7,7 +7,11 @@ Author: Christopher Gatherer
 Author URI: http://seasideconnections.com
 Template: Divi
 ======================================*/
-/* You can add your own CSS styles here. Use !important to overwrite styles if needed. */
+/**/
+/**/
+/* ==========================================
+    @Normalize
+=========================================== */
 article,
 aside,
 details,
@@ -292,6 +296,9 @@ table {
   margin-right: 0.5em;
   font-weight: bold; }
 
+/* ==========================================
+    @Type 
+=========================================== */
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 16px;
@@ -299,7 +306,7 @@ body {
   font-weight: 400; }
 
 blockquote {
-  border-left: 2px solid #0098DB;
+  border-left: 2px solid;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 1.4em;
   font-style: italic;
@@ -381,7 +388,7 @@ code {
   word-wrap: break-word; }
 
 a {
-  color: #0098DB;
+  color: #003150;
   text-decoration: none; }
   a:hover, a:focus {
     text-decoration: none; }
@@ -419,7 +426,7 @@ ul {
   padding-left: 0; }
 
 .subtle {
-  color: #aaa; }
+  color: #003150; }
 
 .text-center {
   text-align: center; }
@@ -439,54 +446,24 @@ hr {
   border-bottom: 1px solid #ddd;
   margin: 4.24% 0; }
 
-.red {
-  color: #f25532 !important; }
-
-.green {
-  color: #25A634; }
-
-.white {
-  color: #fff; }
-
-.green {
-  color: #25A634 !important; }
-
-.blue {
-  color: #0098DB; }
-
-.grey {
-  color: #ccc; }
-
 .small-icon {
   font-size: 25px !important;
   float: right;
   top: 3px;
   position: relative; }
 
-input.icon {
-  padding: 0px; }
-
-input.icon::-webkit-input-placeholder {
-  font-family: 'FontAwesome', arial, sans-serif; }
-
-input.icon::-moz-placeholder {
-  font-family: 'FontAwesome', arial, sans-serif; }
-
-input.icon::-ms-input-placeholder {
-  font-family: 'FontAwesome', arial, sans-serif; }
-
-input.empty {
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit; }
-
-input {
-  font-family: 'FontAwesome', arial, sans-serif; }
-
-/* Add SCSS styles here. */
-/* Add SCSS styles here. */
-/* Add SCSS styles here. */
+/* ==========================================
+    @Default
+=========================================== */
+/* ==========================================
+    @Header 
+=========================================== */
+/* ==========================================
+    @Footer 
+=========================================== */
+/* ==========================================
+    @Print
+=========================================== */
 @media print {
   header,
   nav,

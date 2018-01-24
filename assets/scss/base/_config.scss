@@ -52,60 +52,15 @@ Times,
 serif;
 
 // Default colors
-$aqua: #46acdc;
-$blue: #5287e5;
-$navy: #3c71d1;
-$teal: #39cccc;
-$green: #25A634;
-$light-green: #73FF6F;
-$olive: #3d9970;
-$lime: #01ff70;
-$pickled-bluewood: #2b3e51;
-$curious-blue: #2c97de;
-$porcelain: #ecf0f1;
-
-// Warm
-$yellow: #efb530;
-$orange: #e6a120;
-$red: #f25532;
-$light-red: #FF7A7A;
-$fuchsia: #f012be;
-$purple: #b10dc9;
-$maroon: #85144b;
-$cinnabar: #e94b35;
-
-// Gray Scale
-$white: #fff;
-$silver: #ccc;
-$grey: #aaa;
-$light-grey:#ccc;
-$medium-grey: #555;
-$light-black: #333;
-$black: #111;
-
-// Hibbert Colors 
-$hibbert-light-cyan: #ABDBF8;
-$hibbert-cyan: #0098DB;
-$hibbert-blue: #0039A6;
-$hibbert-light-blue: #46acdc;
-$button-blue: #0098DB;
-
-// Project color variables
-$background: #cdcdcd;
-$primary-color: #0098DB;
-$secondary-color: #0039A6;
-$tertiary-color: #aaa;
-$label-email: #8fc043;
-$label-dmail: #3ebd92;
-$label-text-message: #8863cc;
-$label-phone-call: #46acdc;
-$label-corp-out: #5287e5;
-$label-no-fulf: #f6bb42;
-$label-third-party: #df6da9;
-$danger-color: $red; // Bad color for errors, validation etc.
-$success-color: $green; // Good color for success etc.
-$info-color: $blue; // Good color for success etc.
-$warning-color: $orange; // Good color for success etc.
-$subtle-color: $grey; // Subtle color for subtle text
-$highlight: rgba(127, 219, 255, 1.0);
-$input: #FFFFE0;
+$dark-blue: #003150;
+$teal: #00c6d5;
+$orange: #ef7827;
+$mid-blue: #0077ad;
+$light-blue: #009fda;
+$light-grey: #e6e9ee;
+$silver: #bdc1c9;
+$form-green: #2ecc71;
+$grey: #444444;
+$white: #ffffff;
+$form-red: #e74c3c;
+$form-blue: #3498db;
