@@ -214,6 +214,16 @@
 						: $template_directory_uri . '/images/logo.png';
 				?>
 
+				<div class="span12 group nopad">
+					<div class="span8">
+						
+					</div>
+
+					<div class="span4">
+						
+					</div>
+				</div>
+
 				<!-- <div class="span12 group nopad">
 					<div class="span8">
 						<div class="logo_container">
