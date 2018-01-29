@@ -1,6 +1,6 @@
 <?php
 /**
- * Divi Cake Child Theme Functions.php
+ * Divi Inspired Spine Child Theme Functions.php
  *
  * ===== NOTES ==================================================================
  * 
