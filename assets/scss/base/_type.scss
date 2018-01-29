@@ -47,6 +47,14 @@ blockquote {
     padding-left: 25px;
 }
 
+.et_pb_cta_0.et_pb_promo h2, .et_pb_cta_0.et_pb_promo h1.et_pb_module_header, .et_pb_cta_0.et_pb_promo h3.et_pb_module_header, .et_pb_cta_0.et_pb_promo h4.et_pb_module_header, .et_pb_cta_0.et_pb_promo h5.et_pb_module_header, .et_pb_cta_0.et_pb_promo h6.et_pb_module_header {
+    @include H01;
+    font-size: 58px!important;
+    color: #ffffff!important;
+    line-height: 1.3em!important;
+    text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4)!important;
+}
+
 // h1,
 // h2,
 // h3,
