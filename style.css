@@ -799,6 +799,12 @@ hr {
 #main-header {
   background: none !important; }
 
+.logo_container {
+  position: absolute;
+  max-width: 270px;
+  width: 100%;
+  height: auto; }
+
 /* ==========================================
     @Footer 
 =========================================== */
