@@ -325,7 +325,7 @@ table {
   src: url("assets/fonts/3d3afd39-c4ed-4665-92fe-09017646d159.eot?#iefix");
   src: url("assets/fonts/3d3afd39-c4ed-4665-92fe-09017646d159.eot?#iefix") format("eot"), url("assets/fonts/1eb76d85-4078-4440-8c8a-49a9a374e918.woff2") format("woff2"), url("assets/fonts/184bd314-b4a6-4db6-833a-18bba78873a2.woff") format("woff"), url("assets/fonts/f5e341d0-94b2-415e-9a31-8460aafc2af3.ttf") format("truetype"), url("assets/fonts/7637fa36-5d49-4b95-b444-e65a15f55ce5.svg#7637fa36-5d49-4b95-b444-e65a15f55ce5") format("svg"); }
 body {
-  font-family: HelveticaNeue-Roman;
+  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
   font-size: 18px;
   line-height: 1.44;
   text-align: left;
