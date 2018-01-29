@@ -274,6 +274,7 @@
 					</div>
 
 					<div class="span4">
+						<p>Testing</p>
 						<div class="et_search_outer">
 								<div class="container et_search_form_container">
 									<form role="search" method="get" class="et-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
