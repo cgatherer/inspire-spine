@@ -214,7 +214,7 @@
 						: $template_directory_uri . '/images/logo.png';
 				?>
 
-				<div class="span12 group nopad">
+				<!-- <div class="span12 group nopad">
 					<div class="span8">
 						<div class="logo_container">
 							<span class="logo_helper"></span>
@@ -290,7 +290,7 @@
 								</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 		</header> <!-- #main-header -->
 
 		<div id="et-main-area">
