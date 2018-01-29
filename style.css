@@ -790,7 +790,8 @@ hr {
   background-color: #ffffff;
   box-shadow: 0 8px 12px 0 rgba(230, 233, 238, 0.5);
   position: relative;
-  top: -100px; }
+  top: -100px;
+  margin-bottom: -100px; }
 
 /* ==========================================
     @Header 
