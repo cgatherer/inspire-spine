@@ -1,44 +1,40 @@
 /* ==========================================
     @Type 
 =========================================== */
-@import url(http://fast.fonts.net/t/1.css?apiType=css&projectid=62d2a26d-7606-44af-9034-c7ab3ec2a271);
-@font-face{
-    font-family:"Helvetica Neue LT W01_71488914";
-    src:url("assets/fonts/8a6c3e5a-88a5-430c-91d8-7767ce971d12.eot?#iefix");
-    src:url("assets/fonts/8a6c3e5a-88a5-430c-91d8-7767ce971d12.eot?#iefix") format("eot"),url("assets/fonts/531c5a28-5575-4f58-96d4-a80f7b702d7b.woff2") format("woff2"),url("assets/fonts/439c5962-f9fe-4eaf-a1f6-f41d42edba75.woff") format("woff"),url("assets/fonts/419a308d-b777-4f84-9235-2caf4a98ec23.ttf") format("truetype"),url("assets/fonts/e4d5b881-6835-45b7-8766-3e5b9e7cab8b.svg#e4d5b881-6835-45b7-8766-3e5b9e7cab8b") format("svg");
-}
-@font-face{
-    font-family:"Helvetica Neue LT W01_57 Cond";
-    src:url("assets/fonts/3808766e-26cf-47cb-97a7-1f1c64db9c48.eot?#iefix");
-    src:url("assets/fonts/3808766e-26cf-47cb-97a7-1f1c64db9c48.eot?#iefix") format("eot"),url("assets/fonts/946b2f3f-a9d7-47e4-9738-ee963004d697.woff2") format("woff2"),url("assets/fonts/ce90a9c3-4580-4fa7-b453-9a4e86d0c271.woff") format("woff"),url("assets/fonts/a621a6bf-fa40-4115-9f42-6ffb55c017e2.ttf") format("truetype"),url("assets/fonts/436f9358-58a7-4f85-bdef-f4cd10831df6.svg#436f9358-58a7-4f85-bdef-f4cd10831df6") format("svg");
-}
-@font-face{
-    font-family:"Helvetica Neue LT W01_67 Md Cn";
-    src:url("assets/fonts/13e5efa8-b7a2-4f0f-a459-c966f7d3f458.eot?#iefix");
-    src:url("assets/fonts/13e5efa8-b7a2-4f0f-a459-c966f7d3f458.eot?#iefix") format("eot"),url("assets/fonts/108e1ff6-3205-4c92-9aa5-9abb2823fe92.woff2") format("woff2"),url("assets/fonts/f61c722b-9236-445e-bb7e-eeb1009cd627.woff") format("woff"),url("assets/fonts/5cd6e481-b6d9-47fa-b568-1636d8a6cc52.ttf") format("truetype"),url("assets/fonts/0134ff8c-b1ae-47f0-9219-d1bdce3ec1db.svg#0134ff8c-b1ae-47f0-9219-d1bdce3ec1db") format("svg");
-}
-@font-face{
-    font-family:"Helvetica Neue LT W01_77 Bd Cn";
-    src:url("assets/fonts/1527aeed-e69d-4399-82e3-7b53d48da7a2.eot?#iefix");
-    src:url("assets/fonts/1527aeed-e69d-4399-82e3-7b53d48da7a2.eot?#iefix") format("eot"),url("assets/fonts/5f4620bc-98f7-4b13-9f90-3a54ea6a9c55.woff2") format("woff2"),url("assets/fonts/ac30e84e-cb19-4576-b6f9-491fccbd42ff.woff") format("woff"),url("assets/fonts/b583b782-0709-4a13-899f-7e9ab1a7eccd.ttf") format("truetype"),url("assets/fonts/d5dd03f5-3afb-46e9-aad0-234de8607afa.svg#d5dd03f5-3afb-46e9-aad0-234de8607afa") format("svg");
-}
-@font-face{
-    font-family:"Helvetica Neue LT W01_55 Roman";
-    src:url("assets/fonts/a58359b2-ab6c-4eb7-a2ed-b567c68b3388.eot?#iefix");
-    src:url("assets/fonts/a58359b2-ab6c-4eb7-a2ed-b567c68b3388.eot?#iefix") format("eot"),url("assets/fonts/02963ef0-dbb8-4ec9-a06d-939c6f252739.woff2") format("woff2"),url("assets/fonts/411f40ef-ca35-4f60-93ce-b394d5485b62.woff") format("woff"),url("assets/fonts/aee958bd-461a-4843-929b-4127e918a85e.ttf") format("truetype"),url("assets/fonts/a5239550-7c80-4408-8598-671485ac7994.svg#a5239550-7c80-4408-8598-671485ac7994") format("svg");
-}
-@font-face{
-    font-family:"Helvetica Neue LT W01_65 Mediu";
-    src:url("assets/fonts/3d3afd39-c4ed-4665-92fe-09017646d159.eot?#iefix");
-    src:url("assets/fonts/3d3afd39-c4ed-4665-92fe-09017646d159.eot?#iefix") format("eot"),url("assets/fonts/1eb76d85-4078-4440-8c8a-49a9a374e918.woff2") format("woff2"),url("assets/fonts/184bd314-b4a6-4db6-833a-18bba78873a2.woff") format("woff"),url("assets/fonts/f5e341d0-94b2-415e-9a31-8460aafc2af3.ttf") format("truetype"),url("assets/fonts/7637fa36-5d49-4b95-b444-e65a15f55ce5.svg#7637fa36-5d49-4b95-b444-e65a15f55ce5") format("svg");
-}
-
+// @import url(http://fast.fonts.net/t/1.css?apiType=css&projectid=62d2a26d-7606-44af-9034-c7ab3ec2a271);
+// @font-face{
+//     font-family:"Helvetica Neue LT W01_71488914";
+//     src:url("assets/fonts/8a6c3e5a-88a5-430c-91d8-7767ce971d12.eot?#iefix");
+//     src:url("assets/fonts/8a6c3e5a-88a5-430c-91d8-7767ce971d12.eot?#iefix") format("eot"),url("assets/fonts/531c5a28-5575-4f58-96d4-a80f7b702d7b.woff2") format("woff2"),url("assets/fonts/439c5962-f9fe-4eaf-a1f6-f41d42edba75.woff") format("woff"),url("assets/fonts/419a308d-b777-4f84-9235-2caf4a98ec23.ttf") format("truetype"),url("assets/fonts/e4d5b881-6835-45b7-8766-3e5b9e7cab8b.svg#e4d5b881-6835-45b7-8766-3e5b9e7cab8b") format("svg");
+// }
+// @font-face{
+//     font-family:"Helvetica Neue LT W01_57 Cond";
+//     src:url("assets/fonts/3808766e-26cf-47cb-97a7-1f1c64db9c48.eot?#iefix");
+//     src:url("assets/fonts/3808766e-26cf-47cb-97a7-1f1c64db9c48.eot?#iefix") format("eot"),url("assets/fonts/946b2f3f-a9d7-47e4-9738-ee963004d697.woff2") format("woff2"),url("assets/fonts/ce90a9c3-4580-4fa7-b453-9a4e86d0c271.woff") format("woff"),url("assets/fonts/a621a6bf-fa40-4115-9f42-6ffb55c017e2.ttf") format("truetype"),url("assets/fonts/436f9358-58a7-4f85-bdef-f4cd10831df6.svg#436f9358-58a7-4f85-bdef-f4cd10831df6") format("svg");
+// }
+// @font-face{
+//     font-family:"Helvetica Neue LT W01_67 Md Cn";
+//     src:url("assets/fonts/13e5efa8-b7a2-4f0f-a459-c966f7d3f458.eot?#iefix");
+//     src:url("assets/fonts/13e5efa8-b7a2-4f0f-a459-c966f7d3f458.eot?#iefix") format("eot"),url("assets/fonts/108e1ff6-3205-4c92-9aa5-9abb2823fe92.woff2") format("woff2"),url("assets/fonts/f61c722b-9236-445e-bb7e-eeb1009cd627.woff") format("woff"),url("assets/fonts/5cd6e481-b6d9-47fa-b568-1636d8a6cc52.ttf") format("truetype"),url("assets/fonts/0134ff8c-b1ae-47f0-9219-d1bdce3ec1db.svg#0134ff8c-b1ae-47f0-9219-d1bdce3ec1db") format("svg");
+// }
+// @font-face{
+//     font-family:"Helvetica Neue LT W01_77 Bd Cn";
+//     src:url("assets/fonts/1527aeed-e69d-4399-82e3-7b53d48da7a2.eot?#iefix");
+//     src:url("assets/fonts/1527aeed-e69d-4399-82e3-7b53d48da7a2.eot?#iefix") format("eot"),url("assets/fonts/5f4620bc-98f7-4b13-9f90-3a54ea6a9c55.woff2") format("woff2"),url("assets/fonts/ac30e84e-cb19-4576-b6f9-491fccbd42ff.woff") format("woff"),url("assets/fonts/b583b782-0709-4a13-899f-7e9ab1a7eccd.ttf") format("truetype"),url("assets/fonts/d5dd03f5-3afb-46e9-aad0-234de8607afa.svg#d5dd03f5-3afb-46e9-aad0-234de8607afa") format("svg");
+// }
+// @font-face{
+//     font-family:"Helvetica Neue LT W01_55 Roman";
+//     src:url("assets/fonts/a58359b2-ab6c-4eb7-a2ed-b567c68b3388.eot?#iefix");
+//     src:url("assets/fonts/a58359b2-ab6c-4eb7-a2ed-b567c68b3388.eot?#iefix") format("eot"),url("assets/fonts/02963ef0-dbb8-4ec9-a06d-939c6f252739.woff2") format("woff2"),url("assets/fonts/411f40ef-ca35-4f60-93ce-b394d5485b62.woff") format("woff"),url("assets/fonts/aee958bd-461a-4843-929b-4127e918a85e.ttf") format("truetype"),url("assets/fonts/a5239550-7c80-4408-8598-671485ac7994.svg#a5239550-7c80-4408-8598-671485ac7994") format("svg");
+// }
+// @font-face{
+//     font-family:"Helvetica Neue LT W01_65 Mediu";
+//     src:url("assets/fonts/3d3afd39-c4ed-4665-92fe-09017646d159.eot?#iefix");
+//     src:url("assets/fonts/3d3afd39-c4ed-4665-92fe-09017646d159.eot?#iefix") format("eot"),url("assets/fonts/1eb76d85-4078-4440-8c8a-49a9a374e918.woff2") format("woff2"),url("assets/fonts/184bd314-b4a6-4db6-833a-18bba78873a2.woff") format("woff"),url("assets/fonts/f5e341d0-94b2-415e-9a31-8460aafc2af3.ttf") format("truetype"),url("assets/fonts/7637fa36-5d49-4b95-b444-e65a15f55ce5.svg#7637fa36-5d49-4b95-b444-e65a15f55ce5") format("svg");
+// }
 
 body {
-    font-family:"Helvetica Neue LT W01_65 Mediu";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+    @include P01---18-Roman55-left-grey;
 }
 
 blockquote {
@@ -220,357 +216,4 @@ hr {
     float: right;
     top: 3px;
     position: relative;
-}
-
-@mixin icons02 {
-  font-family: FontAwesome5Free;
-  font-size: 64px;
-  color: $light-blue;
-}
-
-@mixin icons01 {
-  font-family: FontAwesome5FreeSolid;
-  font-size: 64px;
-  color: $light-blue;
-}
-
-@mixin H01 {
-  font-family: HelveticaNeue-Cond;
-  font-size: 60px;
-  font-weight: bold;
-  line-height: 1.08;
-  letter-spacing: 0.5px;
-  text-align: left;
-  color: $white;
-}
-
-@mixin H01---Mobile {
-  font-family: HelveticaNeue-Cond;
-  font-size: 50px;
-  font-weight: bold;
-  line-height: 1.06;
-  letter-spacing: 0.4px;
-  text-align: left;
-  color: $white;
-}
-
-@mixin H02---white-dropshadow {
-  font-family: HelveticaNeue-Cond;
-  font-size: 45px;
-  font-weight: bold;
-  line-height: 0.89;
-  letter-spacing: 1px;
-  text-align: left;
-  color: $white;
-}
-
-@mixin H02---center-dark-blue {
-  font-family: HelveticaNeue-Cond;
-  font-size: 45px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-align: center;
-  color: $dark-blue;
-}
-
-@mixin H03---dark-blue {
-  font-family: HelveticaNeue-Cond;
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 1;
-  letter-spacing: 0.5px;
-  text-align: left;
-  color: $dark-blue;
-}
-
-@mixin H03---center-white-dropshadow {
-  font-family: HelveticaNeue-Cond;
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 1;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: $white;
-}
-
-@mixin footer---phone-CTA {
-  font-family: HelveticaNeue-Cond;
-  font-size: 40px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-align: left;
-  color: $teal;
-}
-
-@mixin H02---Mobile {
-  font-family: HelveticaNeue-Cond;
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 1;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: $dark-blue;
-}
-
-@mixin H03---Mobile-center-white {
-  font-family: HelveticaNeue-Cond;
-  font-size: 35px;
-  font-weight: bold;
-  line-height: 1;
-  letter-spacing: 0.6px;
-  text-align: center;
-  color: $white;
-}
-
-@mixin header---phone-CTA {
-  font-family: HelveticaNeue-Cond;
-  font-size: 32px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-align: left;
-  color: $teal;
-}
-
-@mixin H04 {
-  font-family: HelveticaNeue-Cond;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 1px;
-  text-align: left;
-  color: $dark-blue;
-}
-
-@mixin H05---white {
-  font-family: HelveticaNeue-Cond;
-  font-size: 26px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-align: left;
-  color: $white;
-}
-
-@mixin H05---center-dark-blue {
-  font-family: HelveticaNeue-Cond;
-  font-size: 26px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-align: center;
-  color: $dark-blue;
-}
-
-@mixin H06---center-dark-blue {
-  font-family: HelveticaNeue;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 1.17;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: $dark-blue;
-}
-
-@mixin H06---orange {
-  font-family: HelveticaNeue;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 1.17;
-  letter-spacing: 0.5px;
-  text-align: left;
-  color: $orange;
-}
-
-@mixin iocns03 {
-  font-family: FontAwesome5Brands;
-  font-size: 22px;
-  color: $light-blue;
-}
-
-@mixin H07 {
-  font-family: HelveticaNeue;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.5px;
-  text-align: left;
-  color: $dark-blue;
-}
-
-@mixin H08 {
-  font-family: HelveticaNeue-Cond;
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  text-align: left;
-  color: $white;
-}
-
-@mixin H09 {
-  font-family: HelveticaNeue;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.11;
-  letter-spacing: 1px;
-  text-align: left;
-  color: $white;
-}
-
-@mixin Nav01---uppercase {
-  font-family: HelveticaNeue-Cond;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 0.89;
-  letter-spacing: 0.5px;
-  text-align: left;
-  color: $white;
-}
-
-@mixin Nav02 {
-  font-family: HelveticaNeue-Cond;
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  text-align: left;
-  color: $white;
-}
-
-@mixin P01---18-Roman55-left-grey {
-  font-family: HelveticaNeue-Roman;
-  font-size: 18px;
-  line-height: 1.44;
-  text-align: left;
-  color: $grey;
-}
-
-@mixin H10---UPPERCASE {
-  font-family: HelveticaNeue;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.25;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: $dark-blue;
-}
-
-@mixin button01---uppercase {
-  font-family: HelveticaNeue;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 1px;
-  text-align: center;
-  color: $white;
-}
-
-@mixin Homepage-Caption {
-  font-family: HelveticaNeue;
-  font-size: 16px;
-  font-stretch: condensed;
-  line-height: 1;
-  letter-spacing: 0.2px;
-  text-align: right;
-  color: $white;
-}
-
-@mixin P02---dark-blue {
-  font-family: HelveticaNeue-Roman;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  color: $dark-blue;
-}
-
-@mixin P02---center-light-grey {
-  font-family: HelveticaNeue-Roman;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  color: $light-grey;
-}
-
-@mixin P02---grey {
-  font-family: HelveticaNeue-Roman;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  color: $grey;
-}
-
-@mixin P02---center-white {
-  font-family: HelveticaNeue-Roman;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  color: $white;
-}
-
-@mixin P02---grey-bullet-list {
-  font-family: HelveticaNeue-Roman;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  color: $grey;
-}
-
-@mixin P02---white {
-  font-family: HelveticaNeue-Roman;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  color: $white;
-}
-
-@mixin button02---uppercase {
-  font-family: HelveticaNeue;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 1px;
-  text-align: center;
-  color: $white;
-}
-
-@mixin P03 {
-  font-family: HelveticaNeue;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.5px;
-  text-align: left;
-  color: $grey;
-}
-
-@mixin Form-active-text---14-RomanCon57-left-grey {
-  font-family: HelveticaNeue;
-  font-size: 14px;
-  font-stretch: condensed;
-  line-height: 1.5;
-  text-align: left;
-  color: $grey;
-}
-
-@mixin Form-default-text---14-RomanCon57-Italic-left-light-grey {
-  font-family: HelveticaNeue-Obl;
-  font-size: 14px;
-  font-stretch: condensed;
-  line-height: 1.5;
-  text-align: left;
-  color: $silver;
-}
-
-@mixin footer-links---uppercase {
-  font-family: HelveticaNeue;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.33;
-  letter-spacing: 1px;
-  text-align: center;
-  color: $white;
-}
-
-@mixin P04---Caption-Breadcrumbs {
-  font-family: HelveticaNeue-Roman;
-  font-size: 12px;
-  line-height: 1.33;
-  text-align: left;
-  color: $grey;
 }

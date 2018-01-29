@@ -300,14 +300,15 @@ table {
     @Type 
 =========================================== */
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400; }
+  font-family: HelveticaNeue-Roman;
+  font-size: 18px;
+  line-height: 1.44;
+  text-align: left;
+  color: #444444; }
 
 blockquote {
   border-left: 2px solid;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "Helvetica Neue LT W01_55 Roman";
   font-size: 1.4em;
   font-style: italic;
   font-weight: 400;
