@@ -268,7 +268,7 @@
 								</div>
 								<?php endif; // true === et_get_option( 'show_search_icon', false ) ?>
 
-								<?php do_action( 'et_header_top' ); ?>
+								<?php do_action( 'et_header_top' ); ?> 
 							</div> <!-- #et-top-navigation -->
 						</div> <!-- .et_pb_code_inner -->
 					</div> <!-- .et_pb_code -->
