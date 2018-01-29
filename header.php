@@ -223,7 +223,7 @@
 							</a>
 						</div>
 
-						<div id="et-top-navigation" data-height="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>" data-fixed-height="<?php echo esc_attr( et_get_option( 'minimized_menu_height', '40' ) ); ?>">
+						<!-- <div id="et-top-navigation" data-height="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>" data-fixed-height="<?php echo esc_attr( et_get_option( 'minimized_menu_height', '40' ) ); ?>">
 									<?php if ( ! $et_slide_header || is_customize_preview() ) : ?>
 										<nav id="top-menu-nav">
 										<?php
@@ -270,7 +270,7 @@
 									<?php endif; // true === et_get_option( 'show_search_icon', false ) ?>
 
 									<?php do_action( 'et_header_top' ); ?> 
-						</div>
+						</div> -->
 					</div>
 
 					<div class="span4">
