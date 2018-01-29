@@ -783,7 +783,7 @@ hr {
     @Header 
 =========================================== */
 #main-header {
-  background: none; }
+  background: none !important; }
 
 /* ==========================================
     @Footer 
