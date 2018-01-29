@@ -274,21 +274,7 @@
 					</div>
 
 					<div class="span4">
-						<p>Testing</p>
-						<div class="et_search_outer">
-								<div class="container et_search_form_container">
-									<form role="search" method="get" class="et-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-									<?php
-										printf( '<input type="search" class="et-search-field" placeholder="%1$s" value="%2$s" name="s" title="%3$s" />',
-											esc_attr__( 'Search &hellip;', 'Divi' ),
-											get_search_query(),
-											esc_attr__( 'Search for:', 'Divi' )
-										);
-									?>
-									</form>
-									<span class="et_close_search_field"></span>
-								</div>
-						</div>
+						<p class="white">Testing</p>
 					</div>
 				</div>
 
