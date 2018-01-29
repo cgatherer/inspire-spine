@@ -213,3 +213,63 @@
   top:-65px;
   margin-bottom: -65px;
 }
+
+// Default Alignment
+.valign {
+    vertical-align: middle;
+}
+
+.relative {
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.nopad {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.pad-top-bottom {
+    padding: 50px 0;
+}
+
+.mobile-hide {
+    @include responsive($small-break) {
+        display: none;
+    }
+}
+
+.no-pad-top {
+    padding-top: 0;
+}
+
+.margin-center {
+    margin: 0 auto;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.margin-bottom {
+    margin-bottom: 25px;
+}
+
+.margin-left {
+    margin-left: 25px;
+}
+
+.margin-right {
+    margin-right: 25px;
+}
