@@ -212,9 +212,9 @@
 						: $template_directory_uri . '/images/logo.png';
 				?>
 				<div class=" et_pb_row et_pb_row_0">
-					<div class="et_pb_column et_pb_column_2_3  et_pb_column_0 et_pb_css_mix_blend_mode_passthrough">
-					<div class="et_pb_code et_pb_module  et_pb_code_0">
-						<div class="et_pb_code_inner">
+					<div class="et_pb_column et_pb_column_2_3">
+					<!-- <div class="et_pb_code et_pb_module  et_pb_code_0">
+						<div class="et_pb_code_inner"> -->
 							<div class="logo_container">
 								<span class="logo_helper"></span>
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
@@ -270,13 +270,13 @@
 
 								<?php do_action( 'et_header_top' ); ?> 
 							</div> <!-- #et-top-navigation -->
-						</div> <!-- .et_pb_code_inner -->
-					</div> <!-- .et_pb_code -->
+						<!-- </div> --> <!-- .et_pb_code_inner -->
+					<!-- </div> --> <!-- .et_pb_code -->
 				</div> <!-- .et_pb_column -->
 
-				<div class="et_pb_column et_pb_column_1_3  et_pb_column_1 et_pb_css_mix_blend_mode_passthrough et-last-child">
-					<div class="et_pb_code et_pb_module  et_pb_code_1">
-						<div class="et_pb_code_inner">
+				<div class="et_pb_column et_pb_column_1_3">
+					<!-- <div class="et_pb_code et_pb_module  et_pb_code_1">
+						<div class="et_pb_code_inner"> -->
 							<div class="et_search_outer">
 								<div class="container et_search_form_container">
 									<form role="search" method="get" class="et-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
@@ -291,8 +291,8 @@
 									<span class="et_close_search_field"></span>
 								</div>
 							</div>
-						</div> <!-- .et_pb_code_inner -->
-					</div> <!-- .et_pb_code -->
+						<!-- </div> --> <!-- .et_pb_code_inner -->
+					<!-- </div> --> <!-- .et_pb_code -->
 				</div> <!-- .et_pb_column -->
 			</div>
 				
