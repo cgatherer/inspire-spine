@@ -980,6 +980,25 @@ hr {
 #main-header {
   background: none !important; }
 
+.logo_container {
+  position: absolute !important;
+  max-width: 180px !important;
+  width: 100% !important;
+  height: auto !important; }
+
+#et-top-navigation {
+  float: left;
+  position: absolute;
+  left: 55px;
+  top: 125px;
+  padding: 0px !important; }
+
+.et_search_outer {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  /* width: 100%; */ }
+
 /* ==========================================
     @Footer 
 =========================================== */
