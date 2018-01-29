@@ -697,6 +697,351 @@ hr {
   /* width: 100%; */ }
 
 /* ==========================================
+    @Homepage
+=========================================== */
+.Rosie-E {
+  width: 86px;
+  height: 20px;
+  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.11;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff; }
+
+.INSPIRED-SPINE-PATIE {
+  width: 195px;
+  height: 16px;
+  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff; }
+
+.Easier-Treatment-Fa {
+  width: 657px;
+  height: 40px;
+  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #003150; }
+
+.Stop-back-pain-easil {
+  width: 970px;
+  height: 28px;
+  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #003150; }
+
+.Stop-back-pain-easil .text-style-1 {
+  color: #3498db; }
+
+.Routinely-Outpatient {
+  width: 105px;
+  height: 40px;
+  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #003150; }
+
+.LESS-THAN-DIME-SIZE {
+  width: 158px;
+  height: 40px;
+  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #003150; }
+
+.Shorter-Procedures {
+  width: 116px;
+  height: 40px;
+  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #003150; }
+
+.Faster-Recovery {
+  width: 91px;
+  height: 40px;
+  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #003150; }
+
+.Faster-Recovery {
+  width: 91px;
+  height: 40px;
+  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #003150; }
+
+.---fas-fa-home {
+  width: 72px;
+  height: 64px;
+  text-shadow: 1px 3px 0 #e6e9ee;
+  font-family: FontAwesome5FreeSolid;
+  font-size: 64px;
+  color: #009fda; }
+
+.---fas-fa-search {
+  width: 64px;
+  height: 64px;
+  text-shadow: 1px 3px 0 #e6e9ee;
+  font-family: FontAwesome5FreeSolid;
+  font-size: 64px;
+  color: #009fda; }
+
+.-copy {
+  width: 40px;
+  height: 64px;
+  text-shadow: 1px 3px 0 #e6e9ee;
+  font-family: FontAwesome5FreeSolid;
+  font-size: 64px;
+  color: #009fda; }
+
+.layer {
+  width: 64px;
+  height: 64px;
+  text-shadow: 1px 3px 0 #e6e9ee;
+  font-family: FontAwesome5FreeSolid;
+  font-size: 64px;
+  color: #009fda; }
+
+.Keyhole-Surgery-make {
+  width: 471px;
+  height: 80px;
+  text-shadow: 2px 2px 2px rgba(0, 49, 80, 0.1);
+  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff; }
+
+.When-conservative-th {
+  width: 470px;
+  height: 120px;
+  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff; }
+
+.Conditions {
+  width: 115px;
+  height: 24px;
+  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff; }
+
+.Treatments {
+  width: 124px;
+  height: 24px;
+  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff; }
+
+.Locations {
+  width: 105px;
+  height: 24px;
+  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff; }
+
+.Many-spine-condition {
+  width: 310px;
+  height: 102px;
+  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #ffffff; }
+
+.Inspired-Spine-keyho {
+  width: 310px;
+  height: 121px;
+  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #ffffff; }
+
+.Inspired-Spine-has-a {
+  width: 310px;
+  height: 77px;
+  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #ffffff; }
+
+.Our-Innovative-Appro {
+  width: 306px;
+  height: 30px;
+  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #003150; }
+
+.Inspired-Spine-is-a {
+  width: 670px;
+  height: 120px;
+  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #444444; }
+
+.Rectangle-3 {
+  width: 340px;
+  height: 65px;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  background-color: #00c6d5; }
+
+.outlined {
+  width: 239px;
+  height: 56px;
+  object-fit: contain; }
+
+.Keyhole-Surgery-make {
+  width: 471px;
+  height: 80px;
+  text-shadow: 2px 2px 2px rgba(0, 49, 80, 0.1);
+  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff; }
+
+.When-conservative-th {
+  width: 470px;
+  height: 120px;
+  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff; }
+
+.Our-Innovative-Appro {
+  width: 306px;
+  height: 30px;
+  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #003150; }
+
+.Inspired-Spine-is-a {
+  width: 670px;
+  height: 120px;
+  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #444444; }
+
+.keyhole-graphic-full {
+  width: 400px;
+  height: 510px;
+  object-fit: contain; }
+
+._DSC2352_silhouette_flopped-web {
+  width: 590.7px;
+  height: 549.1px;
+  object-fit: contain;
+  position: relative;
+  left: 90px; }
+
+.Rectangle-2 {
+  background-color: #ffffff;
+  box-shadow: 0 8px 12px 0 rgba(230, 233, 238, 0.5);
+  position: relative;
+  top: -65px;
+  margin-bottom: -65px; }
+
+.home .et_pb_cta_0.et_pb_promo {
+  margin-bottom: 0 !important; }
+
+.home h2 {
+  font-size: 40px;
+  line-height: 1.4; }
+
+.home .et_pb_section_1 {
+  border-top: 10px solid #00c6d5; }
+
+.et_pb_section_1 div {
+  text-align: center; }
+
+.home .et_pb_section_1 .fas, .home .et_pb_section_1 .far {
+  font-size: 64px;
+  color: #009fda; }
+
+.home .abox {
+  padding: 10px; }
+
+.home .abox p {
+  color: #FFFFFF !important;
+  font-weight: 300; }
+
+.home #conditions {
+  background-color: #00c6d5; }
+
+.home #treatments {
+  background-color: #003150; }
+
+.home #locations {
+  background-color: #009fda; }
+
+.home .et_pb_section_4 .et_pb_column_single {
+  margin-top: -20px; }
+
+#main-footer {
+  border-top: 10px solid #00c6d5; }
+
+/* ==========================================
     @Sidebar 
 =========================================== */
 #sidebar {
