@@ -274,7 +274,7 @@
 					</div>
 
 					<div class="span4">
-						<?php get_sidebar('right-nav-sidebar'); ?>
+						<?php get_sidebar('Right Nav Sidebar'); ?>
 					</div>
 				</div>
 
