@@ -213,7 +213,9 @@
 						? $user_logo
 						: $template_directory_uri . '/images/logo.png';
 				?>
+				
 				<div class="span12 group nopad">
+					<div class="span8">
 						<div class="logo_container">
 									<span class="logo_helper"></span>
 									<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
@@ -269,9 +271,9 @@
 
 									<?php do_action( 'et_header_top' ); ?> 
 						</div> <!-- #et-top-navigation -->
-				</div>	
+					</div>
 
-					<div class="et_pb_column et_pb_column_1_3">
+					<div class="span4">
 						<div class="et_search_outer">
 								<div class="container et_search_form_container">
 									<form role="search" method="get" class="et-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
@@ -286,8 +288,8 @@
 									<span class="et_close_search_field"></span>
 								</div>
 						</div>
-					</div> <!-- .et_pb_column -->
-				</div>
+					</div>
+				</div>	
 				
 				<!-- <div class="logo_container">
 					<span class="logo_helper"></span>
