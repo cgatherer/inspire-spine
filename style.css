@@ -786,6 +786,12 @@ hr {
   position: relative;
   left: 90px; }
 
+.Rectangle-2 {
+  background-color: #ffffff;
+  box-shadow: 0 8px 12px 0 rgba(230, 233, 238, 0.5);
+  position: relative;
+  top: -100px; }
+
 /* ==========================================
     @Header 
 =========================================== */
