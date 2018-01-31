@@ -695,6 +695,19 @@ hr {
   top: 125px;
   padding: 0px !important; }
 
+#top-menu {
+  float: left; }
+  #top-menu li {
+    display: inline-block;
+    padding-right: 22px;
+    font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 0.89;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #ffffff; }
+
 .et_search_outer {
   overflow: hidden;
   position: absolute;

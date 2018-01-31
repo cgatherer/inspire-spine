@@ -27,6 +27,16 @@
     padding: 0px !important;
 }
 
+#top-menu {
+    float: left;
+    
+    li {
+        display: inline-block;
+        padding-right: 22px;
+        @include Nav01---uppercase; 
+    }
+}
+
 .et_search_outer {
     overflow: hidden;
     position: absolute;
