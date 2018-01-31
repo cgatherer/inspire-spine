@@ -38,7 +38,9 @@
         @include Nav01---uppercase;
         ul {
             position: absolute;
+            left: 0px;
             padding: 10px 0 0 0 !important; 
+            border-top: 3px solid rgba($dark-blue,0);
         }
         li {
             margin: 0;
@@ -52,7 +54,7 @@
             background-color: $dark-blue;
         }
         &:last-child {
-            padding-right: 15px !important; 
+            padding-right: 10px !important; 
         }
     }
 }

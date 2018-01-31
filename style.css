@@ -712,7 +712,9 @@ hr {
     color: #ffffff; }
     #top-menu li ul {
       position: absolute;
-      padding: 10px 0 0 0 !important; }
+      left: 0px;
+      padding: 10px 0 0 0 !important;
+      border-top: 3px solid rgba(0, 49, 80, 0); }
     #top-menu li li {
       margin: 0;
       padding: 10px 10px !important; }
@@ -722,7 +724,7 @@ hr {
     #top-menu li:hover {
       background-color: #003150; }
     #top-menu li:last-child {
-      padding-right: 15px !important; }
+      padding-right: 10px !important; }
 
 #et-secondary-nav .menu-item-has-children > a:first-child:after,
 #top-menu .menu-item-has-children > a:first-child:after {
