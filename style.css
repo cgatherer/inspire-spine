@@ -705,6 +705,7 @@ hr {
     font-weight: bold;
     line-height: 0.89;
     letter-spacing: 0.5px;
+    text-transform: uppercase;
     text-align: left;
     color: #ffffff; }
     #top-menu li a {
