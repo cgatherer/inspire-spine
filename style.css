@@ -722,7 +722,8 @@ hr {
   font-family: ETmodules;
   font-size: 16px;
   font-weight: 800;
-  content: "43"; }
+  content: "43";
+  color: #ef7827; }
 
 .et_search_outer {
   overflow: hidden;
