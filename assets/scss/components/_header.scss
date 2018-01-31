@@ -33,10 +33,13 @@
     li {
         display: inline-block;
         padding-right: 22px;
+        padding-left: 22px;
+        padding-top: 10px;
         @include Nav01---uppercase; 
 
         a {
             color: rgba($white,1);
+            padding-bottom: 10px;
         }
     }
 }

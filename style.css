@@ -700,6 +700,8 @@ hr {
   #top-menu li {
     display: inline-block;
     padding-right: 22px;
+    padding-left: 22px;
+    padding-top: 10px;
     font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
     font-size: 18px;
     font-weight: bold;
@@ -709,7 +711,8 @@ hr {
     text-align: left;
     color: #ffffff; }
     #top-menu li a {
-      color: white; }
+      color: white;
+      padding-bottom: 10px; }
 
 .et_search_outer {
   overflow: hidden;
