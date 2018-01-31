@@ -32,14 +32,24 @@
     
     li {
         display: inline-block;
-        padding-right: 22px;
-        padding-left: 22px;
+        padding-right: 15px;
+        padding-left: 15px;
         padding-top: 10px;
         @include Nav01---uppercase; 
 
         a {
             color: rgba($white,1);
-            padding-bottom: 10px;
+            padding-bottom: 10px !important;
+
+            &:after {
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-family: ETmodules;
+                font-size: 16px;
+                font-weight: 800;
+                content: "19" !important;
+            }
         }
     }
 }

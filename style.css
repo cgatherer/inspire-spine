@@ -699,8 +699,8 @@ hr {
   float: left; }
   #top-menu li {
     display: inline-block;
-    padding-right: 22px;
-    padding-left: 22px;
+    padding-right: 15px;
+    padding-left: 15px;
     padding-top: 10px;
     font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
     font-size: 18px;
@@ -712,7 +712,15 @@ hr {
     color: #ffffff; }
     #top-menu li a {
       color: white;
-      padding-bottom: 10px; }
+      padding-bottom: 10px !important; }
+      #top-menu li a:after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-family: ETmodules;
+        font-size: 16px;
+        font-weight: 800;
+        content: "19" !important; }
 
 .et_search_outer {
   overflow: hidden;
