@@ -710,13 +710,15 @@ hr {
     text-transform: uppercase;
     text-align: left;
     color: #ffffff; }
+    #top-menu li ul {
+      position: absolute;
+      padding: 10px 0 0 0 !important; }
+    #top-menu li li {
+      margin: 0;
+      padding: 0 20px 10px !important; }
     #top-menu li a {
       color: white;
       padding-bottom: 10px !important; }
-
-.nav li ul {
-  position: absolute;
-  padding: 10px 0 0 0 !important; }
 
 #et-secondary-nav .menu-item-has-children > a:first-child:after,
 #top-menu .menu-item-has-children > a:first-child:after {
