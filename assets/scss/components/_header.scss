@@ -32,8 +32,8 @@
     
     li {
         display: inline-block;
-        padding-right: 15px;
-        padding-left: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
         padding-top: 10px;
         @include Nav01---uppercase;
         ul {
@@ -42,7 +42,7 @@
         }
         li {
             margin: 0;
-            padding: 10px 20px !important;
+            padding: 10px 10px !important;
         } 
         a {
             color: rgba($white,1);
