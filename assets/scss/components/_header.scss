@@ -36,20 +36,20 @@
         padding-left: 15px;
         padding-top: 10px;
         @include Nav01---uppercase;
-
         ul {
             position: absolute;
             padding: 10px 0 0 0 !important; 
         }
-
         li {
             margin: 0;
             padding: 0 20px 10px !important;
         } 
-
         a {
             color: rgba($white,1);
             padding-bottom: 10px !important;
+        }
+        &:hover {
+            background-color: $dark-blue;
         }
     }
 }

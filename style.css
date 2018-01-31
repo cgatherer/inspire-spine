@@ -719,6 +719,8 @@ hr {
     #top-menu li a {
       color: white;
       padding-bottom: 10px !important; }
+    #top-menu li:hover {
+      background-color: #003150; }
 
 #et-secondary-nav .menu-item-has-children > a:first-child:after,
 #top-menu .menu-item-has-children > a:first-child:after {
