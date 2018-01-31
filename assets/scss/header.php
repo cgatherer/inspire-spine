@@ -215,7 +215,7 @@
 				?>
 
 				<div class="span12 group nopad">
-					<div class="span8">
+					<div class="span9">
 						<div class="logo_container">
 							<span class="logo_helper"></span>
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
@@ -273,7 +273,7 @@
 						</div>
 					</div>
 
-					<div class="span4">
+					<div class="span3">
 						<?php dynamic_sidebar( 'right-cta' ); ?>
 					</div>
 				</div>
