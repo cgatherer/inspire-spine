@@ -44,15 +44,15 @@
     }
 }
 
-#et-secondary-nav .menu-item-has-children>a:first-child:after, 
-#top-menu .menu-item-has-children>a:first-child:after {
+#et-secondary-nav .menu-item-has-children > a:first-child:after, 
+#top-menu .menu-item-has-children > a:first-child:after {
     position: absolute;
     top: 0;
     right: 0;
     font-family: ETmodules;
     font-size: 16px;
     font-weight: 800;
-    content: "4";
+    content: "3";
     color: $orange;
 }
 
