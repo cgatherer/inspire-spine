@@ -714,10 +714,11 @@ hr {
       position: absolute;
       left: 0px;
       padding: 10px 0 0 0 !important;
-      width: 200px; }
+      width: 200px;
+      background-color: #003150; }
     #top-menu li li {
       margin: 0;
-      padding: 10px 10px !important;
+      padding: 10px 0px !important;
       width: 200px; }
     #top-menu li a {
       color: white;
