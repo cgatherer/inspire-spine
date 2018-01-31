@@ -51,6 +51,9 @@
         &:hover {
             background-color: $dark-blue;
         }
+        &:last-child {
+            padding-right: 15px !important; 
+        }
     }
 }
 
