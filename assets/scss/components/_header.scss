@@ -40,11 +40,12 @@
             position: absolute;
             left: 0px;
             padding: 10px 0 0 0 !important; 
-            border-top: 3px solid rgba($dark-blue,0);
+            width: 200px;
         }
         li {
             margin: 0;
             padding: 10px 10px !important;
+            width: 200px;
         } 
         a {
             color: rgba($white,1);
