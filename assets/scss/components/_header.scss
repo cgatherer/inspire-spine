@@ -34,6 +34,10 @@
         display: inline-block;
         padding-right: 22px;
         @include Nav01---uppercase; 
+
+        a {
+            color: rgba($white,1);
+        }
     }
 }
 

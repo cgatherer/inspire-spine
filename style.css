@@ -707,6 +707,8 @@ hr {
     letter-spacing: 0.5px;
     text-align: left;
     color: #ffffff; }
+    #top-menu li a {
+      color: white; }
 
 .et_search_outer {
   overflow: hidden;
