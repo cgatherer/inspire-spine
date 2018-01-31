@@ -714,6 +714,10 @@ hr {
       color: white;
       padding-bottom: 10px !important; }
 
+.nav li ul {
+  position: absolute;
+  padding: 10px 0 0 0 !important; }
+
 #et-secondary-nav .menu-item-has-children > a:first-child:after,
 #top-menu .menu-item-has-children > a:first-child:after {
   position: absolute;
@@ -722,7 +726,7 @@ hr {
   font-family: ETmodules;
   font-size: 16px;
   font-weight: 800;
-  content: "4";
+  content: "3";
   color: #ef7827; }
 
 .et_search_outer {
