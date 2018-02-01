@@ -264,8 +264,8 @@
     z-index: 10;
 }
 
-.bkgd-left .et_pb_column_2_3, 
-.bkgd-left .et_pb_column_2_3 {
+.bkgd .et_pb_column_2_3, 
+.bkgd .et_pb_column_2_3 {
     width: 100%;
 
     @include atSmall {
@@ -273,8 +273,8 @@
     }
 }
 
-.bkgd-right .et_pb_gutters3 .et_pb_column_1_3, 
-.bkgd-right .et_pb_column_1_3 {
+.bkgd .et_pb_gutters3 .et_pb_column_1_3, 
+.bkgd .et_pb_column_1_3 {
     width: 100%;
 
     @include atSmall {
