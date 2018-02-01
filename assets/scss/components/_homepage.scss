@@ -249,8 +249,8 @@
     @include button01---uppercase;
 }
 
-.et_pb_gutters3 .et_pb_column_2_3, 
-.et_pb_gutters3.et_pb_row .et_pb_column_2_3 {
+.bkgd .et_pb_gutters3 .et_pb_column_2_3, 
+.bkgd .et_pb_gutters3.et_pb_row .et_pb_column_2_3 {
     width: 100%;
 
     @include atSmall {
@@ -258,8 +258,8 @@
     }
 }
 
-.et_pb_gutters3 .et_pb_column_1_3, 
-.et_pb_gutters3.et_pb_row .et_pb_column_1_3 {
+.bkgd .et_pb_gutters3 .et_pb_column_1_3, 
+.bkgd .et_pb_gutters3.et_pb_row .et_pb_column_1_3 {
     width: 100%;
 
     @include atSmall {
