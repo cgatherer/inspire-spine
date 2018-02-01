@@ -254,7 +254,7 @@
     width: 100%;
 
     @include atSmall {
-      width: 56%;
+      width: 56% !important;
     }
 }
 
@@ -263,7 +263,7 @@
     width: 100%;
 
     @include atSmall {
-      width: 35%;
+      width: 35% !important;
     }
 }
 

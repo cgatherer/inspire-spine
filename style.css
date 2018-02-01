@@ -1194,7 +1194,7 @@ hr {
   @media screen and (min-width: 599px) {
     .bkgd .et_pb_gutters3 .et_pb_column_2_3,
     .bkgd .et_pb_gutters3.et_pb_row .et_pb_column_2_3 {
-      width: 56%; } }
+      width: 56% !important; } }
 
 .bkgd .et_pb_gutters3 .et_pb_column_1_3,
 .bkgd .et_pb_gutters3.et_pb_row .et_pb_column_1_3 {
@@ -1202,7 +1202,7 @@ hr {
   @media screen and (min-width: 599px) {
     .bkgd .et_pb_gutters3 .et_pb_column_1_3,
     .bkgd .et_pb_gutters3.et_pb_row .et_pb_column_1_3 {
-      width: 35%; } }
+      width: 35% !important; } }
 
 .ten-columns .et_pb_module {
   width: 10%;
