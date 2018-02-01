@@ -715,7 +715,7 @@ hr {
       left: 0px;
       padding: 10px 0 0 0 !important;
       width: 200px;
-      background-color: #003150; }
+      background-color: #003150 !important; }
     #top-menu li li {
       margin: 0;
       padding: 10px 0px !important;
