@@ -83,6 +83,12 @@
     /* width: 100%; */
 }
 
+.We-make-minimally-in {
+  // width: 429px;
+  // height: 18px;
+  @include H08;
+}
+
 .header-phone- {
   position: relative;
   left: 40px;
