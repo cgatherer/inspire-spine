@@ -249,12 +249,22 @@
     @include button01---uppercase;
 }
 
-.et_pb_gutters3 .et_pb_column_2_3, .et_pb_gutters3.et_pb_row .et_pb_column_2_3 {
-    width: 56%;
+.et_pb_gutters3 .et_pb_column_2_3, 
+.et_pb_gutters3.et_pb_row .et_pb_column_2_3 {
+    width: 100%;
+
+    @include atSmall {
+      width: 56%;
+    }
 }
 
-.et_pb_gutters3 .et_pb_column_1_3, .et_pb_gutters3.et_pb_row .et_pb_column_1_3 {
-    width: 44%;
+.et_pb_gutters3 .et_pb_column_1_3, 
+.et_pb_gutters3.et_pb_row .et_pb_column_1_3 {
+    width: 100%;
+
+    @include atSmall {
+      width: 35%;
+    }
 }
 
 // Columns
