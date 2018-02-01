@@ -684,7 +684,7 @@ hr {
 
 .logo_container {
   position: absolute !important;
-  max-width: 270px !important;
+  max-width: 250px !important;
   width: 100% !important;
   height: auto !important; }
 
@@ -753,8 +753,10 @@ hr {
   /* width: 100%; */ }
 
 .We-make-minimally-in {
+  padding: 20px 0;
+  margin: 0px;
   font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.5px;
   text-align: left;
