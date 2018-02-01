@@ -715,10 +715,8 @@ hr {
       #top-menu li li a {
         font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
         font-size: 18px;
-        font-weight: bold;
-        line-height: 0.89;
+        font-weight: 500;
         letter-spacing: 0.5px;
-        text-transform: uppercase;
         text-align: left;
         color: #ffffff; }
     #top-menu li a {
