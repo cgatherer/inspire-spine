@@ -87,8 +87,6 @@
 }
 
 .When-conservative-th {
-  width: 470px;
-  height: 120px;
   @include P02---center-white;
 }
 
@@ -216,6 +214,11 @@
   @include H10---UPPERCASE;
 }
 
+.btn-text {
+  text-shadow: 1px 1px 2px rgba(0, 49, 80, 0.5);
+  @include button01---uppercase;
+}
+
 
 // Custom
 .home .et_pb_cta_0.et_pb_promo { margin-bottom: 0 !important; }
@@ -231,6 +234,20 @@
 .home .et_pb_section_4 .et_pb_column_single { margin-top: -20px; }
 #main-footer { border-top: 10px solid #00c6d5; }
 .et_pb_row { position: relative;width: 95%;max-width: 1080px;margin: auto; }
+
+.et_pb_button {
+    position: relative;
+    padding: 20px 10px;
+    border: 2px solid;
+    border-radius: 3px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    line-height: 1.7em!important;
+    transition: all .2s;
+    @include button01---uppercase;
+}
 
 // Columns
 .ten-columns .et_pb_module {width: 10%; float: left;}
