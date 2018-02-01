@@ -1043,8 +1043,6 @@ hr {
 .Rectangle-3 {
   width: 340px;
   height: 65px;
-  -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(2px);
   background-color: #00c6d5; }
 
 .outlined {
