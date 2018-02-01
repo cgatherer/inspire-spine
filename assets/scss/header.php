@@ -274,7 +274,7 @@
 					</div>
 
 					<div class="span3">
-						<?php dynamic_sidebar( 'right-cta' ); ?>
+						<div class="right"><?php dynamic_sidebar( 'right-cta' ); ?></div>
 					</div>
 				</div>
 		</header> <!-- #main-header -->
