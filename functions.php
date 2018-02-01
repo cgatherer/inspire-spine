@@ -63,7 +63,7 @@ public function widget( $args, $instance ) {
 	 
 		// This is where you run the code and display the output
 		//echo __( 'Hello, World!', 'wpb_widget_domain' );
-		require_once( get_stylesheet_directory_uri() . '/assets/template-parts/cta-form.php' );
+		get_stylesheet_directory_uri() . '/assets/template-parts/cta-form.php';
 		//echo $args['after_widget'];
 	}
          
