@@ -274,7 +274,7 @@
 					</div>
 
 					<div class="span3">
-						<div class="right"><?php dynamic_sidebar( 'right-cta' ); ?></div>
+						<div class="margin-center"><?php dynamic_sidebar( 'right-cta' ); ?></div>
 					</div>
 				</div>
 		</header> <!-- #main-header -->
