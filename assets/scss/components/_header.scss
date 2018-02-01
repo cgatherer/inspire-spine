@@ -96,6 +96,7 @@
   border-radius: 2px;
   background-color: $orange;
   border: solid 1px #d66f08;
+  @include button01---uppercase;
 }
 
 .form-area {

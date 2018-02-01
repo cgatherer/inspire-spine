@@ -763,7 +763,14 @@ hr {
   height: 60px;
   border-radius: 2px;
   background-color: #ef7827;
-  border: solid 1px #d66f08; }
+  border: solid 1px #d66f08;
+  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff; }
 
 .form-area {
   padding: 10px;
