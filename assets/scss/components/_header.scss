@@ -47,6 +47,7 @@
             margin: 0;
             padding: 10px 0px !important;
             width: 200px;
+            @include Nav01---uppercase;
         } 
         a {
             color: rgba($white,1);

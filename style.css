@@ -719,7 +719,15 @@ hr {
     #top-menu li li {
       margin: 0;
       padding: 10px 0px !important;
-      width: 200px; }
+      width: 200px;
+      font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 0.89;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      text-align: left;
+      color: #ffffff; }
     #top-menu li a {
       color: white;
       padding-bottom: 10px !important; }
