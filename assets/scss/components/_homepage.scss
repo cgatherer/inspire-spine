@@ -249,6 +249,14 @@
     @include button01---uppercase;
 }
 
+.et_pb_gutters3 .et_pb_column_2_3, .et_pb_gutters3.et_pb_row .et_pb_column_2_3 {
+    width: 56%;
+}
+
+.et_pb_gutters3 .et_pb_column_1_3, .et_pb_gutters3.et_pb_row .et_pb_column_1_3 {
+    width: 44%;
+}
+
 // Columns
 .ten-columns .et_pb_module {width: 10%; float: left;}
 .nine-columns .et_pb_module {width: 11.11%; float: left;}
