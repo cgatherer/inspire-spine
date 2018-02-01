@@ -31,24 +31,24 @@ add_action( 'wp_enqueue_scripts', 'divichild_enqueue_styles' );
 
 // Register and load the widget
 function wpb_load_widget() {
-    register_widget( 'wpb_widget' );
+    register_widget( 'cta_form_widget' );
 }
 add_action( 'widgets_init', 'wpb_load_widget' );
  
 // Creating the widget 
-class wpb_widget extends WP_Widget {
+class cta_form_widget extends WP_Widget {
  
 	function __construct() {
 		parent::__construct(
  
 		// Base ID of your widget
-		'wpb_widget', 
+		'cta_form_widget', 
  
 		// Widget name will appear in UI
-		__('WPBeginner Widget', 'wpb_widget_domain'), 
+		__('CTA Form Widget', 'wpb_widget_domain'), 
  
 		// Widget description
-		array( 'description' => __( 'Sample widget based on WPBeginner Tutorial', 'wpb_widget_domain' ), ) 
+		array( 'description' => __( 'Request Free MRI Review', 'wpb_widget_domain' ), ) 
 	);
 }
  
@@ -63,6 +63,7 @@ public function widget( $args, $instance ) {
 	 
 		// This is where you run the code and display the output
 		//echo __( 'Hello, World!', 'wpb_widget_domain' );
+		//require_once( get_stylesheet_directory_uri() . '/assets/template-parts/cta-form.php' );
 		get_stylesheet_directory_uri() . '/assets/template-parts/cta-form.php';
 		//echo $args['after_widget'];
 	}
