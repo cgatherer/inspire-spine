@@ -1148,6 +1148,34 @@ hr {
 #main-footer {
   border-top: 10px solid #00c6d5; }
 
+.ten-columns .et_pb_module {
+  width: 10%;
+  float: left; }
+
+.nine-columns .et_pb_module {
+  width: 11.11%;
+  float: left; }
+
+.eight-columns .et_pb_module {
+  width: 12.5%;
+  float: left; }
+
+.seven-columns .et_pb_module {
+  width: 14.28%;
+  float: left; }
+
+.six-columns .et_pb_module {
+  width: 16.66%;
+  float: left; }
+
+.five-columns .et_pb_module {
+  width: 20%;
+  float: left; }
+
+.five-columns {
+  width: 20%;
+  float: left; }
+
 /* ==========================================
     @Sidebar 
 =========================================== */
