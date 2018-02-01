@@ -839,8 +839,6 @@ hr {
   color: #003150; }
 
 .Stop-back-pain-easil {
-  width: 970px;
-  height: 28px;
   font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
   font-size: 24px;
   font-weight: 500;
@@ -876,17 +874,6 @@ hr {
 
 .Shorter-Procedures {
   width: 116px;
-  height: 40px;
-  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.25;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: #003150; }
-
-.Faster-Recovery {
-  width: 91px;
   height: 40px;
   font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
   font-size: 16px;
@@ -1110,6 +1097,17 @@ hr {
 .Rectangle-3 {
   padding: 0 15px;
   background-color: #00c6d5; }
+
+.Stop-back-pain-easil {
+  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #003150; }
+  .Stop-back-pain-easil .text-style-1 {
+    color: #3498db; }
 
 .home .et_pb_cta_0.et_pb_promo {
   margin-bottom: 0 !important; }

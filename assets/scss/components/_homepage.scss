@@ -22,8 +22,6 @@
 }
 
 .Stop-back-pain-easil {
-  width: 970px;
-  height: 28px;
   @include H06---center-dark-blue;
 }
 
@@ -45,12 +43,6 @@
 
 .Shorter-Procedures {
   width: 116px;
-  height: 40px;
-  @include H10---UPPERCASE;
-}
-
-.Faster-Recovery {
-  width: 91px;
   height: 40px;
   @include H10---UPPERCASE;
 }
@@ -214,6 +206,14 @@
   padding: 0 15px;
   background-color: $teal;
 }
+
+.Stop-back-pain-easil {
+  @include H06---center-dark-blue;
+  .text-style-1 {
+    color: $form-blue;
+  }
+}
+
 
 // Custom
 .home .et_pb_cta_0.et_pb_promo {margin-bottom: 0 !important;}
