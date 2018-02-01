@@ -758,6 +758,17 @@ hr {
   height: auto;
   object-fit: contain; }
 
+.BG {
+  width: 371px;
+  height: 60px;
+  border-radius: 2px;
+  background-color: #ef7827;
+  border: solid 1px #d66f08; }
+
+.form-area {
+  padding: 10px;
+  border: solid 2px #ef7827; }
+
 /* ==========================================
     @Homepage
 =========================================== */
