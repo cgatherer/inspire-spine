@@ -35,7 +35,6 @@
         padding-right: 10px;
         padding-left: 10px;
         padding-top: 10px;
-        @include Nav01---uppercase;
         ul {
             position: absolute;
             left: 0px;
@@ -46,7 +45,6 @@
         li {
             margin: 0;
             padding: 0px !important;
-            line-height: 110% !important;
             width: 200px;
             a {
                 @include Nav01---uppercase;
@@ -55,6 +53,7 @@
         a {
             color: rgba($white,1);
             padding-bottom: 10px !important;
+            @include Nav01---uppercase;
         }
         &:hover {
             background-color: $dark-blue;

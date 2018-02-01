@@ -701,15 +701,7 @@ hr {
     display: inline-block;
     padding-right: 10px;
     padding-left: 10px;
-    padding-top: 10px;
-    font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 0.89;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    text-align: left;
-    color: #ffffff; }
+    padding-top: 10px; }
     #top-menu li ul {
       position: absolute;
       left: 0px;
@@ -719,7 +711,6 @@ hr {
     #top-menu li li {
       margin: 0;
       padding: 0px !important;
-      line-height: 110% !important;
       width: 200px; }
       #top-menu li li a {
         font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
@@ -732,7 +723,15 @@ hr {
         color: #ffffff; }
     #top-menu li a {
       color: white;
-      padding-bottom: 10px !important; }
+      padding-bottom: 10px !important;
+      font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 0.89;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      text-align: left;
+      color: #ffffff; }
     #top-menu li:hover {
       background-color: #003150; }
     #top-menu li:last-child {
