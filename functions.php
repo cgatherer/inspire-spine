@@ -62,10 +62,15 @@ public function widget( $args, $instance ) {
 		echo $args['before_title'] . $title . $args['after_title'];
 	 
 		// This is where you run the code and display the output
-		//echo __( 'Hello, World!', 'wpb_widget_domain' );
-		//require_once( get_stylesheet_directory_uri() . '/assets/template-parts/cta-form.php' );
-		get_stylesheet_directory_uri() . '/assets/template-parts/cta-form.php';
-		//echo $args['after_widget'];
+		// echo __( 'Hello, World!', 'wpb_widget_domain' );
+		// require_once( get_stylesheet_directory_uri() . '/assets/template-parts/cta-form.php' );
+		// get_stylesheet_directory_uri() . '/assets/template-parts/cta-form.php';
+		// echo $args['after_widget'];
+		echo '<div class="span12">';
+			echo '<button class="BG">Request Free MRI Review</button>';
+			echo '<div class="form-area"></div>';
+			echo '<div class="BG">Get Your Free Review</div>';
+		echo '</div>';
 	}
          
 	// Widget Backend 
