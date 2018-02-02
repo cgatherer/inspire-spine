@@ -1195,7 +1195,7 @@ hr {
   max-width: 1080px;
   margin: auto; }
 
-.bkgd .et_pb_button {
+.learn-more {
   position: relative;
   padding: 10px 30px;
   border: 2px solid #00c6d5;
@@ -1213,6 +1213,11 @@ hr {
   letter-spacing: 1px;
   text-align: center;
   color: #ffffff; }
+  .learn-more:hover {
+    color: #ffffff;
+    padding: 10px 30px;
+    border: 2px solid #ef7827;
+    background-color: #ef7827; }
 
 .bkgd {
   max-width: 85% !important;
