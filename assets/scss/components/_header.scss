@@ -112,6 +112,17 @@
   background-color: $orange;
   border: solid 1px #d66f08;
   @include button01---uppercase;
+
+  &:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: ETmodules;
+    font-size: 16px;
+    font-weight: 800;
+    content: "3";
+    color: $white;
+  }
 }
 
 .form-area {

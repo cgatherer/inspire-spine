@@ -798,6 +798,15 @@ hr {
   letter-spacing: 1px;
   text-align: center;
   color: #ffffff; }
+  .BG:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: ETmodules;
+    font-size: 16px;
+    font-weight: 800;
+    content: "3";
+    color: #ffffff; }
 
 .form-area {
   max-width: 315px;
