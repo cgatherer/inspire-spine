@@ -1191,15 +1191,7 @@ hr {
 
 .home h2 {
   font-size: 40px !important;
-  line-height: 1.4 !important;
-  text-align: center !important;
-  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
-  font-size: 45px;
-  font-weight: bold;
-  line-height: 0.89;
-  letter-spacing: 1px;
-  text-align: left;
-  color: #ffffff; }
+  line-height: 1.4 !important; }
 
 .home .et_pb_section_1 {
   border-top: 10px solid #00c6d5; }
