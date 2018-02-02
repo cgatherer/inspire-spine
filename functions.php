@@ -68,7 +68,7 @@ public function widget( $args, $instance ) {
 		// echo $args['after_widget'];
 
 		echo '<div class="span12">';
-			echo '<button class="BG">Request Free MRI Review</button>';
+			echo '<button class="BG">' . $title . '</button>';
 			echo '<div class="form-area" style="display:none;"><div class="BG">Get Your Free Review</div></div>';
 		echo '</div>';
 	}
