@@ -31,6 +31,8 @@
 	</script>
 
 	<?php wp_head(); ?>
+
+	<script type="text/javascript" src="/wp-content/themes/inspire-spine/assets/js/scripts.js"></script>
 </head>
 <body <?php body_class(); ?>>
 	<?php
