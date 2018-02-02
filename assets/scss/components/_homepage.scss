@@ -223,7 +223,7 @@
 
 // Custom
 .home .et_pb_cta_0.et_pb_promo { margin-bottom: 0 !important; }
-.home h2 { font-size: 40px; line-height: 1.4; @include H02---center-dark-blue; }
+.home h2 { @include H02---white-dropshadow; }
 .home .et_pb_section_1 { border-top: 10px solid #00c6d5; }
 .et_pb_section_1 div { text-align:center;}
 .home .et_pb_section_1 .fas, .home .et_pb_section_1 .far { font-size: 64px; color: #009fda; }
