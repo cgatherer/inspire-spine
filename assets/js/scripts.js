@@ -1,9 +1,9 @@
 // Scripts ******************************************
 // **************************************************
 
-$(document).ready(function(){
-	$(".BG").click(function(e) {
+jQuery(document).ready(function($){
+	$('.BG').click(function(e) {
         e.preventDefault();
-        $(".form-area").toggle(200);
+        $('.form-area').toggle(200);
     });
 });
