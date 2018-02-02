@@ -1214,10 +1214,10 @@ hr {
   text-align: center;
   color: #ffffff; }
   .learn-more:hover {
-    color: #ffffff;
-    padding: 10px 30px;
-    border: 2px solid #ef7827;
-    background-color: #ef7827; }
+    color: #ffffff !important;
+    padding: 11px 30px !important;
+    border: 2px solid #ef7827 !important;
+    background-color: #ef7827 !important; }
 
 .bkgd {
   max-width: 85% !important;
