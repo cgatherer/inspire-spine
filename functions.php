@@ -26,6 +26,8 @@ function divichild_enqueue_styles() {
 		array( $parent_style ),
 		wp_get_theme()->get('Version')
 	);
+
+	wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts', array(), '20151215', true );
 }
 add_action( 'wp_enqueue_scripts', 'divichild_enqueue_styles' );
 
