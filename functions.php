@@ -66,10 +66,10 @@ public function widget( $args, $instance ) {
 		// require_once( get_stylesheet_directory_uri() . '/assets/template-parts/cta-form.php' );
 		// get_stylesheet_directory_uri() . '/assets/template-parts/cta-form.php';
 		// echo $args['after_widget'];
+
 		echo '<div class="span12">';
 			echo '<button class="BG">Request Free MRI Review</button>';
-			echo '<div class="form-area"></div>';
-			echo '<div class="BG">Get Your Free Review</div>';
+			echo '<div class="form-area" style="display:none;"><div class="BG">Get Your Free Review</div></div>';
 		echo '</div>';
 	}
          
