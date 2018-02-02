@@ -1186,6 +1186,17 @@ hr {
   text-align: center;
   color: #ffffff; }
 
+.home-cta {
+  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff; }
+
 .home .et_pb_cta_0.et_pb_promo {
   margin-bottom: 0 !important; }
 
