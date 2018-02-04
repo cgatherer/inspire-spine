@@ -31,6 +31,9 @@
 	</script>
 
 	<?php wp_head(); ?>
+
+	<!-- Additional Scripts and Styles -->
+	<link type="text/css" href="/wp-content/themes/inspire-spine/assets/css/fontawesome.min.css">
 	<script type="text/javascript" src="/wp-content/themes/inspire-spine/assets/js/scripts.js"></script>
 </head>
 <body <?php body_class(); ?>>

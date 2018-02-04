@@ -27,7 +27,7 @@ function divichild_enqueue_styles() {
 		wp_get_theme()->get('Version')
 	);
 
-	wp_enqueue_style( 'child-style', get_template_directory_uri() . '/assets/css/fontawesome.min.css' );
+	//wp_enqueue_style( 'child-style', get_template_directory_uri() . '/assets/css/fontawesome.min.css' );
 
 	//wp_enqueue_script( 'scripts', get_stylesheet_directory_uri() . '/assets/js/scripts.js' );
 }
