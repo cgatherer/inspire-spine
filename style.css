@@ -804,7 +804,7 @@ hr {
   height: auto;
   object-fit: contain; }
   .header-phone--footer {
-    max-width: 269px;
+    max-width: 335px;
     width: 100%;
     height: auto;
     text-align: center;
@@ -1374,6 +1374,8 @@ body #page-container .see-more-btn {
 
 .Contact-Us-Today {
   float: left;
+  max-width: 335px;
+  width: 100%;
   font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
   font-size: 18px;
   font-weight: 500;
