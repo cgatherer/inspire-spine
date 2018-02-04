@@ -131,7 +131,6 @@
     border-radius: 2px;
     background-color: $orange;
     border: solid 1px #d66f08;
-    float: right;
     @include button01---uppercase;
   }
 }
@@ -142,4 +141,5 @@
     padding: 20px 0 0 0;
     background-color: $white;
     border: solid 2px $orange;
+    float: right;
 }
