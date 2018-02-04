@@ -1223,9 +1223,6 @@ hr {
 .home .et_pb_section_4 .et_pb_column_single {
   margin-top: -20px; }
 
-#main-footer {
-  border-top: 10px solid #00c6d5; }
-
 .et_pb_row {
   position: relative;
   width: 95%;
@@ -1336,6 +1333,10 @@ body #page-container .see-more-btn {
 /* ==========================================
     @Footer 
 =========================================== */
+#main-footer {
+  border-top: 10px solid #00c6d5 !important;
+  background-color: #003150 !important; }
+
 .bottom-nav li {
   display: inline-block;
   padding-right: 15px !important;
