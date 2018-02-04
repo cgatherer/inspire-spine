@@ -17,6 +17,9 @@
     margin: 0 auto;
     text-align: center;
 }
+.Contact-Us-Today {
+  	@include H08;
+}
 #footer-info {
     float: left;
     padding: 15px 0px !important;
