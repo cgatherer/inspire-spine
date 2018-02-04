@@ -314,4 +314,11 @@
 .seven-columns .et_pb_module {width: 14.28%; float: left;}
 .six-columns .et_pb_module {width: 16.66%; float: left;}
 .five-columns .et_pb_module {width: 20%; float: left;}
-.five-columns {width: 20%; float: left;}
+.five-columns {
+  width: 20%; 
+  float: left;
+  p {
+    margin: 0 auto;
+    text-align: center;
+  }
+}

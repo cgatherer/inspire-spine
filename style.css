@@ -1310,6 +1310,9 @@ hr {
 .five-columns {
   width: 20%;
   float: left; }
+  .five-columns p {
+    margin: 0 auto;
+    text-align: center; }
 
 /* ==========================================
     @Sidebar 
