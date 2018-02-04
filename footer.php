@@ -6,9 +6,9 @@
 
 		<footer id="main-footer">
 			<div class="span12 nopad group">
-				<div class="span4"><?php dynamic_sidebar( 'footer-area-1' ); ?></div>
-				<div class="span4"><?php dynamic_sidebar( 'footer-area-2' ); ?></div>
-				<div class="span4"><?php dynamic_sidebar( 'footer-area-3' ); ?></div>
+				<div class="span4 footerSection"><?php dynamic_sidebar( 'footer-area-1' ); ?></div>
+				<div class="span4 footerSection"><?php dynamic_sidebar( 'footer-area-2' ); ?></div>
+				<div class="span4 footerSection"><?php dynamic_sidebar( 'footer-area-3' ); ?></div>
 			</div>
 
 			<div id="footer-bottom">

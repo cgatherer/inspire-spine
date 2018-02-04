@@ -1356,6 +1356,9 @@ body #page-container .see-more-btn {
   color: #fff !important;
   text-align: left; }
 
+.footerSection {
+  padding: 15px; }
+
 /* ==========================================
     @Print
 =========================================== */
