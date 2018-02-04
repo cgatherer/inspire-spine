@@ -1254,7 +1254,7 @@ hr {
     border: 2px solid #ef7827 !important;
     background-color: #ef7827 !important; }
 
-.see-more-btn {
+body #page-container .et_pb_button_2 {
   color: #ffffff !important;
   border-width: 1px !important;
   border-color: #ef7827;
