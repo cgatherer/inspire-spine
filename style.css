@@ -1336,6 +1336,12 @@ body #page-container .see-more-btn {
 /* ==========================================
     @Footer 
 =========================================== */
+.bottom-nav li {
+  display: inline-block;
+  padding-right: 15px !important;
+  font-size: 14px;
+  font-weight: 600; }
+
 .et-social-icons {
   float: none !important;
   padding: 15px 0;
