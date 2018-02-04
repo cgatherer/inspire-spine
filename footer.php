@@ -58,7 +58,7 @@
 			</footer> <!-- #main-footer -->
 		</div> <!-- #et-main-area -->
 
-		<?php endif; // ! is_page_template( 'page-template-blank.php' ) ?>
+		<?php //endif; // ! is_page_template( 'page-template-blank.php' ) ?>
 
 	</div> <!-- #page-container -->
 
