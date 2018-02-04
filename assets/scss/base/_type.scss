@@ -132,7 +132,7 @@ ul {
 
 @include responsive($small-break) {
     body {
-        font-size: 14px;
+        // font-size: 14px;
     }
     h1,
     h2,
@@ -145,21 +145,20 @@ ul {
         // font-size: 26px;
     }
     h2 {
-        font-size: 35px;
+        // font-size: 35px;
     }
     h3 {
         // font-size: 16px;
     }
     h4 {
-        margin: 0;
-        padding: 0;
+        // margin: 0; padding: 0;
     }
     h4,
     h5,
     p,
     ul,
     ol {
-        font-size: 14px;
+        // font-size: 14px;
     }
 }
 
@@ -188,7 +187,7 @@ ul {
 hr {
     border: 0;
     border-bottom: 1px solid #ddd;
-    // margin: $margin;
+    margin: $margin;
 }
 
 .hr-alt {

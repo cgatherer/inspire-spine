@@ -608,23 +608,6 @@ ul {
   ul:after {
     clear: both; }
 
-@media screen and (max-width: 1200px) {
-  body {
-    font-size: 14px; }
-
-  h2 {
-    font-size: 35px; }
-
-  h4 {
-    margin: 0;
-    padding: 0; }
-
-  h4,
-  h5,
-  p,
-  ul,
-  ol {
-    font-size: 14px; } }
 .list-unstyled {
   list-style: none;
   margin-left: 0;
@@ -644,7 +627,8 @@ ul {
 
 hr {
   border: 0;
-  border-bottom: 1px solid #ddd; }
+  border-bottom: 1px solid #ddd;
+  margin: 2.1277%; }
 
 .hr-alt {
   border: 0;
@@ -1175,6 +1159,14 @@ hr {
   letter-spacing: 0.5px;
   text-align: center;
   color: #003150; }
+
+.fas-fa-home {
+  width: 72px;
+  height: 64px;
+  text-shadow: 1px 3px 0 #e6e9ee;
+  font-family: "Font Awesome 5 Free";
+  font-size: 64px;
+  color: #009fda; }
 
 .btn-text {
   text-shadow: 1px 1px 2px rgba(0, 49, 80, 0.5);
