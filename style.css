@@ -796,13 +796,19 @@ hr {
   text-align: left;
   color: #ffffff; }
 
-.header-phone- {
+.header-phone {
   position: relative;
   left: 40px;
   max-width: 269px;
   width: 100%;
   height: auto;
   object-fit: contain; }
+  .header-phone--footer {
+    max-width: 269px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    object-fit: contain; }
 
 .BG {
   max-width: 330px;

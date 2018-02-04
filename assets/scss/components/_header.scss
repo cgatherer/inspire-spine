@@ -96,13 +96,21 @@
   @include H09;
 }
 
-.header-phone- {
+.header-phone {
   position: relative;
   left: 40px;
   max-width: 269px;
   width: 100%;
   height: auto;
   object-fit: contain;
+
+  &--footer {
+    max-width: 269px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    object-fit: contain;
+  }
 }
 
 .BG {
