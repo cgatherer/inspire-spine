@@ -216,11 +216,9 @@
 }
 
 // Icons
-.fas-fa-home {
-  width: 72px;
-  height: 64px;
+.fas {
+  margin-bottom: 20px;
   text-shadow: 1px 3px 0 $light-grey;
-  @include icons01;
 }
 
 .btn-text {
