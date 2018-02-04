@@ -1374,6 +1374,11 @@ body #page-container .see-more-btn {
 .footerSection {
   padding: 15px; }
 
+.et_pb_widget {
+  float: none;
+  max-width: 100%;
+  text-align: center; }
+
 /* ==========================================
     @Print
 =========================================== */
