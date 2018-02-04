@@ -120,15 +120,21 @@
 
 // Fonts
 
-@mixin icons02 {
-  font-family: FontAwesome5Free;
+@mixin icons01 {
+  font-family: "Font Awesome 5 Free";
   font-size: 64px;
   color: $light-blue;
 }
 
-@mixin icons01 {
-  font-family: FontAwesome5FreeSolid;
+@mixin icons02 {
+  font-family: "Font Awesome 5 Free";
   font-size: 64px;
+  color: $light-blue;
+}
+
+@mixin iocns03 {
+  font-family: "Font Awesome 5 Free";
+  font-size: 22px;
   color: $light-blue;
 }
 
@@ -275,12 +281,6 @@
   letter-spacing: 0.5px;
   text-align: left;
   color: $orange;
-}
-
-@mixin iocns03 {
-  font-family: FontAwesome5Brands;
-  font-size: 22px;
-  color: $light-blue;
 }
 
 @mixin H07 {
