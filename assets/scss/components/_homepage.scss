@@ -275,6 +275,17 @@
     }
 }
 
+.see-more-btn {
+    color: #ffffff!important;
+    border-width: 1px!important;
+    border-color: $orange;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family:'Helvetica Neue LT W01_55 Roman' !important;
+    background-color: $orange;
+}
+
 .bkgd {
     max-width: 85% !important;
     margin-left: auto !important;
@@ -315,10 +326,10 @@
 .six-columns .et_pb_module {width: 16.66%; float: left;}
 .five-columns .et_pb_module {width: 20%; float: left;}
 .five-columns {
-  width: 20%; 
-  float: left;
-  p {
-    margin: 0 auto;
-    text-align: center;
-  }
+    width: 20%; 
+    float: left;
+    p {
+      margin: 0 auto;
+      text-align: center;
+    }
 }

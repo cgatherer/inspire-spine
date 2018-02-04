@@ -1254,6 +1254,16 @@ hr {
     border: 2px solid #ef7827 !important;
     background-color: #ef7827 !important; }
 
+.see-more-btn {
+  color: #ffffff !important;
+  border-width: 1px !important;
+  border-color: #ef7827;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
+  background-color: #ef7827; }
+
 .bkgd {
   max-width: 85% !important;
   margin-left: auto !important;
