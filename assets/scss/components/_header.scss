@@ -76,6 +76,18 @@
     color: $orange;
 }
 
+#et-secondary-nav .menu-item-has-children > a:first-child:hover:after, 
+#top-menu .menu-item-has-children > a:first-child:hover:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "Font Awesome 5 Free";
+    font-size: 16px;
+    font-weight: 800;
+    content: "\f0de";
+    color: $orange;
+}
+
 .et_search_outer {
     overflow: hidden;
     position: absolute;
@@ -131,6 +143,17 @@
     font-size: 16px;
     font-weight: 800;
     content: "\f0dd";
+    color: $white;
+    transition: all .5s ease;
+  }
+  &:hover:after {
+    position: relative;
+    top: 0;
+    left: 20px;
+    font-family: "Font Awesome 5 Free";
+    font-size: 16px;
+    font-weight: 800;
+    content: "\f0de"; 
     color: $white;
   }
 
