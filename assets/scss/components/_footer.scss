@@ -16,6 +16,12 @@
     padding: 15px 0;
     margin: 0 auto;
     text-align: center;
+    li {
+    	background-color: $dark-blue;
+    	width: 30px;
+    	height: 30px;
+    	border-radius: 30px;
+    }
 }
 .Contact-Us-Today {
 	float: left;
