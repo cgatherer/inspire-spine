@@ -847,15 +847,6 @@ hr {
     content: "\f0dd";
     color: #ffffff;
     transition: all .5s ease; }
-  .BG:focus:after {
-    position: relative;
-    top: 0;
-    left: 20px;
-    font-family: "Font Awesome 5 Free";
-    font-size: 16px;
-    font-weight: 800;
-    content: "\f0de";
-    color: #ffffff; }
   .BG--bottom {
     max-width: 345px;
     width: 100%;

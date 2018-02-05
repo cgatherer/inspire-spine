@@ -147,16 +147,16 @@
     color: $white;
     transition: all .5s ease;
   }
-  &:focus:after {
-    position: relative;
-    top: 0;
-    left: 20px;
-    font-family: "Font Awesome 5 Free";
-    font-size: 16px;
-    font-weight: 800;
-    content: "\f0de"; 
-    color: $white;
-  }
+  // &:focus:after {
+  //   position: relative;
+  //   top: 0;
+  //   left: 20px;
+  //   font-family: "Font Awesome 5 Free";
+  //   font-size: 16px;
+  //   font-weight: 800;
+  //   content: "\f0de"; 
+  //   color: $white;
+  // }
 
   &--bottom {
     max-width: 345px;
