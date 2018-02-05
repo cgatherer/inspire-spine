@@ -1382,7 +1382,7 @@ body #page-container .see-more-btn {
     border-radius: 30px;
     background-color: #003150; }
     .et-social-icons li .icon {
-      color: #009fda;
+      color: #009fda !important;
       padding: 10px; }
 
 .Contact-Us-Today {
