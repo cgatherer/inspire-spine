@@ -847,7 +847,7 @@ hr {
     content: "\f0dd";
     color: #ffffff;
     transition: all .5s ease; }
-  .BG:active:after {
+  .BG:focus:after {
     position: relative;
     top: 0;
     left: 20px;
