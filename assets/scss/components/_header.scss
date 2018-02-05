@@ -74,6 +74,7 @@
     font-weight: 800;
     content: "\f0dd";
     color: $orange;
+    transition: all .5s ease;
 }
 
 #et-secondary-nav .menu-item-has-children > a:first-child:hover:after, 
@@ -146,7 +147,7 @@
     color: $white;
     transition: all .5s ease;
   }
-  &:hover:after {
+  &:active:after {
     position: relative;
     top: 0;
     left: 20px;

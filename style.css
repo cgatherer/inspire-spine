@@ -760,7 +760,8 @@ hr {
   font-size: 16px;
   font-weight: 800;
   content: "\f0dd";
-  color: #ef7827; }
+  color: #ef7827;
+  transition: all .5s ease; }
 
 #et-secondary-nav .menu-item-has-children > a:first-child:hover:after,
 #top-menu .menu-item-has-children > a:first-child:hover:after {
@@ -846,7 +847,7 @@ hr {
     content: "\f0dd";
     color: #ffffff;
     transition: all .5s ease; }
-  .BG:hover:after {
+  .BG:active:after {
     position: relative;
     top: 0;
     left: 20px;
