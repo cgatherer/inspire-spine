@@ -28,9 +28,14 @@
     padding: 15px 0px !important;
     color: #fff !important;
     text-align: left;
+    @include footer-links---uppercase;
 }
 .footerSection {
 	padding: 30px 15px;
+}
+.bottom-nav {
+    padding: 15px 0;
+    @include footer-links---uppercase;
 }
 .et_pb_widget {
     float: none !important;

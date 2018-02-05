@@ -1390,10 +1390,27 @@ body #page-container .see-more-btn {
   float: left;
   padding: 15px 0px !important;
   color: #fff !important;
-  text-align: left; }
+  text-align: left;
+  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff; }
 
 .footerSection {
   padding: 30px 15px; }
+
+.bottom-nav {
+  padding: 15px 0;
+  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff; }
 
 .et_pb_widget {
   float: none !important;
