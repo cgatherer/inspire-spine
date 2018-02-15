@@ -526,7 +526,7 @@ h4 {
   color: #003150; }
 
 h5 {
-  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-family: 'Helvetica Neue LT W01_67 Bd Cn' !important;
   font-size: 26px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -1284,7 +1284,7 @@ input {
 .Conditions {
   width: 115px;
   height: 24px;
-  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-family: 'Helvetica Neue LT W01_67 Bd Cn' !important;
   font-size: 26px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -1294,7 +1294,7 @@ input {
 .Treatments {
   width: 124px;
   height: 24px;
-  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-family: 'Helvetica Neue LT W01_67 Bd Cn' !important;
   font-size: 26px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -1304,7 +1304,7 @@ input {
 .Locations {
   width: 105px;
   height: 24px;
-  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-family: 'Helvetica Neue LT W01_67 Bd Cn' !important;
   font-size: 26px;
   font-weight: 500;
   letter-spacing: 1px;
