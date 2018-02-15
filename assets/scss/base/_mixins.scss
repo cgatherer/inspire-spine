@@ -123,19 +123,19 @@
 @mixin icons01 {
   font-family: "Font Awesome 5 Free";
   font-size: 64px;
-  color: $light-blue;
+  color: $dark-blue;
 }
 
 @mixin icons02 {
   font-family: "Font Awesome 5 Free";
   font-size: 64px;
-  color: $light-blue;
+  color: $dark-blue;
 }
 
 @mixin iocns03 {
   font-family: "Font Awesome 5 Free";
   font-size: 22px;
-  color: $light-blue;
+  color: $dark-blue;
 }
 
 @mixin H01 {
@@ -296,7 +296,6 @@
 @mixin H08 {
   font-family:'Helvetica Neue LT W01_67 Md Cn' !important;
   font-size: 18px;
-  //font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.5px;
   text-align: left;
@@ -310,6 +309,7 @@
   line-height: 1.11;
   letter-spacing: 1px; 
   text-align: left;
+  text-transform: uppercase;
   color: $white;
 }
 
@@ -324,10 +324,22 @@
   color: $white;
 }
 
+// @mixin Nav02 {
+//   font-family:'Helvetica Neue LT W01_67 Md Cn' !important;
+//   font-size: 18px;
+//   font-weight: 500;
+//   letter-spacing: 0.5px;
+//   text-align: left;
+//   color: $white;
+// }
+
 @mixin Nav02 {
-  font-family:'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
   font-size: 18px;
   font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
   letter-spacing: 0.5px;
   text-align: left;
   color: $white;
@@ -355,9 +367,10 @@
   font-family:'Helvetica Neue LT W01_67 Md Cn' !important;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1;
+  line-height: 16px;
   letter-spacing: 1px;
   text-align: center;
+  text-transform: uppercase;
   color: $white;
 }
 
@@ -420,7 +433,7 @@
 }
 
 @mixin button02---uppercase {
-  font-family:'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -464,6 +477,7 @@
   line-height: 1.33;
   letter-spacing: 1px;
   text-align: center;
+  text-transform: uppercase;
   color: $white;
 }
 
@@ -540,6 +554,12 @@
 
 @mixin atXlarge {
     @media screen and (min-width: $max-width) {
+        @content;
+    }
+}
+
+@mixin atBmax {
+    @media screen and (min-width: $bmax) {
         @content;
     }
 }

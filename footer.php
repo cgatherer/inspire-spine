@@ -28,7 +28,7 @@
 						<div class="span4">
 							<?php
 								if ( false !== et_get_option( 'show_footer_social_icons', true ) ) {
-									get_template_part( 'includes/social_icons', 'footer' );
+									get_template_part( 'assets/template-parts/social_icons', 'footer' );
 								}
 							?>
 						</div>
