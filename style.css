@@ -1019,6 +1019,8 @@ input {
   letter-spacing: 1px;
   text-align: left;
   color: #00c6d5; }
+  .MY-SPINE i {
+    padding-left: 20px !important; }
   .MY-SPINE--footer {
     max-width: 341px;
     width: 100%;

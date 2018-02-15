@@ -208,6 +208,9 @@
   letter-spacing: normal;
   text-align: center !important;
   @include header---phone-CTA;
+  i {
+    padding-left: 20px !important;
+  }
 
   &--footer {
     max-width: 341px;
