@@ -1031,11 +1031,11 @@ input {
     letter-spacing: 1px;
     text-align: left;
     color: #00c6d5; }
-  .MY-SPINE i {
-    padding-left: 15px !important; }
-    @media screen and (max-width: 1200px) {
-      .MY-SPINE i {
-        padding-left: 12px !important; } }
+    .MY-SPINE--footer i {
+      padding-left: 15px !important; }
+      @media screen and (max-width: 1200px) {
+        .MY-SPINE--footer i {
+          padding-left: 10px !important; } }
 
 #logo {
   max-width: 70% !important; }

@@ -216,12 +216,11 @@
     letter-spacing: normal;
     text-align: left !important;
     @include header---phone-CTA;
-  }
-
-  i {
-    padding-left: 15px !important;
-    @include responsive($max-width) {
-      padding-left: 12px !important;
+    i {
+      padding-left: 15px !important;
+      @include responsive($max-width) {
+        padding-left: 10px !important;
+      }
     }
   }
 }
