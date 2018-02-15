@@ -875,6 +875,7 @@ input {
         font-stretch: normal;
         line-height: normal;
         letter-spacing: 0.5px;
+        text-transform: capitalize;
         text-align: left;
         color: #ffffff; }
     #top-menu li a {
