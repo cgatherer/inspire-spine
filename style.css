@@ -926,6 +926,10 @@ input {
   letter-spacing: 0.5px;
   text-align: left;
   color: #ffffff; }
+  @media screen and (min-width: 1200px) {
+    .We-make-minimally-in {
+      position: relative;
+      left: 45px; } }
 
 .INSPIRED-SPINE-PATIE {
   font-family: 'Helvetica Neue LT W01_65 Mediu' !important;

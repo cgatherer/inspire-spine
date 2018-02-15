@@ -121,6 +121,10 @@
   padding: 20px 0;
   margin: 0px;
   @include H08;
+  @include atXlarge {
+    position: relative;
+    left: 45px;
+  }
 }
 
 .INSPIRED-SPINE-PATIE {
