@@ -806,6 +806,10 @@ input {
   margin-bottom: 0px !important; }
 .footer-form_wrapper ul.gform_fields li.gfield {
   padding: 0px !important; }
+.footer-form_wrapper .gform_button {
+  max-width: 110px !important;
+  width: 100% !important;
+  height: 44px !important; }
 
 /* ==========================================
     @Header 

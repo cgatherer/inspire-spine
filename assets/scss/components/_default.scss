@@ -185,17 +185,19 @@ input {
     label {
         display: none !important;
     }
-
     .charleft {
         display: none !important;
     }
-
     .gform_heading {
         width: 100%;
         margin-bottom: 0px !important;
     }
-
     ul.gform_fields li.gfield {
         padding: 0px !important;
+    }
+    .gform_button {
+        max-width: 110px !important;
+        width:100% !important;
+        height: 44px !important;
     }
 }
