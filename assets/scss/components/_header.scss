@@ -125,6 +125,10 @@
     position: relative;
     left: 45px;
   }
+  @include atBmax {
+    position: relative;
+    left: 0px;
+  }
 }
 
 .INSPIRED-SPINE-PATIE {
@@ -212,6 +216,12 @@
     letter-spacing: normal;
     text-align: left !important;
     @include header---phone-CTA;
+  }
+
+  .pad-left {
+    @include responsive($small-break) {
+      padding-left: 12px !important;
+    }
   }
 }
 
