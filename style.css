@@ -1817,13 +1817,13 @@ body #page-container .see-more-btn {
   .et-social-icons li {
     position: relative;
     top: -15px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 30px;
     background-color: #003150; }
     .et-social-icons li .icon {
       color: #009fda !important;
-      padding: 12px;
+      padding: 6px;
       font-size: 22px !important; }
 
 .Contact-Us-Today {
