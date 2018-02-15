@@ -1559,8 +1559,13 @@ input {
   .our-approach-panel .our-approach-text {
     padding: 85px 0px 29.6875px !important; }
     .our-approach-panel .our-approach-text h3 {
+      font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1;
+      letter-spacing: 1px;
       text-align: left;
-      font-size: 30px; }
+      color: #003150; }
     .our-approach-panel .our-approach-text p {
       font-size: 16px;
       line-height: 24px; }
