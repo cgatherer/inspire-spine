@@ -1496,7 +1496,7 @@ input {
   margin-top: 20px;
   height: 315px; }
   .our-approach-panel .doctor-photo {
-    position: absolute;
+    position: relative;
     top: -20px; }
   .our-approach-panel h3 {
     text-align: left; }
