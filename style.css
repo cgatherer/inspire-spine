@@ -868,6 +868,7 @@ input {
       padding: 0px !important;
       width: 200px; }
       #top-menu li li a {
+        text-transform: capitalize !important;
         font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
         font-size: 18px;
         font-weight: 500;
@@ -875,7 +876,6 @@ input {
         font-stretch: normal;
         line-height: normal;
         letter-spacing: 0.5px;
-        text-transform: capitalize;
         text-align: left;
         color: #ffffff; }
     #top-menu li a {
