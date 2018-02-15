@@ -1823,7 +1823,8 @@ body #page-container .see-more-btn {
     background-color: #003150; }
     .et-social-icons li .icon {
       color: #009fda !important;
-      padding: 10px; }
+      padding: 12px;
+      font-size: 22px !important; }
 
 .Contact-Us-Today {
   max-width: 341px;
