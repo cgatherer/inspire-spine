@@ -1740,7 +1740,14 @@ body #page-container .see-more-btn {
   float: left; }
   .five-columns p, .five-columns--last p {
     margin: 0 auto;
-    text-align: center; }
+    text-align: center;
+    font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #003150; }
   @media screen and (max-width: 1200px) {
     .five-columns, .five-columns--last {
       width: 50% !important; } }

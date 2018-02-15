@@ -519,6 +519,7 @@ body #page-container .see-more-btn {
   p {
     margin: 0 auto;
     text-align: center;
+    @include H10---UPPERCASE;
   }
   @include responsive($small-break) {
     width: 50% !important;
