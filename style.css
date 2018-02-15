@@ -1031,9 +1031,11 @@ input {
     letter-spacing: 1px;
     text-align: left;
     color: #00c6d5; }
-  @media screen and (max-width: 1200px) {
-    .MY-SPINE .fa-phone {
-      padding-left: 12px !important; } }
+  .MY-SPINE i {
+    padding-left: 15px !important; }
+    @media screen and (max-width: 1200px) {
+      .MY-SPINE i {
+        padding-left: 12px !important; } }
 
 #logo {
   max-width: 70% !important; }
