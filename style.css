@@ -1491,13 +1491,20 @@ input {
     text-align: left;
     color: #ffffff; }
 
-.our-approach-panel h3 {
-  text-align: left; }
-.our-approach-panel .et_pb_blurb_content {
-  position: relative;
-  max-width: 100% !important;
-  margin: 0 !important;
-  text-align: left !important; }
+.our-approach-panel {
+  padding: 0 0 30px 0 !important;
+  margin-top: 20px;
+  height: 315px; }
+  .our-approach-panel .doctor-photo {
+    position: absolute;
+    top: -20px; }
+  .our-approach-panel h3 {
+    text-align: left; }
+  .our-approach-panel .et_pb_blurb_content {
+    position: relative;
+    max-width: 100% !important;
+    margin: 0 !important;
+    text-align: left !important; }
 
 @media screen and (max-width: 1200px) {
   .hero-bkgd {

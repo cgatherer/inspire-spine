@@ -248,6 +248,13 @@
 }
 
 .our-approach-panel {
+  padding: 0 0 30px 0 !important;
+  margin-top: 20px;
+  height: 315px; 
+  .doctor-photo {
+    position: absolute;
+    top: -20px;
+  }
   h3 {
     text-align: left;
   }
