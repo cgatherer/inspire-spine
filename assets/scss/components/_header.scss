@@ -218,8 +218,8 @@
     @include header---phone-CTA;
   }
 
-  .pad-left {
-    @include responsive($small-break) {
+  .fa-phone {
+    @include responsive($max-width) {
       padding-left: 12px !important;
     }
   }

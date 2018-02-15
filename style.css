@@ -1032,7 +1032,7 @@ input {
     text-align: left;
     color: #00c6d5; }
   @media screen and (max-width: 1200px) {
-    .MY-SPINE .pad-left {
+    .MY-SPINE .fa-phone {
       padding-left: 12px !important; } }
 
 #logo {
