@@ -588,10 +588,11 @@ code {
   word-wrap: break-word; }
 
 a {
-  color: #003150;
+  color: #009fda;
   text-decoration: none; }
   a:hover, a:focus {
-    text-decoration: none; }
+    color: #0077ad;
+    text-decoration: underline; }
 
 ul {
   zoom: 1; }
@@ -2206,6 +2207,15 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   letter-spacing: 0.5px;
   text-align: left;
   color: #ef7827; }
+.page-template-page-template-basic a,
+.page-template-page-template-landing a {
+  color: #009fda;
+  text-decoration: none; }
+  .page-template-page-template-basic a:hover, .page-template-page-template-basic a:focus,
+  .page-template-page-template-landing a:hover,
+  .page-template-page-template-landing a:focus {
+    color: #0077ad;
+    text-decoration: underline; }
 .page-template-page-template-basic .entry-content p,
 .page-template-page-template-landing .entry-content p {
   margin-bottom: 0px;

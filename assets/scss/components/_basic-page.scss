@@ -157,6 +157,15 @@
     ul {
         // min-height: 125px;
     }
+    a {
+        color: $light-blue;
+        text-decoration: none;
+        &:hover,
+        &:focus {
+            color: $mid-blue;
+            text-decoration: underline;
+        }
+    }
 
     .entry-content p {
         margin-bottom: 0px;

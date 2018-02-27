@@ -119,11 +119,12 @@ code {
 }
 
 a {
-    color: $dark-blue;
+    color: $light-blue;
     text-decoration: none;
     &:hover,
     &:focus {
-        text-decoration: none;
+        color: $mid-blue;
+        text-decoration: underline;
     }
 }
 
