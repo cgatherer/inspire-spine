@@ -246,7 +246,6 @@
 }
 
 @mixin H05---white {
-  //font-family:'Helvetica Neue LT W01_67 Bd Cn' !important;
   font-family:'Helvetica Neue LT W01_65 Mediu' !important;
   font-size: 26px;
   font-weight: 500;
@@ -275,7 +274,8 @@
 }
 
 @mixin H06---orange {
-  font-family:'Helvetica Neue LT W01_67 Md Cn' !important;
+  // font-family:'Helvetica Neue LT W01_67 Md Cn' !important;
+  font-family:'Helvetica Neue LT W01_65 Mediu' !important;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.17;
