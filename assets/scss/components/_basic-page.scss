@@ -27,13 +27,15 @@
             background: $white;
         }
         
-        a {
-            color: $light-blue;
-            text-decoration: none;
-            &:hover,
-            &:focus {
-                color: $mid-blue;
-                text-decoration: underline;
+        p {
+            a {
+                color: $light-blue;
+                text-decoration: none;
+                &:hover,
+                &:focus {
+                    color: $mid-blue;
+                    text-decoration: underline;
+                }
             }
         }
     }

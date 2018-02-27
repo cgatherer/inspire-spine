@@ -2067,13 +2067,13 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     margin-top: 0px;
     margin-bottom: 90px;
     background: #ffffff; }
-  .page-template-page-template-basic .et_pb_section a,
-  .page-template-page-template-landing .et_pb_section a {
+  .page-template-page-template-basic .et_pb_section p a,
+  .page-template-page-template-landing .et_pb_section p a {
     color: #009fda;
     text-decoration: none; }
-    .page-template-page-template-basic .et_pb_section a:hover, .page-template-page-template-basic .et_pb_section a:focus,
-    .page-template-page-template-landing .et_pb_section a:hover,
-    .page-template-page-template-landing .et_pb_section a:focus {
+    .page-template-page-template-basic .et_pb_section p a:hover, .page-template-page-template-basic .et_pb_section p a:focus,
+    .page-template-page-template-landing .et_pb_section p a:hover,
+    .page-template-page-template-landing .et_pb_section p a:focus {
       color: #0077ad;
       text-decoration: underline; }
 .page-template-page-template-basic .et_pb_widget .widget,
