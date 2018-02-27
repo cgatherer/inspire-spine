@@ -2191,13 +2191,13 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 @media screen and (min-width: 1024px) {
   .page-template-page-template-basic .et_pb_section:before {
     width: 85%; } }
-@media screen and (min-width: 1200px) {
-  .page-template-page-template-basic .et_pb_section:before {
-    width: 75%; } }
 
 @media screen and (min-width: 375px) {
   .page-template-page-template-landing .et_pb_section:before {
     width: 100%; } }
+@media screen and (min-width: 1024px) {
+  .page-template-page-template-landing .et_pb_section:before {
+    width: 85%; } }
 
 @media screen and (min-width: 375px) {
   .et_pb_section:before {

@@ -193,10 +193,6 @@
             @include atLarge {
                 width: 85%;
             }
-
-            @include atXlarge {
-                width: 75%;
-            }
         }
     }
 }
@@ -206,6 +202,10 @@
         &:before {
             @include atTiny {
                 width: 100%;
+            }
+            
+            @include atLarge {
+                width: 85%;
             }
         }
     }
