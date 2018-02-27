@@ -95,7 +95,7 @@
                 &:after {
                     float: right;
                     font-family: "Font Awesome 5 Free";
-                    font-size: 16px;
+                    font-size: 18px;
                     font-weight: 800;
                     content: "\f106";
                     color: $mid-blue;
@@ -107,6 +107,7 @@
         .et_pb_toggle_close {
             padding: 0px !important;
             background-color: $white;
+            border: none;
             .et_pb_toggle_title {
                 padding: 20px;
                 background: $light-grey;
@@ -119,7 +120,7 @@
                 &:after {
                     float: right;
                     font-family: "Font Awesome 5 Free";
-                    font-size: 16px;
+                    font-size: 18px;
                     font-weight: 800;
                     content: "\f107";
                     color: $mid-blue;
@@ -233,7 +234,8 @@
 
 .Treatments {
     width: 100%;
-    height: 40px;
+    height: 60px;
+    background: $teal;
     text-align: left !important;
     letter-spacing: normal;
     text-shadow: 2px 2px 2px rgba(0, 49, 80, 0.5);
@@ -241,11 +243,11 @@
 
     @include atTiny {
         font-size: 30px !important;
-        padding: 12px 0;
+        padding: 12px 10px;
     }
     @include atMedium {
         font-size: 45px !important;
-        padding: 8px 0;
+        padding: 8px 10px;
     }
 }
 

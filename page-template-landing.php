@@ -20,7 +20,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() ); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<div class="page-title span12 group">
-					<div class="Rectangle-3"><h2 class="Treatments"><?php the_title(); ?></h2></div>
+					<div><h2 class="Treatments"><?php the_title(); ?></h2></div>
 				</div>
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

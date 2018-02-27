@@ -2092,7 +2092,7 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
       .page-template-page-template-landing .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after {
         float: right;
         font-family: "Font Awesome 5 Free";
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 800;
         content: "\f106";
         color: #0077ad;
@@ -2100,7 +2100,8 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .page-template-page-template-basic .page-accordion .et_pb_toggle_close,
   .page-template-page-template-landing .page-accordion .et_pb_toggle_close {
     padding: 0px !important;
-    background-color: #ffffff; }
+    background-color: #ffffff;
+    border: none; }
     .page-template-page-template-basic .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
     .page-template-page-template-landing .page-accordion .et_pb_toggle_close .et_pb_toggle_title {
       padding: 20px;
@@ -2113,7 +2114,7 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
       .page-template-page-template-landing .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after {
         float: right;
         font-family: "Font Awesome 5 Free";
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 800;
         content: "\f107";
         color: #0077ad; }
@@ -2213,7 +2214,8 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 
 .Treatments {
   width: 100%;
-  height: 40px;
+  height: 60px;
+  background: #00c6d5;
   text-align: left !important;
   letter-spacing: normal;
   text-shadow: 2px 2px 2px rgba(0, 49, 80, 0.5);
@@ -2227,11 +2229,11 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   @media screen and (min-width: 375px) {
     .Treatments {
       font-size: 30px !important;
-      padding: 12px 0; } }
+      padding: 12px 10px; } }
   @media screen and (min-width: 768px) {
     .Treatments {
       font-size: 45px !important;
-      padding: 8px 0; } }
+      padding: 8px 10px; } }
 
 .icons01 {
   font-family: "Font Awesome 5 Free";
