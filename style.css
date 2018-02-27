@@ -2087,6 +2087,9 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .page-template-page-template-landing .page-accordion .et_pb_toggle_close {
     padding: 0px !important;
     background-color: #ffffff; }
+    .page-template-page-template-basic .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
+    .page-template-page-template-landing .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before {
+      display: none; }
   .page-template-page-template-basic .page-accordion .et_pb_toggle_title,
   .page-template-page-template-landing .page-accordion .et_pb_toggle_title {
     padding: 20px;

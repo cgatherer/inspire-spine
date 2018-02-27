@@ -92,6 +92,11 @@
         .et_pb_toggle_close {
             padding: 0px !important;
             background-color: $white;
+            .et_pb_toggle_title {
+                &:before {
+                    display: none;
+                }
+            }
         }
 
         .et_pb_toggle_title {
