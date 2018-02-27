@@ -2586,13 +2586,13 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 #main-footer {
   border-top: 10px solid #00c6d5 !important;
   background-color: #003150 !important; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     #main-footer .footerSection {
       flex-basis: 98% !important;
       margin-left: 0px !important;
       max-width: 98% !important; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #footer-bottom .footerSection {
     flex-basis: 98% !important;
     margin-left: 0px !important;

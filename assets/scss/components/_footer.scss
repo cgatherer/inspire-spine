@@ -5,7 +5,7 @@
   border-top: 10px solid $teal !important;
   background-color: $dark-blue !important;
   .footerSection {
-    @include atMediumMax {
+    @include atLargeMax {
       flex-basis: 98% !important;
       margin-left: 0px !important;
       max-width: 98% !important;
@@ -14,7 +14,7 @@
 }
 #footer-bottom {
   .footerSection {
-    @include atMediumMax {
+    @include atLargeMax {
       flex-basis: 98% !important;
       margin-left: 0px !important;
       max-width: 98% !important;
