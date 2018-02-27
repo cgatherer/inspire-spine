@@ -99,6 +99,7 @@
                     font-weight: 800;
                     content: "\f106";
                     color: $mid-blue;
+                    transition: all .5s ease;
                 }
             }
         }
@@ -110,7 +111,7 @@
                 padding: 20px;
                 background: $light-grey;
                 border-top: solid 2px $light-blue;
-                
+
                 &:before {
                     display: none;
                 }

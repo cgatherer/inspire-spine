@@ -2095,7 +2095,8 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
         font-size: 16px;
         font-weight: 800;
         content: "\f106";
-        color: #0077ad; }
+        color: #0077ad;
+        transition: all .5s ease; }
   .page-template-page-template-basic .page-accordion .et_pb_toggle_close,
   .page-template-page-template-landing .page-accordion .et_pb_toggle_close {
     padding: 0px !important;
