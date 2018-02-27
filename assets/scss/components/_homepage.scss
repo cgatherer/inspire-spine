@@ -590,10 +590,11 @@
 }
 
 body #page-container .see-more-btn {
-  @extend .learn-more;
+  // @extend .learn-more;
   border-radius: 2px !important;
   border: 2px solid $orange !important;
   padding: 11px 30px !important;
+  @include button02---uppercase;
 
   &:hover {
     color: $white !important;
