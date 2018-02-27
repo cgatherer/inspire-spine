@@ -2592,6 +2592,12 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
       margin-left: 0px !important;
       max-width: 98% !important; } }
 
+@media screen and (max-width: 768px) {
+  #footer-bottom .footerSection {
+    flex-basis: 98% !important;
+    margin-left: 0px !important;
+    max-width: 98% !important; } }
+
 .bottom-nav li {
   display: inline-block;
   padding-right: 15px !important;

@@ -14,7 +14,7 @@
 			<div id="footer-bottom">
 				<div class="row clearfix">
 					<div class="span12 group margin-center">
-						<div class="span4">
+						<div class="span4 footerSection">
 							<?php
 								wp_nav_menu( array(
 									'theme_location' => 'footer-menu',
@@ -25,14 +25,14 @@
 								) );
 							?>
 						</div>
-						<div class="span4">
+						<div class="span4 footerSection">
 							<?php
 								if ( false !== et_get_option( 'show_footer_social_icons', true ) ) {
 									get_template_part( 'assets/template-parts/social_icons', 'footer' );
 								}
 							?>
 						</div>
-						<div class="span4">
+						<div class="span4 footerSection">
 							<?php echo et_get_footer_credits(); ?>
 						</div>
 					</div>

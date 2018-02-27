@@ -12,6 +12,15 @@
     }
   }
 }
+#footer-bottom {
+  .footerSection {
+    @include atMediumMax {
+      flex-basis: 98% !important;
+      margin-left: 0px !important;
+      max-width: 98% !important;
+    }
+  }
+}
 .bottom-nav li {
   display: inline-block;
   padding-right: 15px !important;
