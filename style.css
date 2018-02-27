@@ -591,8 +591,7 @@ a {
   color: #009fda;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #0077ad;
-    text-decoration: underline; }
+    color: #0077ad; }
 
 ul {
   zoom: 1; }
