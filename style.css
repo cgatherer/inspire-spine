@@ -1916,6 +1916,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 
 body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-widget-button, .cta-widget-block body #page-container .cta-widget-button {
   border-radius: 2px !important;
+  background-color: #ef7827 !important;
   border: 2px solid #ef7827 !important;
   padding: 11px 30px !important;
   font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
