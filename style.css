@@ -2235,12 +2235,20 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .page-template-page-template-landing .small-button:hover,
   .page-template-page-template-landing .smallblue:hover,
   .page-template-page-template-landing .bigblue:hover {
-    background: rgba(0, 159, 218, 0.72) !important; }
+    background: rgba(0, 159, 218, 0.72) !important;
+    text-shadow: none !important;
+    max-width: 370px;
+    width: 100% !important;
+    padding: 16px 0 !important; }
   .page-template-page-template-basic .small-button:active, .page-template-page-template-basic .smallblue:active, .page-template-page-template-basic .bigblue:active,
   .page-template-page-template-landing .small-button:active,
   .page-template-page-template-landing .smallblue:active,
   .page-template-page-template-landing .bigblue:active {
-    background: #0077ad !important; }
+    background: #0077ad !important;
+    text-shadow: none !important;
+    max-width: 370px;
+    width: 100% !important;
+    padding: 16px 0 !important; }
 .page-template-page-template-basic .Rectangle-3,
 .page-template-page-template-landing .Rectangle-3 {
   width: 100%;
