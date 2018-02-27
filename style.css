@@ -2074,8 +2074,7 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     .page-template-page-template-basic .et_pb_section p a:hover, .page-template-page-template-basic .et_pb_section p a:focus,
     .page-template-page-template-landing .et_pb_section p a:hover,
     .page-template-page-template-landing .et_pb_section p a:focus {
-      color: #0077ad;
-      text-decoration: underline; }
+      color: #0077ad; }
 .page-template-page-template-basic .et_pb_widget .widget,
 .page-template-page-template-landing .et_pb_widget .widget {
   margin-bottom: 18.54%; }
