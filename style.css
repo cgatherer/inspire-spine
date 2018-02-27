@@ -1086,7 +1086,6 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     font-size: 38px !important;
     letter-spacing: normal;
     text-align: left !important;
-    color: #00c6d5 !important;
     font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
     font-size: 32px;
     font-weight: bold;
@@ -1095,6 +1094,8 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     color: #00c6d5; }
     .MY-SPINE--footer i {
       padding-left: 15px !important; }
+    .MY-SPINE--footer a {
+      color: #00c6d5 !important; }
 
 #logo {
   max-width: 70% !important;

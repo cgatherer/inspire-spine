@@ -272,10 +272,12 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     font-size: 38px !important;
     letter-spacing: normal;
     text-align: left !important;
-    color: $teal !important;
     @include header---phone-CTA;
     i {
       padding-left: 15px !important;
+    }
+    a {
+      color: $teal !important;
     }
   }
 }
