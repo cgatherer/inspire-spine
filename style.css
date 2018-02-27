@@ -2364,7 +2364,7 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     text-align: center; }
     @media screen and (min-width: 375px) {
       .page-icon-with-list .et_pb_blurb_content {
-        min-height: 285px; } }
+        min-height: 325px; } }
   .page-icon-with-list .small-button, .page-icon-with-list .smallblue, .page-icon-with-list .bigblue {
     font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
     border-width: 0px !important;
@@ -2381,7 +2381,8 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 
 .page-buttons {
   padding: 0px;
-  margin-bottom: 0px !important; }
+  margin-bottom: 0px !important;
+  min-height: 325px; }
   @media screen and (min-width: 768px) {
     .page-buttons {
       min-height: 325px;

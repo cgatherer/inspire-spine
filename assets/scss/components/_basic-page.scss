@@ -354,7 +354,7 @@
         text-align: center;
 
         @include atTiny {
-            min-height: 285px;
+            min-height: 325px;
         }
     }
     .small-button, .smallblue, .bigblue {
@@ -378,6 +378,7 @@
 .page-buttons {
     padding: 0px;
     margin-bottom: 0px !important;
+    min-height: 325px;
 
     @include atMedium {
         min-height: 325px;
