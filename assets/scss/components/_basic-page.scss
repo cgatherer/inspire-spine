@@ -378,8 +378,8 @@
 
 .page-buttons {
     padding: 0px;
-    // margin-bottom: 0px !important;
-    min-height: 325px;
+    margin-bottom: 0px !important;
+    // min-height: 325px;
 
     @include atMedium {
         min-height: 325px;

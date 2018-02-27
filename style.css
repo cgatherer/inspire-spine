@@ -2382,7 +2382,7 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 
 .page-buttons {
   padding: 0px;
-  min-height: 325px; }
+  margin-bottom: 0px !important; }
   @media screen and (min-width: 768px) {
     .page-buttons {
       min-height: 325px;
