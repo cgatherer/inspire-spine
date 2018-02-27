@@ -87,6 +87,20 @@
             padding: 0px !important;
             background-color: #fff;
             border: none;
+            .et_pb_toggle_title {
+                padding: 20px;
+                background: $light-grey;
+                border-top: solid 2px $light-blue;
+                
+                &:after {
+                    float: right;
+                    font-family: "Font Awesome 5 Free";
+                    font-size: 16px;
+                    font-weight: 800;
+                    content: "\f106";
+                    color: $mid-blue;
+                }
+            }
         }
 
         .et_pb_toggle_close {
@@ -96,21 +110,15 @@
                 &:before {
                     display: none;
                 }
-            }
-        }
 
-        .et_pb_toggle_title {
-            padding: 20px;
-            background: $light-grey;
-            border-top: solid 2px $light-blue;
-            
-            &:after {
-                float: right;
-                font-family: "Font Awesome 5 Free";
-                font-size: 16px;
-                font-weight: 800;
-                content: "\f105";
-                color: $mid-blue;
+                &:after {
+                    float: right;
+                    font-family: "Font Awesome 5 Free";
+                    font-size: 16px;
+                    font-weight: 800;
+                    content: "\f107";
+                    color: $mid-blue;
+                }
             }
         }
 
