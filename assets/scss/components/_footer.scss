@@ -4,6 +4,13 @@
 #main-footer {
   border-top: 10px solid $teal !important;
   background-color: $dark-blue !important;
+  .footerSection {
+    @include atMediumMax {
+      flex-basis: 98% !important;
+      margin-left: 0px !important;
+      max-width: 98% !important;
+    }
+  }
 }
 .bottom-nav li {
   display: inline-block;
