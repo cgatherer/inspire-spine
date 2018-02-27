@@ -2346,7 +2346,8 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     color: #ffffff; }
 
 .page-icon-with-list {
-  padding: 0px; }
+  padding: 0px;
+  min-height: 325px; }
   @media screen and (min-width: 768px) {
     .page-icon-with-list {
       padding: 0 15px; } }

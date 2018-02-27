@@ -334,6 +334,7 @@
 
 .page-icon-with-list {
     padding: 0px;
+    min-height: 325px;
     
     @include atMedium {
         padding: 0 15px;
