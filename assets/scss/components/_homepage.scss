@@ -577,20 +577,18 @@
 
   &:hover {
     color: $white !important;
-    text-shadow: 1px 3px 0 $light-grey;
     border: 2px solid $teal;
     padding: 11px 30px !important;
     border: 2px solid $teal;
-    background-color: $white !important;
+    background-color: $teal !important;
   }
 
   &:active {
     color: $white !important;
-    text-shadow: 1px 3px 0 $light-grey;
     border: 2px solid $teal;
     padding: 11px 30px !important;
     border: 2px solid $teal;
-    background-color: $grey-hover !important;
+    background-color: $teal !important;
   }
 }
 
