@@ -1874,7 +1874,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 .learn-more, .page-template-page-template-basic .small-button, .page-template-page-template-basic .smallblue, .page-template-page-template-basic .bigblue,
 .page-template-page-template-landing .small-button,
 .page-template-page-template-landing .smallblue,
-.page-template-page-template-landing .bigblue, .page-buttons .small-button, .page-buttons .smallblue, .page-buttons .bigblue, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue {
+.page-template-page-template-landing .bigblue, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue {
   position: relative;
   padding: 11px 30px !important;
   border: 2px solid #00c6d5;
@@ -1896,7 +1896,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   .learn-more:hover, .page-template-page-template-basic .small-button:hover, .page-template-page-template-basic .smallblue:hover, .page-template-page-template-basic .bigblue:hover,
   .page-template-page-template-landing .small-button:hover,
   .page-template-page-template-landing .smallblue:hover,
-  .page-template-page-template-landing .bigblue:hover, .page-buttons .small-button:hover, .page-buttons .smallblue:hover, .page-buttons .bigblue:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue:hover {
+  .page-template-page-template-landing .bigblue:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue:hover {
     color: #ffffff !important;
     text-shadow: 1px 3px 0 #e6e9ee;
     border: 2px solid #00c6d5;
@@ -1906,7 +1906,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   .learn-more:active, .page-template-page-template-basic .small-button:active, .page-template-page-template-basic .smallblue:active, .page-template-page-template-basic .bigblue:active,
   .page-template-page-template-landing .small-button:active,
   .page-template-page-template-landing .smallblue:active,
-  .page-template-page-template-landing .bigblue:active, .page-buttons .small-button:active, .page-buttons .smallblue:active, .page-buttons .bigblue:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue:active {
+  .page-template-page-template-landing .bigblue:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue:active {
     color: #ffffff !important;
     text-shadow: 1px 3px 0 #e6e9ee;
     border: 2px solid #00c6d5;
@@ -2427,6 +2427,18 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     text-transform: initial;
     font-weight: 500 !important;
     font-size: 14px !important; }
+    .page-buttons .small-button:hover, .page-buttons .smallblue:hover, .page-buttons .bigblue:hover {
+      background: rgba(0, 159, 218, 0.72) !important;
+      text-shadow: none !important;
+      max-width: 370px;
+      width: 100% !important;
+      padding: 16px 0 !important; }
+    .page-buttons .small-button:active, .page-buttons .smallblue:active, .page-buttons .bigblue:active {
+      background: #0077ad !important;
+      text-shadow: none !important;
+      max-width: 370px;
+      width: 100% !important;
+      padding: 16px 0 !important; }
 
 .page-image {
   margin-bottom: 0px !important; }
