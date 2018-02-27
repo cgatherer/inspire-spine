@@ -1541,7 +1541,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       max-width: 560px; } }
   @media screen and (min-width: 1280px) {
     .keyhole-graphic-full {
-      top: -155px;
+      top: -135px;
       max-width: 345px !important; } }
 
 .Rectangle-2 {
