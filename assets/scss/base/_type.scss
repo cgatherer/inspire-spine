@@ -1,0 +1,205 @@
+/* ==========================================
+    @Type 
+=========================================== */
+@import url(http://fast.fonts.net/t/1.css?apiType=css&projectid=62d2a26d-7606-44af-9034-c7ab3ec2a271);
+@font-face{
+    font-family:"Helvetica Neue LT W01_71488914";
+    src:url("assets/fonts/8a6c3e5a-88a5-430c-91d8-7767ce971d12.eot?#iefix");
+    src:url("assets/fonts/8a6c3e5a-88a5-430c-91d8-7767ce971d12.eot?#iefix") format("eot"),url("assets/fonts/531c5a28-5575-4f58-96d4-a80f7b702d7b.woff2") format("woff2"),url("assets/fonts/439c5962-f9fe-4eaf-a1f6-f41d42edba75.woff") format("woff"),url("assets/fonts/419a308d-b777-4f84-9235-2caf4a98ec23.ttf") format("truetype"),url("assets/fonts/e4d5b881-6835-45b7-8766-3e5b9e7cab8b.svg#e4d5b881-6835-45b7-8766-3e5b9e7cab8b") format("svg");
+}
+@font-face{
+    font-family:"Helvetica Neue LT W01_57 Cond";
+    src:url("assets/fonts/3808766e-26cf-47cb-97a7-1f1c64db9c48.eot?#iefix");
+    src:url("assets/fonts/3808766e-26cf-47cb-97a7-1f1c64db9c48.eot?#iefix") format("eot"),url("assets/fonts/946b2f3f-a9d7-47e4-9738-ee963004d697.woff2") format("woff2"),url("assets/fonts/ce90a9c3-4580-4fa7-b453-9a4e86d0c271.woff") format("woff"),url("assets/fonts/a621a6bf-fa40-4115-9f42-6ffb55c017e2.ttf") format("truetype"),url("assets/fonts/436f9358-58a7-4f85-bdef-f4cd10831df6.svg#436f9358-58a7-4f85-bdef-f4cd10831df6") format("svg");
+}
+@font-face{
+    font-family:"Helvetica Neue LT W01_67 Md Cn";
+    src:url("assets/fonts/13e5efa8-b7a2-4f0f-a459-c966f7d3f458.eot?#iefix");
+    src:url("assets/fonts/13e5efa8-b7a2-4f0f-a459-c966f7d3f458.eot?#iefix") format("eot"),url("assets/fonts/108e1ff6-3205-4c92-9aa5-9abb2823fe92.woff2") format("woff2"),url("assets/fonts/f61c722b-9236-445e-bb7e-eeb1009cd627.woff") format("woff"),url("assets/fonts/5cd6e481-b6d9-47fa-b568-1636d8a6cc52.ttf") format("truetype"),url("assets/fonts/0134ff8c-b1ae-47f0-9219-d1bdce3ec1db.svg#0134ff8c-b1ae-47f0-9219-d1bdce3ec1db") format("svg");
+}
+@font-face{
+    font-family:"Helvetica Neue LT W01_77 Bd Cn";
+    src:url("assets/fonts/1527aeed-e69d-4399-82e3-7b53d48da7a2.eot?#iefix");
+    src:url("assets/fonts/1527aeed-e69d-4399-82e3-7b53d48da7a2.eot?#iefix") format("eot"),url("assets/fonts/5f4620bc-98f7-4b13-9f90-3a54ea6a9c55.woff2") format("woff2"),url("assets/fonts/ac30e84e-cb19-4576-b6f9-491fccbd42ff.woff") format("woff"),url("assets/fonts/b583b782-0709-4a13-899f-7e9ab1a7eccd.ttf") format("truetype"),url("assets/fonts/d5dd03f5-3afb-46e9-aad0-234de8607afa.svg#d5dd03f5-3afb-46e9-aad0-234de8607afa") format("svg");
+}
+@font-face{
+    font-family:"Helvetica Neue LT W01_55 Roman";
+    src:url("assets/fonts/a58359b2-ab6c-4eb7-a2ed-b567c68b3388.eot?#iefix");
+    src:url("assets/fonts/a58359b2-ab6c-4eb7-a2ed-b567c68b3388.eot?#iefix") format("eot"),url("assets/fonts/02963ef0-dbb8-4ec9-a06d-939c6f252739.woff2") format("woff2"),url("assets/fonts/411f40ef-ca35-4f60-93ce-b394d5485b62.woff") format("woff"),url("assets/fonts/aee958bd-461a-4843-929b-4127e918a85e.ttf") format("truetype"),url("assets/fonts/a5239550-7c80-4408-8598-671485ac7994.svg#a5239550-7c80-4408-8598-671485ac7994") format("svg");
+}
+@font-face{
+    font-family:"Helvetica Neue LT W01_65 Mediu";
+    src:url("assets/fonts/3d3afd39-c4ed-4665-92fe-09017646d159.eot?#iefix");
+    src:url("assets/fonts/3d3afd39-c4ed-4665-92fe-09017646d159.eot?#iefix") format("eot"),url("assets/fonts/1eb76d85-4078-4440-8c8a-49a9a374e918.woff2") format("woff2"),url("assets/fonts/184bd314-b4a6-4db6-833a-18bba78873a2.woff") format("woff"),url("assets/fonts/f5e341d0-94b2-415e-9a31-8460aafc2af3.ttf") format("truetype"),url("assets/fonts/7637fa36-5d49-4b95-b444-e65a15f55ce5.svg#7637fa36-5d49-4b95-b444-e65a15f55ce5") format("svg");
+}
+
+body {
+    @include P01---18-Roman55-left-grey;
+}
+
+blockquote {
+    border-left: 2px solid;
+    font-family:"Helvetica Neue LT W01_55 Roman";
+    font-size: 1.4em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 0 $padding/2;
+    padding-left: 25px;
+}
+
+.et_pb_cta_0.et_pb_promo h2, .et_pb_cta_0.et_pb_promo h1.et_pb_module_header, .et_pb_cta_0.et_pb_promo h3.et_pb_module_header, .et_pb_cta_0.et_pb_promo h4.et_pb_module_header, .et_pb_cta_0.et_pb_promo h5.et_pb_module_header, .et_pb_cta_0.et_pb_promo h6.et_pb_module_header {
+    @include H01;
+    font-size: 58px!important;
+    color: #ffffff!important;
+    line-height: 1.3em!important;
+    text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4)!important;
+}
+
+h1 {
+    @include H01;
+}
+
+h2 {
+    @include H02---white-dropshadow;
+}
+
+h3 {
+    @include H03---center-white-dropshadow;
+}
+
+h4 {
+    @include H04;
+}
+
+h5 {
+    @include H05---white;
+}
+
+h6 {
+    @include H06---center-dark-blue;
+}
+
+p {
+    margin: 0 0 $padding/2;
+    // @include P02---white;
+}
+
+sup,
+sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+    @include P02---white;
+}
+
+sub {
+    top: 0.4em;
+}
+
+pre {
+    background: #222;
+    color: #fff;
+    display: block;
+    @include P01---18-Roman55-left-grey;
+    margin: 0 0 $padding/2;
+    padding: 10px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+code {
+    border-radius: 5px;
+    background: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, .1);
+    @include P01---18-Roman55-left-grey;
+    padding: 2px 10px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+a {
+    color: $dark-blue;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+ul {
+    @include clearfix;
+}
+
+@include responsive($small-break) {
+    body {
+        // font-size: 14px;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        // margin-bottom: 10px;
+    }
+    h1 {
+        // font-size: 26px;
+    }
+    h2 {
+        // font-size: 35px;
+    }
+    h3 {
+        // font-size: 16px;
+    }
+    h4 {
+        // margin: 0; padding: 0;
+    }
+    h4,
+    h5,
+    p,
+    ul,
+    ol {
+        // font-size: 14px;
+    }
+}
+
+.list-unstyled {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.subtle {
+    color: $dark-blue;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    margin: $margin;
+}
+
+.hr-alt {
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    margin: 4.24% 0;
+}
+
+.small-icon {
+    font-size: 25px !important;
+    float: right;
+    top: 3px;
+    position: relative;
+}

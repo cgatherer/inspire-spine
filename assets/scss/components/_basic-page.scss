@@ -1,0 +1,535 @@
+/* ==========================================
+    @Basic Page & Landing Page
+=========================================== */
+
+.page-template-page-template-basic, 
+.page-template-page-template-landing {
+    #main-header {
+        top: 0px !important;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        background-color: $dark-blue !important;
+        @include responsive($small-break) {
+            padding-top: 0px !important;
+        }
+    }
+    .et_pb_section {
+        padding-top: 50px !important;
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin-top: 0px;
+            margin-bottom: 90px;
+            background: $white;
+        }
+    }
+
+    .et_pb_widget .widget {
+        margin-bottom: 18.54%;
+    }
+
+    .et_pb_widget_area .widget {
+        margin-bottom: 18.54%;
+    }
+
+    .widget_nav_menu {
+        padding: 15px;
+        background-color: $dark-blue;
+        .widgettitle {
+            color: $teal !important;
+            border-bottom: solid 1px $white;
+        }
+        li {
+            padding: 5px 0;
+            border-bottom: solid 1px $mid-blue;
+            a {
+                font-size: 22px !important;
+                @include Nav02;
+                &:after {
+                    float: right;
+                    font-family: "Font Awesome 5 Free";
+                    font-size: 16px;
+                    font-weight: 800;
+                    content: "\f105";
+                    color: $mid-blue;
+                }
+            }
+        }
+    }
+
+    .basic-page-section {
+        @include atTiny {
+            padding: 27px 15px 85px !important;
+        }
+
+        @include atXlarge {
+            padding: 27px 0px 85px !important;
+        }
+    }
+
+    .page-title {
+        width: 100%;
+        max-width: 1200px;
+        margin: 240px auto 30px;
+        z-index: 1;
+        @include responsive($small-break) {
+            margin: 175px auto 0;
+        }
+    }
+
+    .page-accordion {
+        border: none;
+        .et_pb_toggle_open {
+            padding: 0px !important;
+            background-color: #fff;
+        }
+    }
+
+    h3 {
+        margin-bottom: 30px;
+        @include H03---dark-blue; 
+    }
+
+    h4 {
+        margin-bottom: 30px;
+        @include H04; 
+    }
+
+    h6 {
+        margin-bottom: 15px;
+        @include H06---orange; 
+    }
+
+    ul {
+        // min-height: 125px;
+    }
+
+    .entry-content p {
+        @include P02---grey;
+    }
+    
+    .small-button, .smallblue, .bigblue {
+        font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+        color: $white !important;
+        border-width: 0px !important;
+        border-radius: 2px !important;
+        background: rgba($light-blue, 1) !important;
+        text-shadow: none;
+        max-width: 370px !important;
+        width: 100% !important;
+        height: 54px;
+        padding: 16px 0 !important;
+        margin-bottom: 20px;
+        text-transform: initial;
+        font-weight: 500 !important;
+        font-size: 14px !important;
+        @extend .learn-more;
+    }
+
+    .Rectangle-3 {
+        width: 100%;
+        max-width: 500px;
+        height: 60px;
+        padding: 0 10px !important;
+        background-color: $teal;
+    }
+}
+
+.page-template-page-template-basic {
+    .et_pb_section {
+        &:before {
+            @include atTiny {
+                width: 100%;
+            }
+
+            @include atLarge {
+                width: 85%;
+            }
+
+            @include atXlarge {
+                width: 75%;
+            }
+        }
+    }
+}
+ 
+.page-template-page-template-landing {
+    .et_pb_section {
+        &:before {
+            @include atTiny {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.et_pb_section {
+    &:before {
+        @include atTiny {
+            width: 100%;
+        }
+
+        @include atLarge {
+            width: 85%;
+        }
+
+        @include atXlarge {
+            width: 75%;
+        }
+    }
+}
+
+.et_pb_widget_area_left {
+    padding-right: 5px;
+    border-right: none !important;
+}
+
+.Treatments {
+    width: 100%;
+    height: 40px;
+    text-align: left !important;
+    letter-spacing: normal;
+    text-shadow: 2px 2px 2px rgba(0, 49, 80, 0.5);
+    @include H02---white-dropshadow;
+
+    @include atTiny {
+        font-size: 30px !important;
+        padding: 12px 0;
+    }
+    @include atMedium {
+        font-size: 45px !important;
+        padding: 8px 0;
+    }
+}
+
+.icons01 {
+    @include icons01;
+}
+
+.breadcrumbs {
+    position: relative;
+    top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 1;
+    font-size: 12px;
+
+    @include atTiny {
+        padding: 5px 0 5px 15px;
+    }
+
+    @include atXlarge {
+        padding: 5px 0;
+    }
+    
+    .delimiter {
+        color: $light-grey;
+    }
+
+    a {
+        color: $orange;
+    }
+}
+
+.basic-page-bkgd {
+    height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+
+    @include atLarge {
+        height: 350px;
+    }
+
+    img {
+        width: 480px;
+
+        @include atTiny {
+            top: -20px;
+            margin-left: 0px;
+        }
+
+        @include atMedium {
+            top: 0px;
+            margin-left: 0px;
+        }
+
+        @include atLarge {
+            top: -280px;
+            margin-left: 90px;
+        }
+    }
+
+    &--heading {
+        font-size: 50px;
+        width: 350px;
+        @extend .Keyhole-Surgery-make;
+    }
+
+    &--desc {
+        font-size: 20px !important;
+        text-align: center !important;
+        color: $white !important;
+        @include Nav02;
+    }
+}
+
+.page-icon-with-list {
+    padding: 0px;
+    
+    @include atMedium {
+        padding: 0 15px;
+    }
+
+    @include atXlarge {
+        padding: 0px;
+    }
+    .fas {
+        margin-bottom: 0px !important;
+        text-shadow: none;
+    }
+    .et_pb_blurb_content {
+        position: relative;
+        max-width: 550px;
+        margin: 0 auto;
+        text-align: center;
+
+        @include atTiny {
+            min-height: 285px;
+        }
+    }
+    .small-button, .smallblue, .bigblue {
+        font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+        border-width: 0px !important;
+        background: rgba($light-blue, 0) !important;
+        text-shadow: none;
+        box-shadow: none !important;
+        width: 100%;
+        
+        @include atTiny {
+            text-align: center;
+        }
+
+        @include atMedium {
+            text-align: left;
+        }
+    }
+}
+
+.page-buttons {
+    min-height: 325px;
+    padding: 0px;
+    @include atMedium {
+        padding: 0 10px;
+    }
+    @include atXlarge {
+        padding: 0px;
+    }
+    .small-button, .smallblue, .bigblue {
+        font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+        color: $white !important;
+        border-width: 0px !important;
+        border-radius: 2px !important;
+        background: rgba($light-blue, 1) !important;
+        text-shadow: none;
+        max-width: 370px !important;
+        width: 100% !important;
+        height: 54px;
+        padding: 16px 0 !important;
+        margin-bottom: 20px;
+        text-transform: initial;
+        font-weight: 500 !important;
+        font-size: 14px !important;
+        @extend .learn-more;
+    }
+}
+
+.page-image {
+    margin-bottom: 0px !important;
+    .et_pb_image_wrap {
+        display: inline-block;
+        position: relative;
+        width: 100% !important;
+    }
+}
+
+.page-banner-cta {
+    overflow: hidden;
+    margin-bottom: 0px !important;
+
+    &--caption {
+        padding: 10px 15px;
+        border-top: solid 1px $white;
+        background-color: $dark-blue;
+
+        p {
+            font-size: 14px !important;
+            color: $white !important;
+            margin-bottom: 0px !important;
+        }
+    }
+
+    .et_pb_blurb_content {
+        position: relative;
+        max-width: 780px !important;
+        margin: 0 auto;
+        text-align: center;
+
+        .et_pb_main_blurb_image {
+            display: inline-block;
+            margin-top: 30px;
+            margin-bottom: 0px !important;
+            line-height: 0;
+            
+            @include atTiny {
+                max-width: 100% !important;
+                float: left;
+            }
+                
+            @include atMedium {
+                max-width: 50% !important;
+                float: right;
+            }
+
+        }
+
+        .et_pb_blurb_container {
+            text-align: left;
+            padding: 20px 40px;
+
+            @include atTiny {
+                max-width: 100% !important;
+            }
+                
+            @include atMedium {
+                max-width: 50% !important;
+            }
+
+            .et_pb_module_header {
+                @extend .Keyhole-Surgery-make;
+
+                @include atTiny {
+                    font-size: 44px !important;
+                }
+                
+                @include atMedium {
+                    font-size: 35px !important;
+                }
+
+                @include atXlarge {
+                    font-size: 44px !important;
+                }
+            }
+
+            .et_pb_blurb_description {
+                font-size: 20px !important;
+                text-align: center !important;
+                color: $white !important;
+                @include Nav02;
+
+                h6 {
+                    @extend .et_pb_blurb_description;
+                }
+            }
+
+            .small-button, .smallblue, .bigblue {
+                font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+                color: $white !important;
+                border-width: 3px!important;
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30) !important;
+                background: rgba($dark-blue, 0) !important;
+                @extend .learn-more;
+            }
+        }
+    }
+}
+
+.cta-widget-block {
+    max-width: 370px;
+    width: 100%;
+    min-height: 246px;
+    padding: 20px;
+    margin: 0px;
+    border-top: solid 10px $orange;
+    .cta-widget-title {
+        margin-bottom: 15px;
+        @include H06--cta-white;
+    }
+    .cta-widget-img {
+        margin-bottom: 15px;
+    }
+    .cta-widget-desc {
+        margin-bottom: 30px;
+        color: $white !important;
+        @include P02---white;
+    }
+    .cta-widget-button {
+        background-color: $orange !important;
+        margin-bottom: 15px;
+        @extend .see-more-btn;
+    }
+
+    .cta-resource {
+        padding: 25px 15px;
+        background-color: $white;
+        border-top: solid 2px $silver;
+
+        .cta-resource-title {
+            font-size: 15px !important;
+            font-weight: 800 !important;
+            margin-bottom: 20px !important;
+        }
+
+        .cta-widget-button {
+            margin-bottom: 0px !important;
+        }
+    }
+}
+
+.Axl_Testimonials_Widget_Slider_Widget {
+    max-width: 370px;
+    width: 100%;
+    min-height: 246px;
+    padding: 20px;
+    border-top: solid 10px $orange;
+    background-color: $white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .25);
+    
+    .widgettitle {
+        margin-bottom: 15px;
+        color: $dark-blue !important;
+        @include H06--cta-white;
+    }
+
+    blockquote {
+        border: none !important;
+        padding: 0px !important;
+    }
+
+    .credit {
+        font-family:"Helvetica Neue LT W01_55 Roman" !important;
+        width: 199px;
+        float: right;
+        color: $dark-blue;
+
+        &:before {
+            display: none;
+        }
+        .author {
+            font-weight: 800;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+        .join-title {
+            display: none;
+        }
+        
+        .job-title {
+            display: block;
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,107 @@
+/* ==========================================
+    @Footer 
+=========================================== */
+#main-footer {
+  border-top: 10px solid $teal !important;
+  background-color: $dark-blue !important;
+}
+.bottom-nav li {
+  display: inline-block;
+  padding-right: 15px !important;
+  font-size: 14px;
+  font-weight: 600;
+  color: $white;
+  @include responsive($small-break) {
+    display: block !important;
+    padding: 10px 0 !important;
+  }
+}
+.et-social-icons {
+  float: none !important;
+  padding: 25px 0;
+  margin: 0 auto;
+  text-align: center;
+  li {
+    position: relative;
+    top: -15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: $dark-blue;
+    &:first-child {
+      @include atSixplusMax {
+        margin-left: 0px;
+      }
+    }
+
+    .icon{
+    	color: $light-blue !important;
+    	padding: 6px;
+      font-size: 22px !important;
+    }
+  }
+}
+.Contact-Us-Today {
+  max-width: 341px;
+  width:100%;
+  padding: 0px;
+  font-size: 20px !important;
+  @include H08;
+}
+#footer-info {
+  padding: 15px 0px !important;
+  color: #fff !important;
+  text-align: center !important;
+  font-size: 14px !important;
+  @include footer-links---uppercase;
+  @include atSixplusMax {
+    font-size: 12px !important;
+  }
+}
+.footerSection {
+  padding: 30px 15px;
+}
+.bottom-nav {
+  padding: 15px 0;
+  a {
+    color: $white !important;
+    @include footer-links---uppercase;
+  }
+}
+.et_pb_widget {
+  float: none !important;
+  max-width: 100%;
+  text-align: center;
+}
+.InspiredSpine_logo_solid_reverse_stacked {
+  width: 225px;
+  height: 100px;
+  object-fit: contain;
+}
+.Inspired-Spine-is-a {
+  max-width: 273px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  @include P02---center-light-grey;
+}
+.et_pb_scroll_top.et-pb-icon {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  right: 0px !important;
+  bottom: 125px;
+  padding: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-left-radius: 5px;
+  color: #fff;
+  background: rgb(239, 119, 39) !important;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}

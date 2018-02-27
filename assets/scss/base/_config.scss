@@ -1,0 +1,67 @@
+//**
+// Project Settings
+//**
+
+// Consistent settings
+$br: 3px; // Border-radius
+$big-br: 10px;
+$btn-br: 3px; // Button border-radius
+$padding: 2em; // Padding and margins
+$line-height: 44px; // Consistent height for buttons, inputs etc. 
+$max-width: 1200px; // Max width of the main centered "page content"
+$push-footer-height: 60px;
+$base-transition: all 0.5s 0 ease;
+$easeInOut-transition: all 0.3s ease-in-out;
+$base-box-shadow: #000 2px 2px 3px;
+
+// z-index 
+$secondary-nav: 1;
+$content-zindex: 2;
+$header-zindex: 3;
+
+// Responsive breakpoints
+$tiny-break: 375px; //max width
+$sixplus: 414px; //min-height
+$small-break: 599px; //max width
+$medium-break: 768px; //max width  
+$big-break: 1024px; //max width
+$bmax: 1280px;
+$margin: 2.1277%; // Margin between the grid columns
+
+// Default font stacks
+$header-font-stack: "Lato",
+"Open Sans",
+"Helvetica Neue",
+Helvetica,
+Arial,
+"Lucida Grande",
+sans-serif;
+$text-font-stack: "Open Sans",
+"Helvetica Neue",
+Helvetica,
+Arial,
+"Lucida Grande",
+sans-serif;
+$code-font-stack: Monaco,
+Menlo,
+Consolas,
+"Courier New",
+monospace;
+$serif-font-stack: Georgia,
+Times,
+"Times New Roman",
+serif;
+
+// Default colors
+$dark-blue: #003150;
+$teal: #00c6d5;
+$orange: #ef7827;
+$mid-blue: #0077ad;
+$light-blue: #009fda;
+$light-grey: #e6e9ee;
+$silver: #bdc1c9;
+$form-green: #2ecc71;
+$grey: #444444;
+$white: #ffffff;
+$form-red: #e74c3c;
+$form-blue: #3498db;

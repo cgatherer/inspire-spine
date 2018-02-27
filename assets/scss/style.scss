@@ -1,0 +1,19 @@
+// Base Styles - leave these allow
+@import "base/styleheader";
+@import "base/normalize";
+@import "base/config";
+@import "base/mixins";
+@import "base/grid";
+@import "base/type";
+
+// Component Styles
+@import "components/default";  
+@import "components/header";
+@import "components/homepage";
+@import "components/basic-page";
+@import "components/sidebar";
+@import "components/footer";
+
+// Leave these SASS modules here at the bottom
+@import "base/print";  
+
