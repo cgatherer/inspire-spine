@@ -49,7 +49,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 }
 
 .main-header {
-  height: 200px;
+  height: 180px;
   @include responsive($small-break) {
     height: 120px;
   }
@@ -87,7 +87,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   float: left;
   position: absolute;
   left: 0px;
-  top: 125px;
+  top: 102px;
   padding: 0px !important;
 }
 
@@ -258,6 +258,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 .MY-SPINE {
   letter-spacing: normal;
   text-align: center !important;
+  margin-bottom: 1rem;
   @include header---phone-CTA;
   i {
     padding-left: 20px !important;

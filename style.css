@@ -858,7 +858,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   background-color: rgba(0, 49, 80, 0); }
 
 .main-header {
-  height: 200px; }
+  height: 180px; }
   @media screen and (max-width: 1200px) {
     .main-header {
       height: 120px; } }
@@ -889,7 +889,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   float: left;
   position: absolute;
   left: 0px;
-  top: 125px;
+  top: 102px;
   padding: 0px !important; }
 
 #top-menu {
@@ -1069,6 +1069,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 .MY-SPINE {
   letter-spacing: normal;
   text-align: center !important;
+  margin-bottom: 1rem;
   font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
   font-size: 32px;
   font-weight: bold;
