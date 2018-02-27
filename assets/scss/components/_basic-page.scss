@@ -375,10 +375,14 @@
 }
 
 .page-buttons {
-    min-height: 325px;
     padding: 0px;
+    margin-bottom: 0px !important;
+
     @include atMedium {
+        min-height: 325px;
         padding: 0 10px;
+        margin-right: 10px;
+        margin-bottom: 30px !important;
     }
     @include atXlarge {
         padding: 0px;
