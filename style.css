@@ -2074,7 +2074,7 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 .page-template-page-template-landing .page-title {
   width: 100%;
   max-width: 1200px;
-  margin: 240px auto 30px;
+  margin: 205px auto 30px;
   z-index: 1; }
   @media screen and (max-width: 1200px) {
     .page-template-page-template-basic .page-title,
@@ -2464,6 +2464,10 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .cta-widget-block .cta-widget-button {
     background-color: #ef7827 !important;
     margin-bottom: 15px; }
+    .cta-widget-block .cta-widget-button:hover {
+      background-color: #f39d62 !important; }
+    .cta-widget-block .cta-widget-button:active {
+      background-color: #dc6e22 !important; }
   .cta-widget-block .cta-resource {
     padding: 25px 15px;
     background-color: #ffffff;

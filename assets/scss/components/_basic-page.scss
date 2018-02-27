@@ -74,7 +74,7 @@
     .page-title {
         width: 100%;
         max-width: 1200px;
-        margin: 240px auto 30px;
+        margin: 205px auto 30px;
         z-index: 1;
         @include responsive($small-break) {
             margin: 175px auto 0;
@@ -203,7 +203,7 @@
             @include atTiny {
                 width: 100%;
             }
-            
+
             @include atLarge {
                 width: 85%;
             }
@@ -515,6 +515,12 @@
         background-color: $orange !important;
         margin-bottom: 15px;
         @extend .see-more-btn;
+        &:hover {
+            background-color: $orange-hover !important;
+        }
+        &:active {
+            background-color: $orange-active !important;
+        }
     }
 
     .cta-resource {
