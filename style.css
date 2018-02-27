@@ -1091,10 +1091,10 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
         padding-left: 0px !important; } }
   .MY-SPINE a {
     color: #00c6d5;
-    text-decoration: none; }
+    text-decoration: none !important; }
     .MY-SPINE a:hover, .MY-SPINE a:focus {
       color: #00c6d5;
-      text-decoration: underline; }
+      text-decoration: underline !important; }
   .MY-SPINE--footer {
     max-width: 341px;
     width: 100%;

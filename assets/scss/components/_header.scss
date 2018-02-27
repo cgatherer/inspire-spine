@@ -271,11 +271,11 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   }
   a {
     color: $teal;
-    text-decoration: none;
+    text-decoration: none !important;
       &:hover,
       &:focus {
         color: $teal;
-        text-decoration: underline;
+        text-decoration: underline !important;
       }
     }
 
