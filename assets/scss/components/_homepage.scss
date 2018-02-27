@@ -574,8 +574,14 @@
   &:hover {
     color: $white !important;
     padding: 11px 30px !important;
-    border: 2px solid $orange !important;
-    background-color: $orange !important;
+    border: 2px solid $teal;
+    background-color: $white !important;
+  }
+  &:active {
+    color: $white !important;
+    padding: 11px 30px !important;
+    border: 2px solid $teal;
+    background-color: #ebebeb !important;
   }
 }
 

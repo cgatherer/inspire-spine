@@ -1899,8 +1899,16 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   .page-template-page-template-landing .bigblue:hover, .page-buttons .small-button:hover, .page-buttons .smallblue:hover, .page-buttons .bigblue:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue:hover {
     color: #ffffff !important;
     padding: 11px 30px !important;
-    border: 2px solid #ef7827 !important;
-    background-color: #ef7827 !important; }
+    border: 2px solid #00c6d5;
+    background-color: #ffffff !important; }
+  .learn-more:active, body #page-container .see-more-btn:active, body #page-container .cta-widget-block .cta-widget-button:active, .cta-widget-block body #page-container .cta-widget-button:active, .page-template-page-template-basic .small-button:active, .page-template-page-template-basic .smallblue:active, .page-template-page-template-basic .bigblue:active,
+  .page-template-page-template-landing .small-button:active,
+  .page-template-page-template-landing .smallblue:active,
+  .page-template-page-template-landing .bigblue:active, .page-buttons .small-button:active, .page-buttons .smallblue:active, .page-buttons .bigblue:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue:active {
+    color: #ffffff !important;
+    padding: 11px 30px !important;
+    border: 2px solid #00c6d5;
+    background-color: #ebebeb !important; }
 
 body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-widget-button, .cta-widget-block body #page-container .cta-widget-button {
   border-radius: 2px !important;
