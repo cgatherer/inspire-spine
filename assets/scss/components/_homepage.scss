@@ -571,6 +571,10 @@
   transition: all .2s;
   @include button02---uppercase;
 
+  &:after {
+    display: none;
+  }
+
   &:hover {
     color: $white !important;
     text-shadow: 1px 3px 0 $light-grey;
@@ -579,6 +583,7 @@
     border: 2px solid $teal;
     background-color: $white !important;
   }
+
   &:active {
     color: $white !important;
     text-shadow: 1px 3px 0 $light-grey;
@@ -590,12 +595,15 @@
 }
 
 body #page-container .see-more-btn {
-  // @extend .learn-more;
   border-radius: 2px !important;
   background-color: $orange !important;
   border: 2px solid $orange !important;
   padding: 11px 30px !important;
   @include button02---uppercase;
+
+  &:after {
+    display: none;
+  }
 
   &:hover {
     color: $white !important;
