@@ -269,6 +269,15 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       padding-left: 0px !important;
     }
   }
+  a {
+    color: $teal;
+    text-decoration: none;
+      &:hover,
+      &:focus {
+        color: $teal;
+        text-decoration: underline;
+      }
+    }
 
   &--footer {
     max-width: 341px;
