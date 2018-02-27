@@ -86,6 +86,17 @@
         .et_pb_toggle_open {
             padding: 0px !important;
             background-color: #fff;
+            border: none;
+        }
+
+        .et_pb_toggle_title {
+            padding: 20px;
+            background: $light-grey;
+            border-top: solid 2px $light-blue;
+        }
+
+        .et_pb_toggle_content {
+            padding: 0 30px 30px;
         }
     }
 
