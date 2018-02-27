@@ -515,6 +515,7 @@
         background-color: $orange !important;
         margin-bottom: 15px;
         @extend .see-more-btn;
+        
         &:hover {
             background-color: $orange-hover !important;
         }

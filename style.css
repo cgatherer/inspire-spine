@@ -1903,8 +1903,13 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   body #page-container .see-more-btn:hover, body #page-container .cta-widget-block .cta-widget-button:hover, .cta-widget-block body #page-container .cta-widget-button:hover {
     color: #ffffff !important;
     padding: 11px 30px !important;
-    border: 2px solid #ef7827 !important;
-    background-color: #ef7827 !important; }
+    border: 2px solid #f39d62 !important;
+    background-color: #f39d62 !important; }
+  body #page-container .see-more-btn:active, body #page-container .cta-widget-block .cta-widget-button:active, .cta-widget-block body #page-container .cta-widget-button:active {
+    color: #ffffff !important;
+    padding: 11px 30px !important;
+    border: 2px solid #dc6e22 !important;
+    background-color: #dc6e22 !important; }
 
 .bkgd {
   max-width: 100% !important;

@@ -588,8 +588,15 @@ body #page-container .see-more-btn {
   &:hover {
     color: $white !important;
     padding: 11px 30px !important;
-    border: 2px solid $orange !important;
-    background-color: $orange !important;
+    border: 2px solid $orange-hover !important;
+    background-color: $orange-hover !important;
+  }
+
+  &:active {
+    color: $white !important;
+    padding: 11px 30px !important;
+    border: 2px solid $orange-active !important;
+    background-color: $orange-active !important;
   }
 }
 .bkgd {
