@@ -2198,7 +2198,7 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   color: #003150; }
 .page-template-page-template-basic h6,
 .page-template-page-template-landing h6 {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
   font-size: 24px;
   font-weight: 500;
@@ -2208,6 +2208,7 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   color: #ef7827; }
 .page-template-page-template-basic .entry-content p,
 .page-template-page-template-landing .entry-content p {
+  margin-bottom: 0px;
   font-family: 'Helvetica Neue LT W01_55 Roman' !important;
   font-size: 16px;
   line-height: 1.5;

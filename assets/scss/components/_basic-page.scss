@@ -150,7 +150,7 @@
     }
 
     h6 {
-        margin-bottom: 15px;
+        margin-bottom: 0px;
         @include H06---orange; 
     }
 
@@ -159,6 +159,7 @@
     }
 
     .entry-content p {
+        margin-bottom: 0px;
         @include P02---grey;
     }
     
