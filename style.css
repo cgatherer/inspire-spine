@@ -2128,7 +2128,14 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     .page-template-page-template-landing .page-accordion .et_pb_toggle_open .et_pb_toggle_title {
       padding: 20px;
       background: #e6e9ee;
-      border-top: solid 2px #009fda; }
+      border-top: solid 2px #009fda;
+      font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #003150; }
       .page-template-page-template-basic .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
       .page-template-page-template-landing .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after {
         float: right;
@@ -2147,7 +2154,14 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     .page-template-page-template-landing .page-accordion .et_pb_toggle_close .et_pb_toggle_title {
       padding: 20px;
       background: #e6e9ee;
-      border-top: solid 2px #009fda; }
+      border-top: solid 2px #009fda;
+      font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #003150; }
       .page-template-page-template-basic .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
       .page-template-page-template-landing .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before {
         display: none; }
