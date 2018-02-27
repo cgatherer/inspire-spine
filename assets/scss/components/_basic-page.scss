@@ -335,7 +335,7 @@
 
 .page-icon-with-list {
     padding: 0px;
-    min-height: 325px;
+    min-height: 340px;
     
     @include atMedium {
         padding: 0 15px;
@@ -343,6 +343,7 @@
 
     @include atXlarge {
         padding: 0px;
+        min-height: 325px;
     }
     .fas {
         margin-bottom: 0px !important;

@@ -2348,13 +2348,14 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 
 .page-icon-with-list {
   padding: 0px;
-  min-height: 325px; }
+  min-height: 340px; }
   @media screen and (min-width: 768px) {
     .page-icon-with-list {
       padding: 0 15px; } }
   @media screen and (min-width: 1200px) {
     .page-icon-with-list {
-      padding: 0px; } }
+      padding: 0px;
+      min-height: 325px; } }
   .page-icon-with-list .fas {
     margin-bottom: 0px !important;
     text-shadow: none; }
