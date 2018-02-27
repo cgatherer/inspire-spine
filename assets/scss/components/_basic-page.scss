@@ -41,6 +41,7 @@
         background-color: $dark-blue;
         .widgettitle {
             color: $teal !important;
+            text-transform: uppercase;
             border-bottom: solid 1px $white;
         }
         li {
@@ -56,6 +57,9 @@
                     font-weight: 800;
                     content: "\f105";
                     color: $mid-blue;
+                }
+                &:hover {
+                    color: $mid-blue !important;
                 }
             }
         }

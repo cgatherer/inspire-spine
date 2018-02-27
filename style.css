@@ -2069,6 +2069,7 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .page-template-page-template-basic .widget_nav_menu .widgettitle,
   .page-template-page-template-landing .widget_nav_menu .widgettitle {
     color: #00c6d5 !important;
+    text-transform: uppercase;
     border-bottom: solid 1px #ffffff; }
   .page-template-page-template-basic .widget_nav_menu li,
   .page-template-page-template-landing .widget_nav_menu li {
@@ -2094,6 +2095,9 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
         font-weight: 800;
         content: "\f105";
         color: #0077ad; }
+      .page-template-page-template-basic .widget_nav_menu li a:hover,
+      .page-template-page-template-landing .widget_nav_menu li a:hover {
+        color: #0077ad !important; }
 @media screen and (min-width: 375px) {
   .page-template-page-template-basic .basic-page-section,
   .page-template-page-template-landing .basic-page-section {
