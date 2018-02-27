@@ -2075,6 +2075,13 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     .page-template-page-template-basic .page-title,
     .page-template-page-template-landing .page-title {
       margin: 175px auto 0; } }
+.page-template-page-template-basic .page-accordion,
+.page-template-page-template-landing .page-accordion {
+  border: none; }
+  .page-template-page-template-basic .page-accordion .et_pb_toggle_open,
+  .page-template-page-template-landing .page-accordion .et_pb_toggle_open {
+    padding: 0px !important;
+    background-color: #fff; }
 .page-template-page-template-basic h3,
 .page-template-page-template-landing h3 {
   margin-bottom: 30px;
