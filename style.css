@@ -2368,8 +2368,7 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
       padding: 0 15px; } }
   @media screen and (min-width: 1200px) {
     .page-icon-with-list {
-      padding: 0px;
-      min-height: 325px; } }
+      padding: 0px; } }
   .page-icon-with-list .fas {
     margin-bottom: 0px !important;
     text-shadow: none; }
