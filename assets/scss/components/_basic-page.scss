@@ -172,6 +172,14 @@
         font-weight: 500 !important;
         font-size: 14px !important;
         @extend .learn-more;
+
+        &:hover {
+            background: rgba($light-blue, .72) !important;
+        }
+
+        &:active {
+           background: rgba($mid-blue, 1) !important; 
+        }
     }
 
     .Rectangle-3 {
