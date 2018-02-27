@@ -746,6 +746,12 @@ input {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff; }
+  .gform_button:hover {
+    border: 1px solid #f39d62 !important;
+    background-color: #f39d62 !important; }
+  .gform_button:active {
+    border: 1px solid #dc6e22 !important;
+    background-color: #dc6e22 !important; }
 
 .gform_wrapper .gform_footer {
   padding: 5px 0 0 0 !important;

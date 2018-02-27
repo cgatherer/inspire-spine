@@ -126,6 +126,16 @@ input {
     background-color: $orange;
     border: solid 1px $orange;
     @include button01---uppercase;
+
+    &:hover {
+        border: 1px solid $orange-hover !important;
+        background-color: $orange-hover !important;
+    }
+
+    &:active {
+        border: 1px solid $orange-active !important;
+        background-color: $orange-active !important;
+    }
 }
 
 .gform_wrapper .gform_footer {
