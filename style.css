@@ -1898,6 +1898,8 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   .page-template-page-template-landing .smallblue:hover,
   .page-template-page-template-landing .bigblue:hover, .page-buttons .small-button:hover, .page-buttons .smallblue:hover, .page-buttons .bigblue:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue:hover {
     color: #ffffff !important;
+    text-shadow: 1px 3px 0 #e6e9ee;
+    border: 2px solid #00c6d5;
     padding: 11px 30px !important;
     border: 2px solid #00c6d5;
     background-color: #ffffff !important; }
@@ -1906,6 +1908,8 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   .page-template-page-template-landing .smallblue:active,
   .page-template-page-template-landing .bigblue:active, .page-buttons .small-button:active, .page-buttons .smallblue:active, .page-buttons .bigblue:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue:active {
     color: #ffffff !important;
+    text-shadow: 1px 3px 0 #e6e9ee;
+    border: 2px solid #00c6d5;
     padding: 11px 30px !important;
     border: 2px solid #00c6d5;
     background-color: #ebebeb !important; }
