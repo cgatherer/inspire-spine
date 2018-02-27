@@ -26,6 +26,16 @@
             margin-bottom: 90px;
             background: $white;
         }
+        
+        a {
+            color: $light-blue;
+            text-decoration: none;
+            &:hover,
+            &:focus {
+                color: $mid-blue;
+                text-decoration: underline;
+            }
+        }
     }
 
     .et_pb_widget .widget {
@@ -156,15 +166,6 @@
 
     ul {
         // min-height: 125px;
-    }
-    a {
-        color: $light-blue;
-        text-decoration: none;
-        &:hover,
-        &:focus {
-            color: $mid-blue;
-            text-decoration: underline;
-        }
     }
 
     .entry-content p {
