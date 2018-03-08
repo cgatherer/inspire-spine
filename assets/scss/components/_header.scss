@@ -412,7 +412,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     }
 
     a {
-      padding: 20px 0;
+      padding: 20px 15px;
       display: block;
       font-size: 21px !important;
       letter-spacing: normal;
@@ -440,7 +440,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       border-top: solid 1px $white;
         
       a {
-        padding: 10px 15px 10px !important;
+        padding: 10px 30px 10px !important;
         border-bottom: solid 1px $mid-blue;
         width: 100%;
         @include Nav02;
