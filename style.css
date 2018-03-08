@@ -1262,10 +1262,8 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
         transition: all .5s ease; }
     .active-has-children .sub-menu {
       display: none;
-      background-color: none;
+      background-color: rgba(0, 49, 80, 0) !important;
       padding: 10px 10px 0; }
-      .active-has-children .sub-menu li {
-        padding: 20px 0; }
       .active-has-children .sub-menu a {
         padding: 10px 0 !important;
         border-bottom: solid 1px #0077ad;
