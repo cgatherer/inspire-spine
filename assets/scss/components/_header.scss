@@ -436,11 +436,11 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       width: 100%;
       display: none;
       background-color: rgba($dark-blue,0) !important;
-      padding: 0px;
+      padding-left: 15px;
       border-top: solid 1px $white;
         
       a {
-        padding: 10px 30px 10px !important;
+        padding: 10px 15px 10px !important;
         border-bottom: solid 1px $mid-blue;
         width: 100%;
         @include Nav02;
