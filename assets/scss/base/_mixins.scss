@@ -506,8 +506,28 @@
   color: $grey;
 }
 
-// Antialiasing mode font rendering
+// Custom
+@mixin P05 {
+  font-family:'Helvetica Neue LT W01_55 Roman' !important;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: $grey;
+}
 
+@mixin H07 {
+  font-family:'Helvetica Neue LT W01_65 Mediu' !important;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: $dark-blue;
+}
+
+// Antialiasing mode font rendering
 @mixin font-smoothing {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

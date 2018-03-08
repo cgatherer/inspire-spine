@@ -81,8 +81,27 @@ h6 {
 }
 
 p {
-    margin: 0 0 $padding/2;
-    // @include P02---white;
+    // margin: 0 0 $padding/2;
+    margin-bottom: 0px !important;
+}
+
+// Custom
+.intro {
+    margin-bottom: 0px !important;
+    pre {
+        padding-bottom: 10px !important;
+        margin-bottom: 20px !important;
+        @include P05;
+    }
+}
+
+.h7 {
+    margin-bottom: 0px !important;
+    pre { 
+        padding-bottom: 10px !important;
+        margin-bottom: 20px !important;
+        @include H07;
+    }
 }
 
 sup,
@@ -98,14 +117,14 @@ sub {
 }
 
 pre {
-    background: #222;
-    color: #fff;
-    display: block;
-    @include P01---18-Roman55-left-grey;
-    margin: 0 0 $padding/2;
-    padding: 10px;
-    word-break: break-all;
-    word-wrap: break-word;
+    // background: #222;
+    // color: #fff;
+    // display: block;
+    // @include P01---18-Roman55-left-grey;
+    // margin: 0 0 $padding/2;
+    // padding: 10px;
+    // word-break: break-all;
+    // word-wrap: break-word;
 }
 
 code {

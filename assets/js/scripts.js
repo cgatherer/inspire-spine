@@ -20,23 +20,18 @@ jQuery(document).ready(function($){
     });
 
     // Change 'hover' to 'click' if you want to
-    $('.menu-item-has-children').on('click', function() {
+    $('.active-has-children').on('click', function() {
+        var parentmenu = $(this);
         var submenu = $(this).children('.sub-menu');
+
         if ( $(submenu).is(':hidden') ) {
-            $(submenu).slideDown(200);
+            // $(parentmenu).addClass('mobile-menu-height');
+            $(submenu).show();
         } else {
-            $(submenu).slideUp(200);
+            // $(parentmenu).removeClass('mobile-menu-height');
+            $(submenu).hide();
         }
     });
-
-    // $('.nav li > .sub-menu').parent().click(function() {
-    //     var submenu = $(this).children('.sub-menu');
-    //     if ( $(submenu).is(':hidden') ) {
-    //         $(submenu).slideDown(200);
-    //     } else {
-    //         $(submenu).slideUp(200);
-    //     }
-    // });
 
     // Sticky Header
     $(window).scroll(function(){

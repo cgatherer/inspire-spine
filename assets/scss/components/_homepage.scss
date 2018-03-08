@@ -271,11 +271,8 @@
   
   h3 {
     text-align: left;
-    @include atSixplus {
+    @include atTiny {
       font-size: 30px;
-    }
-    @include atSmall {
-      font-size: 40px;
     }
   }
 
@@ -346,14 +343,11 @@
 
     @include atTiny {
       top: -100px !important;
-      left: 30px !important;
+      left: 10px !important;
       font-size: 35px !important;
+      width: 100%;
+      text-align: center;
     } 
-
-    @include atSixplus {
-      left: 25px !important;
-      font-size: 35px !important;
-    }
 
     @include atSmall {
       font-size: 59px !important;
@@ -363,13 +357,15 @@
     @include atMedium {
       font-size: 49px !important;
       top: -175px !important;
-      left: 160px !important;
+      width: 100%;
+      text-align: center;
     }
 
     @include atLarge {
       top: 0px !important;
       left: 25px !important;
       font-size: 50px !important;
+      text-align: left;
     }
 
     @include atXlarge {
@@ -389,34 +385,41 @@
         top: 275px !important;
       }
       @include atLarge {
+        text-align: left;
         padding-left: 90px;
         top: 225px !important;
-      }
-      @include atXlarge {
-        padding-left: 0px;
       }
     }
 
     &--button {
       position: absolute !important;
-      width: 100%;
       text-align: center;
+      color: #fff !important;
 
       @include atTiny {
-        top: 285px !important;
-        padding-left: 20px;
+        top: 350px !important;
+        margin-left: 75px;
       }
       @include atSixplus {
-        padding-left: 20px;
+        margin-left: 90px;
+        margin-top: 10px;
       }
       @include atSmall {
-        padding-left: 20px;
+        margin-left: 90px;
+        margin-top: 10px;
       }
       @include atMedium {
-        top: 325px !important;
+        top: 475px !important;
+        margin-left: 260px;
       }
       @include atLarge {
-        top: 275px !important;
+        top: 370px !important;
+        margin-left: 145px !important;
+      }
+      @include atXlarge {
+        position: relative !important;
+        top: 255px !important;
+        margin-left: 110px !important;
       }
     }
   }
@@ -692,11 +695,15 @@ body #page-container .see-more-btn {
 }
 .second-columns {
   @include atTiny {
-    width: 100%; float: left;
+    width: 100%; 
+    float: left;
+    display: inline-block;
   }
 
   @include atMedium {
-    width: 50%; float: left;
+    width: 50%; 
+    float: left;
+    display: inline-block;
   }
 }
 .one-column {

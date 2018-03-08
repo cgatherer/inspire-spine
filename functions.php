@@ -36,9 +36,47 @@ add_action( 'wp_enqueue_scripts', 'divichild_enqueue_styles' );
 //Include custom banner module file.
 // include( get_stylesheet_directory() . '/custom-pb-banner-module.php' );
 
+// for custom menus
+add_filter('nav_menu_css_class', 'normalize_wp_classes', 10, 2);
+
+// for the page menu fallback (wp_list_pages)
+add_filter('page_css_class', 'normalize_wp_classes', 10, 2);
+
+/**
+ * @param  $classes array
+ * @param  $item object
+ * @return array
+ */
+function normalize_wp_classes($classes, $item){
+
+  // old class => new class
+  $replacements = array(
+    'menu-item'              => 'active',
+    'current-menu-item'      => 'active-menu',
+    'current-menu-parent'    => 'active-parent',
+    'current-menu-ancestor'  => 'active-ancestor',
+    'current_page_item'      => 'active-page',
+    'current_page_parent'    => 'active-page-parent',
+    'current_page_ancestor'  => 'active-page-ancestor',
+    'current-page-item'      => 'active-page-item',
+    'current-page-parent'    => 'active-page-parent',
+    'current-page-ancestor'  => 'active-page-ancestor',
+    'menu-item-has-children' => 'active-has-children'
+  );
+
+  // do the replacements above
+  $classes = strtr(implode(',', $classes), $replacements);
+  $classes = explode(',', $classes);
+
+  // remove any classes that are not present in the replacements array,
+  // and return the result
+
+  return array_unique(array_intersect(array_values($replacements), $classes));
+}
+
 //Enqueue ACF field scripts.
 function my_acf_admin_enqueue_scripts() {
- wp_enqueue_script( 'my-acf-script', get_stylesheet_directory() . '/assets/js/acf.js', 'acf-input', '1.0', true );
+    wp_enqueue_script( 'my-acf-script', get_stylesheet_directory() . '/assets/js/acf.js', 'acf-input', '1.0', true );
 }
 add_action('acf/input/admin_enqueue_scripts', 'my_acf_admin_enqueue_scripts');
 
@@ -148,7 +186,7 @@ function my_breadcrumbs() {
                 while ($parent_id) {
                     $page = get_page($parent_id);
                     if ($parent_id != $frontpage_id) {
-                        $breadcrumbs[] = sprintf($link, get_permalink($page->ID)); //, get_the_title($page->ID));
+                        $breadcrumbs[] = sprintf($link, get_permalink($page->ID), get_the_title($page->ID)); //, get_the_title($page->ID));
                     }
                     $parent_id = $page->post_parent;
                 }

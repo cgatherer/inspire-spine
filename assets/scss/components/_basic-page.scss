@@ -48,6 +48,23 @@
         margin-bottom: 18.54%;
     }
 
+    .et_pb_text {
+        display: inline-block;
+        width:100%;
+        
+    }
+
+    .et_pb_space {
+        box-sizing: content-box !important;
+        height: 0px !important;
+        border: none !important;
+        margin-bottom: 4.242% !important;
+    }
+
+    .page-heading {
+        margin-bottom: 0px !important;
+    }
+
     .widget_nav_menu {
         padding: 15px;
         background-color: $dark-blue;
@@ -65,7 +82,7 @@
                 &:after {
                     float: right;
                     font-family: "Font Awesome 5 Free";
-                    font-size: 16px;
+                    font-size: 22px;
                     font-weight: 800;
                     content: "\f105";
                     color: $mid-blue;
@@ -110,9 +127,10 @@
                 @include H04;
                 
                 &:after {
-                    float: right;
+                    position: absolute;
+                    right: 10px;
                     font-family: "Font Awesome 5 Free";
-                    font-size: 18px;
+                    font-size: 22px;
                     font-weight: 800;
                     content: "\f106";
                     color: $mid-blue;
@@ -136,9 +154,10 @@
                 }
 
                 &:after {
-                    float: right;
+                    position: absolute;
+                    right: 10px;
                     font-family: "Font Awesome 5 Free";
-                    font-size: 18px;
+                    font-size: 22px;
                     font-weight: 800;
                     content: "\f107";
                     color: $mid-blue;
@@ -152,25 +171,22 @@
     }
 
     h3 {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         @include H03---dark-blue; 
     }
 
     h4 {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         @include H04; 
     }
 
     h6 {
-        margin-bottom: 0px;
+        margin-bottom: 10px;
         @include H06---orange; 
     }
 
-    ul {
-        // min-height: 125px;
-    }
-
     .entry-content p {
+        margin-bottom: 10px;
         @include P02---grey;
     }
     
@@ -183,11 +199,11 @@
         text-shadow: none;
         max-width: 370px;
         width: 100% !important;
-        padding: 16px 0 !important;
+        padding: 16px 5px !important;
         margin-bottom: 20px;
         text-transform: initial;
         font-weight: 500 !important;
-        font-size: 14px !important;
+        font-size: 16px !important;
         @extend .learn-more;
 
         &:hover {
@@ -195,7 +211,7 @@
             text-shadow: none !important;
             max-width: 370px;
             width: 100% !important;
-            padding: 16px 0 !important;
+            padding: 16px 5px !important;
         }
 
         &:active {
@@ -203,7 +219,7 @@
             text-shadow: none !important;
             max-width: 370px;
             width: 100% !important;
-            padding: 16px 0 !important;
+            padding: 16px 5px !important;
         }
     }
 
@@ -308,6 +324,10 @@
         color: $light-grey;
     }
 
+    .current {
+        color: $dark-blue;
+    }
+
     a {
         color: $orange;
     }
@@ -357,7 +377,8 @@
 
 .page-icon-with-list {
     padding: 0px;
-    min-height: 340px;
+    min-height: 285px;
+    margin-bottom: 0px !important;
     
     @include atMedium {
         padding: 0 15px;
@@ -375,18 +396,23 @@
         max-width: 550px;
         margin: 0 auto;
         text-align: center;
-
-        @include atTiny {
-            min-height: 325px;
-        }
     }
     .small-button, .smallblue, .bigblue {
         font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
-        border-width: 0px !important;
         background: rgba($light-blue, 0) !important;
-        text-shadow: none;
+        border-width: 0px !important;
         box-shadow: none !important;
+        text-shadow: none;
+        padding: 0px !important;
+        margin: 0px !important;
         width: 100%;
+
+        &:hover {
+            background: rgba($light-blue, 0) !important;
+            text-shadow: none !important;
+            padding: 0px !important;
+            margin: 0px !important;
+        }
         
         @include atTiny {
             text-align: center;
@@ -401,10 +427,9 @@
 .page-buttons {
     padding: 0px;
     margin-bottom: 0px !important;
-    // min-height: 325px;
 
     @include atMedium {
-        min-height: 325px;
+        min-height: 235px;
         padding: 0 10px;
         // margin-bottom: 30px !important;
     }
@@ -420,18 +445,19 @@
         text-shadow: none;
         max-width: 370px;
         width: 100% !important;
-        padding: 16px 0 !important;
+        padding: 16px 5px !important;
         margin-bottom: 20px;
+        margin-right: 0px;
         text-transform: initial;
         font-weight: 500 !important;
-        font-size: 14px !important;
+        font-size: 16px !important;
 
         &:hover {
             background: rgba($light-blue, .72) !important;
             text-shadow: none !important;
             max-width: 370px;
             width: 100% !important;
-            padding: 16px 0 !important;
+            padding: 16px 5px !important;
         }
 
         &:active {
@@ -439,7 +465,7 @@
             text-shadow: none !important;
             max-width: 370px;
             width: 100% !important;
-            padding: 16px 0 !important;
+            padding: 16px 5px !important;
         }
     }
 }
@@ -450,6 +476,10 @@
         display: inline-block;
         position: relative;
         width: 100% !important;
+
+        img {
+            width: 100% !important;  
+        }
     }
 }
 
@@ -533,11 +563,12 @@
             }
 
             .small-button, .smallblue, .bigblue {
-                font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
+                font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
                 color: $white !important;
-                border-width: 3px!important;
-                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30) !important;
+                border-width: 3px !important;
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0) !important;
                 background: rgba($dark-blue, 0) !important;
+                box-shadow: none !important;
                 @extend .learn-more;
             }
         }
