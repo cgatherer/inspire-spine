@@ -251,7 +251,7 @@
 				              'sub_menu'    => true,
 				              'show_parent' => true,
 				              'container' => 'ul',
-    						  'menu_class'=> 'nav'
+    						  'menu_class'=> 'active-nav'
 				            )); 
 				        ?>
 			    	</div>
