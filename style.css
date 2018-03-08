@@ -1192,7 +1192,6 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     max-width: 1200px;
     width: 100%; }
   .mobile-nav .active a {
-    padding: 20px 15px;
     font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
     font-size: 18px;
     font-weight: bold;
@@ -1202,6 +1201,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     text-align: left;
     color: #ffffff; }
   .mobile-nav .active:last-child {
+    padding: 20px 15px;
     border-bottom: none; }
     .mobile-nav .active:last-child a {
       font-size: 22px !important;
