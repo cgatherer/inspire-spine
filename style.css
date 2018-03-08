@@ -1223,6 +1223,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       display: block;
       font-size: 21px !important;
       letter-spacing: normal;
+      text-transform: initial;
       font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
       font-size: 18px;
       font-weight: bold;
