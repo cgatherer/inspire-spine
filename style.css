@@ -1261,7 +1261,8 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
         color: #ef7827;
         transition: all .5s ease; }
     .active-has-children .sub-menu {
-      background-color: #003150;
+      display: none;
+      background-color: none;
       padding: 10px 10px 0; }
       .active-has-children .sub-menu li {
         padding: 20px 0; }
