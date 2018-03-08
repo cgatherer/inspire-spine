@@ -393,10 +393,13 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     
     a:last-child {
       &:last-child {
-        padding: 20px 0px 20px 20px !important;
+        padding: 10px 0px 10px 20px !important;
       }
     }
-    
+  }
+
+  li:last-child {
+    padding: 10px 0px 10px 20px !important;
   }
   
   a {
@@ -418,11 +421,15 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       a {
         font-size: 22px !important;
         @include Nav01---uppercase;
+        border-bottom: none;
       }
     }
   }
 }
 
+
+
+.active, 
 .active-has-children {
   @include responsive($small-break) {
     border-bottom: solid 1px $white;
