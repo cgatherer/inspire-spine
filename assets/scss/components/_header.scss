@@ -411,7 +411,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 
   &:last-child {
     @include responsive($small-break) {
-      padding: 20px 0 !important;
+      padding: 0px 20px 20px !important;
       border-bottom: none;
 
       a {
@@ -424,11 +424,10 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 
 .active-has-children {
   @include responsive($small-break) {
-    height: auto !important;
     border-bottom: solid 1px $white;
     
     &:last-child {
-      padding: 0 !important;
+      padding: 20px 0 !important;
       border-bottom: none;
     }
 
@@ -456,7 +455,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       background-color: rgba($dark-blue,0) !important;
       padding:10px 10px 0;
       
-      a{
+      a {
         padding: 10px 0 !important;
         border-bottom: solid 1px $mid-blue;
         width: 100%;
