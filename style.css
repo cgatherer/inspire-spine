@@ -1249,6 +1249,8 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       background-color: rgba(0, 49, 80, 0) !important;
       padding-left: 15px;
       border-top: solid 1px #ffffff; }
+      .mobile-nav .active-has-children .sub-menu li:last-child {
+        padding: 0px; }
       .mobile-nav .active-has-children .sub-menu a {
         padding: 10px 15px 10px !important;
         border-bottom: solid 1px #0077ad;
