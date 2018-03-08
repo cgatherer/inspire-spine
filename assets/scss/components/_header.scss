@@ -324,6 +324,10 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       max-width: 47.8723% !important;
     }
 
+    .nav li ul {
+      position: relative;
+    }
+
     .mobile-phone {
       position: absolute;
       right: 60px;
@@ -366,7 +370,8 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 .mobile-nav {
   position: absolute;
   top: 60px;
-  width: 100%;
+  width: 97%;
+  margin-left: 3%;
   min-height: 350px;
   max-height: 500px;
   padding: 15px;
@@ -467,12 +472,4 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       }
     }
   }
-}
-
-.mobile-menu-height {
-  min-height: 280px;
-}
-
-.menu-main-menu-container {
-  width:100%;
 }
