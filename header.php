@@ -248,8 +248,8 @@
 						<?php
 				            wp_nav_menu( array(
 				              'menu'        => 'Main Menu',
-				              'sub_menu'    => true,
-				              'show_parent' => true,
+				              // 'sub_menu'    => true,
+				              // 'show_parent' => true,
 				              'container' => 'ul',
     						  'menu_class'=> 'nav'
 				            )); 
