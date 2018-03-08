@@ -1192,9 +1192,10 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     max-width: 1200px;
     width: 100%; }
   .mobile-nav .sub-menu {
-    width: 95%; }
+    width: 100%;
+    border-top: solid 1px #ffffff; }
     .mobile-nav .sub-menu a:last-child:last-child {
-      padding: 20px 0 !important; }
+      padding: 20px 0px 20px 20px !important; }
   .mobile-nav a {
     width: 55%;
     font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
@@ -1262,7 +1263,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     .active-has-children .sub-menu {
       display: none;
       background-color: rgba(0, 49, 80, 0) !important;
-      padding: 10px 10px 0; }
+      padding: 0px; }
       .active-has-children .sub-menu a {
         padding: 10px 0 !important;
         border-bottom: solid 1px #0077ad;
