@@ -21,15 +21,14 @@ jQuery(document).ready(function($){
 
     // Change 'hover' to 'click' if you want to
     $('.active-has-children').on('click', function() {
-        var parentmenu = $(this);
         var submenu = $(this).children('.sub-menu');
 
         if ( $(submenu).is(':hidden') ) {
-            // $(parentmenu).addClass('mobile-menu-height');
-            $(submenu).show();
+            // $(submenu).show();
+            $(submenu).slideToggle(200);
         } else {
-            // $(parentmenu).removeClass('mobile-menu-height');
-            $(submenu).hide();
+            // $(submenu).hide();
+            $(submenu).slideToggle(200);
         }
     });
 
