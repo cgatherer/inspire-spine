@@ -1201,7 +1201,6 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     text-align: left;
     color: #ffffff; }
   .mobile-nav .active:last-child {
-    padding: 20px 20px 20px !important;
     border-bottom: none; }
     .mobile-nav .active:last-child a {
       font-size: 22px !important;
@@ -1249,7 +1248,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       padding: 0px;
       border-top: solid 1px #ffffff; }
       .mobile-nav .active-has-children .sub-menu a {
-        padding: 10px 0 !important;
+        padding: 10px 15px 10px !important;
         border-bottom: solid 1px #0077ad;
         width: 100%;
         font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
@@ -1263,10 +1262,6 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
         color: #ffffff; }
         .mobile-nav .active-has-children .sub-menu a:after {
           display: none; }
-      .mobile-nav .active-has-children .sub-menu:last-child {
-        padding: 10px 0px !important; }
-  .mobile-nav li:last-child {
-    padding: 10px 0px 10px 20px !important; }
   .mobile-nav a {
     width: 55%;
     font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;

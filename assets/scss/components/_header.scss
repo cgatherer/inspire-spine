@@ -393,7 +393,6 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     }
 
     &:last-child {
-      padding: 20px 20px 20px !important;
       border-bottom: none;
 
       a {
@@ -440,7 +439,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       border-top: solid 1px $white;
         
       a {
-        padding: 10px 0 !important;
+        padding: 10px 15px 10px !important;
         border-bottom: solid 1px $mid-blue;
         width: 100%;
         @include Nav02;
@@ -449,15 +448,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
           display: none;
         }
       }
-
-      &:last-child {
-        padding: 10px 0px !important;
-      }
     }
-  }
-
-  li:last-child {
-    padding: 10px 0px 10px 20px !important;
   }
   
   a {
