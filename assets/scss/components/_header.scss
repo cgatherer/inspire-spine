@@ -393,71 +393,63 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     }
 
     &:last-child {
-      @include responsive($small-break) {
-        padding: 20px 20px 20px !important;
-        border-bottom: none;
+      padding: 20px 20px 20px !important;
+      border-bottom: none;
 
-        a {
-          font-size: 22px !important;
-          @include Nav01---uppercase;
-          border-bottom: none;
-        }
+      a {
+        font-size: 22px !important;
+        @include Nav01---uppercase;
+        border-bottom: none;
       }
     }
   }
 
   .active-has-children {
-    @include responsive($small-break) {
-      border-bottom: solid 1px $white;
+    border-bottom: solid 1px $white;
       
-      &:last-child {
-        padding: 20px 0 !important;
-        border-bottom: none;
-      }
+    &:last-child {
+      padding: 20px 0 !important;
+      border-bottom: none;
+    }
 
-      a {
-        padding: 20px 0;
-        display: block;
-        font-size: 21px !important;
-        letter-spacing: normal;
-        @include Nav01---uppercase;
+    a {
+      padding: 20px 0;
+      display: block;
+      font-size: 21px !important;
+      letter-spacing: normal;
+      @include Nav01---uppercase;
         
-        &:after {
-          position: relative;
-          top: 0;
-          left: 20px;
-          font-family: "Font Awesome 5 Free";
-          font-size: 16px;
-          font-weight: 800;
-          content: "\f0dd";
-          color: $orange;
-          transition: all .5s ease;
-        }
-      }
-      .sub-menu {
-        display: none;
-        background-color: rgba($dark-blue,0) !important;
-        padding: 0px;
-        
-        a {
-          padding: 10px 0 !important;
-          border-bottom: solid 1px $mid-blue;
-          width: 100%;
-          @include Nav02;
-
-          &:after {
-            display: none;
-          }
-        }
+      &:after {
+        position: relative;
+        top: 0;
+        left: 20px;
+        font-family: "Font Awesome 5 Free";
+        font-size: 16px;
+        font-weight: 800;
+        content: "\f0dd";
+        color: $orange;
+        transition: all .5s ease;
       }
     }
-  }
 
-  .sub-menu {
-    width: 100%;
-    border-top: solid 1px $white;
-    
-    a:last-child {
+    .sub-menu {
+      width: 100%;
+      display: none;
+      background-color: rgba($dark-blue,0) !important;
+      padding: 0px;
+      border-top: solid 1px $white;
+        
+      a {
+        padding: 10px 0 !important;
+        border-bottom: solid 1px $mid-blue;
+        width: 100%;
+        @include Nav02;
+
+        &:after {
+          display: none;
+        }
+      }
+
       &:last-child {
         padding: 10px 0px 10px 20px !important;
       }
