@@ -389,6 +389,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 
   .active {
     a {
+      padding: 20px 15px;
       @include Nav01---uppercase;
     }
 
