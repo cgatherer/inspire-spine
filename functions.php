@@ -142,7 +142,6 @@ function post_to_third_party_2( $entry, $form ) {
 }
 add_action( 'gform_after_submission_2', 'post_to_third_party_2', 10, 2 );
 
-
 // load Breadcrumb php file
 require 'includes/breadcrumb.php';
 
