@@ -12,7 +12,7 @@
 			</div>
 
 			<div id="footer-bottom">
-				<div class="row clearfix">
+				<div class="row clearfix"> 
 					<div class="span12 group margin-center">
 						<div class="span4 footerSection">
 							<?php

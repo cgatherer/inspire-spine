@@ -1,0 +1,100 @@
+/* ==========================================
+    @Archieve Page
+=========================================== */
+
+.post-content {
+    margin-bottom: 30px !important;
+    border-bottom: solid 2px $silver;
+
+    &--container {
+        // padding-left: 15px;
+        padding-bottom: 20px;
+    }
+
+    &--date {
+        color: $dark-blue;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    &--image {
+        // padding-left: 15px;
+        margin-left: 0px !important;
+    }
+
+    &--heading {
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+        @include H04;
+    }
+
+    &--cat {
+        margin-bottom: 10px !important;
+        color: $light-blue !important;
+    }
+
+    &--btn {
+        color: $white !important;
+        font-size: 16px !important;
+        padding: 8px 25px;
+        height: 40px;
+        margin: 30px 0px 0px !important;
+        border-radius: 2px;
+        display: inline-block;
+        background-color: $light-blue;
+    }
+
+    &--text {
+        margin-bottom: 30px;
+        @include P02---grey;
+    }
+
+    &--featured-image {
+        margin-bottom: 20px !important;
+    }
+}
+
+.block-pagination {
+    .current{
+        display: block;
+        height: 44px;
+        width: 44px;
+        color: $white !important;
+        background: $light-blue !important;
+    }
+
+    .page-numbers{
+        display: block;
+        height: 44px;
+        width: 44px;
+        float: left;
+        padding: 10px 15px;
+        color: $light-blue;
+        background: $light-grey;
+        border: solid 1px $silver;
+        text-decoration: none !important;
+    }
+}
+
+.mobile-search {
+    @include atTiny {
+        display: block;
+    }
+
+    @include atMedium {
+        display: none;
+    }
+}
+
+.desktop-search {
+    @include atTiny {
+        display: none;
+    }
+
+    @include atMedium {
+        display: block;
+    }
+}
+

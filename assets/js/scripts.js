@@ -5,6 +5,7 @@ jQuery(document).ready(function($){
 	  // Mobile Nav & Form
     $('.BG').click(function(e) {
         e.preventDefault();
+        $(this).toggleClass('BG--up');
         $('.form-area').slideToggle(500);
     });
 
@@ -20,16 +21,10 @@ jQuery(document).ready(function($){
     });
 
     // Change 'hover' to 'click' if you want to
-    $('.active-has-children').on('click', function() {
+    $('.mobile-container .active-has-children').on('click', function() {
         var submenu = $(this).children('.sub-menu');
-
-        if ( $(submenu).is(':hidden') ) {
-            // $(submenu).show();
-            $(submenu).slideToggle(200);
-        } else {
-            // $(submenu).hide();
-            $(submenu).slideToggle(200);
-        }
+        $(this).toggleClass('active-has-children--up');
+        $(submenu).slideToggle(200);
     });
 
     // Sticky Header

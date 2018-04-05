@@ -16,5 +16,4 @@
 		  	echo do_shortcode($shortcode);
 		?>
 	</div>
-	<!-- Button <div class="BG">Get Your Free Review</div> -->
 </div>

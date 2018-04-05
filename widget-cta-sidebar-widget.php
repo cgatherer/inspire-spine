@@ -21,7 +21,11 @@
 	<p class="cta-widget-desc"><?php the_field('cta_description', $acfw); ?></p>
 	
 	<?php if( get_field('cta_button_title', $acfw) ): ?>
-		<div align="left"><button onclick="<?php the_field('cta_button', $acfw); ?>" class="cta-widget-button"><?php the_field('cta_button_title', $acfw); ?></button></div>
+		<div align="left">
+			<a href="<?php the_field('cta_button', $acfw); ?>">
+				<button class="cta-widget-button"><?php the_field('cta_button_title', $acfw); ?></button>
+			</a>
+		</div>
 	<?php endif; ?>
 		
 	<?php if( have_rows('cta_resources', $acfw) ): ?>
@@ -42,7 +46,11 @@
 				<?php endif; ?>
 
 				<?php if( $button ): ?>
-					<div align="left"><button onclick="<?php echo $button; ?>" class="cta-widget-button"><?php echo $text; ?></button></div>
+					<div align="left">
+						<a href="<?php echo $button; ?>">
+							<button class="cta-widget-button"><?php echo $text; ?></button>
+						</a>
+					</div>
 				<?php endif; ?>
 
 			</div>

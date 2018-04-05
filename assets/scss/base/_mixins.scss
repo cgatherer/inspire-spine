@@ -124,6 +124,7 @@
   font-family: "Font Awesome 5 Free";
   font-size: 64px;
   color: $light-blue;
+  margin-bottom: 1rem;
 }
 
 @mixin icons02 {
@@ -608,7 +609,7 @@
 }
 
 @mixin atLargeMax {
-    @media screen and (max-width: $big-break) {
+    @media screen and (max-width: $big-break) { 
         @content;
     }
 }
@@ -620,7 +621,7 @@
 }
 
 @mixin atXlargeMax {
-    @media screen and (max-width: $max-width) {
+    @media screen and (max-width: $min-max-width) {
         @content;
     }
 }

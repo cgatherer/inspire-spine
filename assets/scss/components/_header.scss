@@ -45,16 +45,44 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 .home {
   #main-header {
     background-color: rgba($dark-blue,0.0);
+    @include atTiny {
+      height: 120px !important;
+    }
+
+    @include atMedium {
+      height: 225px !important;
+    }
+
+    @include atXlarge {
+      height: 180px !important;
+    }
   }
   .fixed-header {
-    height: 160px !important;
+    @include atTiny {
+      height: 120px !important;
+    }
+
+    @include atMedium {
+      height: 225px !important;
+    }
+
+    @include atXlarge {
+      height: 160px !important;
+    }
   }
 }
 
 .main-header {
-  height: 180px;
-  @include responsive($small-break) {
-    height: 120px;
+  @include atTiny {
+    height: 120px !important;
+  }
+
+  @include atMedium {
+    height: 212px !important;
+  }
+
+  @include atXlarge {
+    height: 180px !important;
   }
 }
 
@@ -71,8 +99,17 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   }
 }
 
-#top-menu li.current-menu-ancestor {
+#top-menu li.active-ancestor, 
+#top-menu li.active-page {
   border-bottom: solid 2px $teal;
+}
+
+#top-menu li li.active-page a {
+  color: $teal !important;
+}
+
+#top-menu li li {
+  border-bottom: none !important;
 }
 
 .logo_container {
@@ -95,11 +132,24 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 }
 
 #top-menu {
-  float: left;
+  float: none;
+  text-align: center;
+  margin: 0 auto;
+
+  @include atMedium {
+    display: block;
+  }
+  
+  @include atXlarge {
+    float: left;
+    text-align: left;
+    margin: 0px;
+  }
+
     
   li {
     display: inline-block;
-    padding: 10px 10px 0;
+    padding: 0px 5px 0;
     @include atXlarge {
       padding: 10px 5px 0;
     }
@@ -138,6 +188,10 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       padding-right: 10px !important; 
     }
   }
+}
+
+#et_mobile_nav_menu {
+    display: none !important;
 }
 
 #et-secondary-nav .active-has-children > a:first-child:after, 
@@ -223,13 +277,24 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   &:after {
     position: relative;
     top: 0;
-    left: 20px;
+    left: 10px;
     font-family: "Font Awesome 5 Free";
     font-size: 16px;
     font-weight: 800;
     content: "\f0dd";
     color: $white;
     transition: all .5s ease;
+  }
+
+  &--up:after {
+    position: relative;
+    top: 0;
+    left: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-size: 16px;
+    font-weight: 800;
+    content: "\f0de" !important;
+    color: $white;
   }
 
   &--bottom {
@@ -241,11 +306,38 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     @extend .BG;
     max-width: 330px;
     height: 55px;
-    padding: 20px 0;
+    padding: 21px 0 20px 0;
     margin-bottom: 65px;
     float: none !important;
+    
     &:after {
-      color: $orange;
+      display: none;
+    }
+
+    &:hover {
+      color: $white !important;
+      max-width: 330px;
+      height: 55px;
+      padding: 20px 0 !important;
+      border: 2px solid $orange-hover !important;
+      background-color: $orange-hover !important;
+      text-decoration: none !important;
+      &:after {
+        display: none;
+      }
+    }
+
+    &:active {
+      color: $white !important;
+      max-width: 330px;
+      height: 55px;
+      padding: 20px 0 !important;
+      border: 2px solid $orange-active !important;
+      background-color: $orange-active !important;
+      text-decoration: none !important;
+      &:after {
+        display: none;
+      }
     }
   }
 
@@ -262,8 +354,13 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 .MY-SPINE {
   letter-spacing: normal;
   text-align: center !important;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem !important;
   @include header---phone-CTA;
+  
+  @include atMedium {
+    font-size: 24px !important;
+  }
+
   i {
     padding-left: 20px !important;
     @include responsive($small-break) {
@@ -292,7 +389,66 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     }
     a {
       color: $teal !important;
+      &:hover,
+      &:focus {
+        color: $teal;
+        text-decoration: none !important;
+      }
     }
+  }
+}
+
+// Tablet Menu
+.tablet-container{
+  @include atTiny {
+    display: none;
+  }
+  
+  // Main styling for tablet
+  @include atMedium {
+    display: block;
+
+    .span12 {
+      margin: 0px auto 8px !important;
+      width: 100% !important;
+    }
+
+    .logo_container {
+        padding-left: 0px !important;
+        padding-top: 20px !important;
+    }
+
+    #logo {
+      max-width: 85% !important;
+      padding-top: 0px;
+    }
+
+    .We-make-minimally-in {
+      font-size: 16px !important;
+    }
+
+    .MY-SPINE {
+      font-size: 24px !important;
+      padding-top: 20px;
+    }
+
+    #et-top-navigation {
+      float: none;
+      position: relative;
+      left: 0px;
+      top: 0px;
+      padding: 0px !important;
+    }
+
+    #top-menu-nav {
+      float: none;
+      width: 100%;
+      padding: 15px 0;
+    }
+  }
+
+  @include atXlarge {
+    display: none;
   }
 }
 
@@ -308,11 +464,10 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 }
 
 .mobile-container {
-  display: none;
     
-  @include responsive($small-break) {
+  @include atTiny {
     margin: 0px !important;
-    display: block !important;
+    display: block;
         
     &--height {
       height: 60px;
@@ -364,6 +519,10 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
         text-shadow: none !important;
       }
     }
+  }
+
+  @include atMedium {
+    display: none;
   }
 }
 
@@ -417,7 +576,8 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       display: block;
       font-size: 21px !important;
       letter-spacing: normal;
-      text-transform: initial;
+      text-transform: uppercase !important;
+      text-decoration: none;
       @include Nav01---uppercase;
         
       &:after {
@@ -430,6 +590,22 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
         content: "\f0dd";
         color: $orange;
         transition: all .5s ease;
+      }
+    }
+
+    &--up {
+      a {
+          &:after {
+          position: relative;
+          top: 0;
+          left: 20px;
+          font-family: "Font Awesome 5 Free";
+          font-size: 16px;
+          font-weight: 800;
+          content: "\f0de" !important;
+          color: $orange;
+          transition: all .5s ease;
+        }
       }
     }
 
@@ -450,6 +626,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
         padding: 10px 15px 10px !important;
         border-bottom: solid 1px $mid-blue;
         width: 100%;
+        text-transform: initial !important;
         @include Nav02;
 
         &:after {
@@ -460,7 +637,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   }
   
   a {
-    width: 55%;
+    width: 100%;
     @include Nav01---uppercase;
   }
 }

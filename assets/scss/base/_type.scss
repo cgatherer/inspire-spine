@@ -88,9 +88,20 @@ p {
 // Custom
 .intro {
     margin-bottom: 0px !important;
+    
+    a {
+        color: $light-blue;
+        text-decoration: none;
+        &:hover,
+        &:focus {
+            color: $mid-blue;
+            text-decoration: underline;
+        }
+    }
+
     pre {
-        padding-bottom: 10px !important;
-        margin-bottom: 20px !important;
+        // padding-bottom: 10px !important;
+        // margin-bottom: 20px !important;
         @include P05;
     }
 }
@@ -98,8 +109,8 @@ p {
 .h7 {
     margin-bottom: 0px !important;
     pre { 
-        padding-bottom: 10px !important;
-        margin-bottom: 20px !important;
+        // padding-bottom: 10px !important;
+        // margin-bottom: 20px !important;
         @include H07;
     }
 }
@@ -117,14 +128,7 @@ sub {
 }
 
 pre {
-    // background: #222;
-    // color: #fff;
-    // display: block;
-    // @include P01---18-Roman55-left-grey;
-    // margin: 0 0 $padding/2;
-    // padding: 10px;
-    // word-break: break-all;
-    // word-wrap: break-word;
+
 }
 
 code {
@@ -143,6 +147,7 @@ a {
     &:hover,
     &:focus {
         color: $mid-blue;
+        text-decoration: underline;
     }
 }
 
