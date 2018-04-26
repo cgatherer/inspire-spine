@@ -24,7 +24,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 						$classes = get_body_class(); 
 
 						if (in_array('date',$classes)){
-							echo "<div class='results'><p>Blog Archive Results: “";
+							echo "<div class='results'><p>Newsroom Archive Results: “";
 								 echo get_the_date('F Y');
 							echo "”</p></div>";
 						}
