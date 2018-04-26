@@ -28,9 +28,9 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 							$termlinks = get_term_link($term);
 
 							if (in_array('date',$classes) && in_array($term->slug,$classes)){
-								// echo "<div class='results'><p>Newsroom Archive Results: “";
-								// 	 echo get_the_date('F Y');
-								// echo "”</p></div>";
+								echo "<div class='results'><p>Newsroom Archive Results: “";
+									 echo get_the_date('F Y');
+								echo "”</p></div>";
 							} else {
 								// echo "<div class='results'><p>Newsroom Archive Results: “";
 								//  	echo $term->name;
