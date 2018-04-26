@@ -21,7 +21,13 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 					<?php if ( function_exists('my_breadcrumbs') ) my_breadcrumbs(); ?>
 
 					<?php 
-						// $classes = get_body_class(); 
+						$classes = get_body_class(); 
+
+						if (in_array('date',$classes)){
+							echo "<div class='results'><p>Newsroom Archive Results: “";
+									echo get_the_date('F Y');
+							echo "”</p></div>";
+						} 
 						// $terms = get_the_terms( $post->ID, 'newsroom_post_category' );
 
 						// foreach($terms as $term) {
