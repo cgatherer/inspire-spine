@@ -23,7 +23,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 					<?php 
 						$classes = get_body_class(); 
 
-						if (in_array('date',$classes)){
+						if (in_array('date',$classes) && in_array('term-press-releases',$classes)){
 							echo "<div class='results'><p>Newsroom Archive Results: “";
 								 echo get_the_date('F Y');
 							echo "”</p></div>";
