@@ -21,30 +21,30 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 					<?php if ( function_exists('my_breadcrumbs') ) my_breadcrumbs(); ?>
 
 					<?php 
-						$classes = get_body_class(); 
-						$terms = get_the_terms( $post->ID, 'newsroom_post_category' );
+						// $classes = get_body_class(); 
+						// $terms = get_the_terms( $post->ID, 'newsroom_post_category' );
 
-						foreach($terms as $term) {
-							$termlinks = get_term_link($term);
+						// foreach($terms as $term) {
+						// 	$termlinks = get_term_link($term);
 
-							if (in_array('date',$classes) && in_array('term-press-releases',$classes)){
-								echo "<div class='results'><p>Newsroom Archive Results: “";
-									 echo get_the_date('F Y');
-								echo "”</p></div>";
-							} 
+						// 	if (in_array('date',$classes) && in_array('term-press-releases',$classes)){
+						// 		echo "<div class='results'><p>Newsroom Archive Results: “";
+						// 			 echo get_the_date('F Y');
+						// 		echo "”</p></div>";
+						// 	} 
 
-							if (in_array('date',$classes) && in_array('term-events',$classes)){
-								echo "<div class='results'><p>Newsroom Archive Results: “";
-									 echo get_the_date('F Y');
-								echo "”</p></div>";
-							} 
+						// 	if (in_array('date',$classes) && in_array('term-events',$classes)){
+						// 		echo "<div class='results'><p>Newsroom Archive Results: “";
+						// 			 echo get_the_date('F Y');
+						// 		echo "”</p></div>";
+						// 	} 
 
-							if (in_array('date',$classes) && in_array('term-in-the-news',$classes)){
-								echo "<div class='results'><p>Newsroom Archive Results: “";
-									 echo get_the_date('F Y');
-								echo "”</p></div>";
-							} 
-						}
+						// 	if (in_array('date',$classes) && in_array('term-in-the-news',$classes)){
+						// 		echo "<div class='results'><p>Newsroom Archive Results: “";
+						// 			 echo get_the_date('F Y');
+						// 		echo "”</p></div>";
+						// 	} 
+						// }
 
 						// if (in_array('term-press-releases',$classes)){
 						// 	$terms = get_the_terms( $post->ID, 'newsroom_post_category' );
