@@ -3572,25 +3572,16 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 .date #main-content,
 .category #main-content,
 .search-results #main-content,
-.term-press-releases #main-content,
-.term-events #main-content,
-.term-in-the-news #main-content,
 .tax-newsroom_categories #main-content {
   background-color: rgba(255, 255, 255, 0) !important; }
 .date .page-title--heading,
 .category .page-title--heading,
 .search-results .page-title--heading,
-.term-press-releases .page-title--heading,
-.term-events .page-title--heading,
-.term-in-the-news .page-title--heading,
 .tax-newsroom_categories .page-title--heading {
   margin-bottom: 0px !important; }
 .date .et_pb_section,
 .category .et_pb_section,
 .search-results .et_pb_section,
-.term-press-releases .et_pb_section,
-.term-events .et_pb_section,
-.term-in-the-news .et_pb_section,
 .tax-newsroom_categories .et_pb_section {
   top: -35px !important;
   padding-top: 75px !important; }
@@ -3598,17 +3589,11 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     .date .et_pb_section:before,
     .category .et_pb_section:before,
     .search-results .et_pb_section:before,
-    .term-press-releases .et_pb_section:before,
-    .term-events .et_pb_section:before,
-    .term-in-the-news .et_pb_section:before,
     .tax-newsroom_categories .et_pb_section:before {
       width: 100%; } }
 .date .widgettitle,
 .category .widgettitle,
 .search-results .widgettitle,
-.term-press-releases .widgettitle,
-.term-events .widgettitle,
-.term-in-the-news .widgettitle,
 .tax-newsroom_categories .widgettitle {
   color: #003150;
   font-size: 16px;
