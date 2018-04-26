@@ -22,7 +22,8 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 
 				<div class="entry-content">
 					
-					<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#"><a href="<?php echo home_url('/');?>" rel="v:url" property="v:title">Home</a> <span class="delimiter">|</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="<?php echo home_url('/about');?>">About Us</a></span> <span class="delimiter">|</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="<?php echo home_url('/about/newsroom');?>">Newsroom</a></span> <span class="delimiter">|</span><?php $classes = get_body_class(); if (in_array('term-84',$classes)) { ?><span class="current">In The News</span><?php } ?><?php $classes = get_body_class(); if (in_array('term-82',$classes)) { ?><span class="current">Events</span><?php } ?><?php $classes = get_body_class(); if (in_array('term-83',$classes)) { ?><span class="current">Press Releases</span><?php } ?></div>
+					<!-- <div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#"><a href="<?php echo home_url('/');?>" rel="v:url" property="v:title">Home</a> <span class="delimiter">|</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="<?php echo home_url('/about');?>">About Us</a></span> <span class="delimiter">|</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="<?php echo home_url('/about/newsroom');?>">Newsroom</a></span> <span class="delimiter">|</span><?php $classes = get_body_class(); if (in_array('term-84',$classes)) { ?><span class="current">In The News</span><?php } ?><?php $classes = get_body_class(); if (in_array('term-82',$classes)) { ?><span class="current">Events</span><?php } ?><?php $classes = get_body_class(); if (in_array('term-83',$classes)) { ?><span class="current">Press Releases</span><?php } ?></div> -->
+					<?php if ( function_exists('my_breadcrumbs') ) my_breadcrumbs(); ?>
 
 					<?php  
 						$terms = get_the_terms( $post->ID, 'newsroom_post_category' );
@@ -30,7 +31,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 						foreach($terms as $term) {
 							$termlinks = get_term_link($term);
 								echo "<div class='results'><p>Newsroom Archive Results: “";
-									echo echo $term->name;
+									echo $term->name;
 								echo "”</p></div>";
 						} 
 					?>
