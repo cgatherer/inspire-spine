@@ -31,38 +31,42 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 								echo "<div class='results'><p>Newsroom Archive Results: “";
 									 echo get_the_date('F Y');
 								echo "”</p></div>";
-							} 
-						}
-
-						if (in_array('term-press-releases',$classes)){
-							$terms = get_the_terms( $post->ID, 'newsroom_post_category' );
-							foreach($terms as $term) {
-								$termlinks = get_term_link($term);
-								echo "<div class='results'><p>Newsroom Archive Results: “";
-							 		echo $term->name;
-								echo "”</p></div>";
+							} else {
+								// echo "<div class='results'><p>Newsroom Archive Results: “";
+								//  	echo $term->name;
+								// echo "”</p></div>";
 							}
 						}
 
-						if (in_array('term-events',$classes)){
-							$terms = get_the_terms( $post->ID, 'newsroom_post_category' );
-							foreach($terms as $term) {
-								$termlinks = get_term_link($term);
-								echo "<div class='results'><p>Newsroom Archive Results: “";
-							 		echo $term->name;
-								echo "”</p></div>";
-							}
-						}
+						// if (in_array('term-press-releases',$classes)){
+						// 	$terms = get_the_terms( $post->ID, 'newsroom_post_category' );
+						// 	foreach($terms as $term) {
+						// 		$termlinks = get_term_link($term);
+						// 		echo "<div class='results'><p>Newsroom Archive Results: “";
+						// 	 		echo $term->name;
+						// 		echo "”</p></div>";
+						// 	}
+						// }
 
-						if (in_array('term-in-the-news',$classes)){
-							$terms = get_the_terms( $post->ID, 'newsroom_post_category' );
-							foreach($terms as $term) {
-								$termlinks = get_term_link($term);
-								echo "<div class='results'><p>Newsroom Archive Results: “";
-							 		echo $term->name;
-								echo "”</p></div>";
-							}
-						}
+						// if (in_array('term-events',$classes)){
+						// 	$terms = get_the_terms( $post->ID, 'newsroom_post_category' );
+						// 	foreach($terms as $term) {
+						// 		$termlinks = get_term_link($term);
+						// 		echo "<div class='results'><p>Newsroom Archive Results: “";
+						// 	 		echo $term->name;
+						// 		echo "”</p></div>";
+						// 	}
+						// }
+
+						// if (in_array('term-in-the-news',$classes)){
+						// 	$terms = get_the_terms( $post->ID, 'newsroom_post_category' );
+						// 	foreach($terms as $term) {
+						// 		$termlinks = get_term_link($term);
+						// 		echo "<div class='results'><p>Newsroom Archive Results: “";
+						// 	 		echo $term->name;
+						// 		echo "”</p></div>";
+						// 	}
+						// }
 					?>
 
 					<div class="et_pb_section" style="background-color: rgba(255, 255, 255, 0);">
