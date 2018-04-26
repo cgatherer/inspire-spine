@@ -1,6 +1,6 @@
 <?php
  
-get_header();
+get_header(); 
 
 $show_default_title = get_post_meta( get_the_ID(), '_et_pb_show_title', true );
 
@@ -14,7 +14,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 			<div class="page-title span12 group">
 				<div>
 					<h1 class="page-title--heading">Blog</h1>
-				</div>
+				</div> 
 			</div>
 		<?php elseif ( is_singular('newsrooms')) : ?>
 			<div class="page-title span12 group">
@@ -31,7 +31,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 		<?php endif; ?>
 
 		<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
-			<a href="<?php echo home_url('/');?>" rel="v:url" property="v:title">Home</a> <span class="delimiter">|</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="<?php echo home_url('/about');?>">About Us</a></span> <span class="delimiter">|</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="<?php echo home_url('/about/blog');?>">Blog</a></span> <span class="delimiter">|</span> <span class="current"><?php echo substr(the_title('', '', FALSE), 0, 40); ?></span>
+			<a href="<?php echo home_url('/');?>" rel="v:url" property="v:title">Home</a> <span class="delimiter">|</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="<?php echo home_url('/about');?>">About Us</a></span> <span class="delimiter">|</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="<?php echo home_url('/about/blog');?>">Blog</a></span> <span class="delimiter">|</span> <span class="current"><?php echo the_title(); ?></span>
 		</div>
 
 		<?php 
@@ -64,23 +64,14 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 
 												for ($j=0; $j < $i; $j++) {
 													$string .= " ";
-													$string .= $haystack[$j]->slug;
+													$string .= $haystack[$j]->name;
 												}
 																						
 												$link = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'large', false );										
 												$theCat = wp_get_post_categories($post->ID);
-
-												$post_title = get_the_title();
-												$post_title = explode(' ', $post_title);
-												$title = '';
-																							
-												for ($i=0; $i < 5 ; $i++) {
-													$title .= $post_title[$i];
-													$title .= ($i == 50) ? "..." : " ";
-												}
 											?>
 											
-											<h3 class="post-content--heading"><?php echo $title;?></h3>
+											<h3 class="post-content--heading"><?php echo the_title();?></h3>
 											<p class="post-content--date"><?php echo get_the_date('d M Y'); ?></p>
 											<div class="sharethis-inline-share-buttons"></div>
 											<p class="post-content--btn"><?php echo $string;?></p>
@@ -97,6 +88,8 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 										<?php
 											do_action( 'et_before_content' ); the_content(); wp_link_pages( array( 'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'Divi' ), 'after' => '</div>' ) );
 										?>
+
+										<div class="post-content--tags margin-top"><?php the_tags( '<ul><li>', '</li><li>', '</li></ul>' ); ?></div>
 									</div>
 
 									<div class="et_pb_column et_pb_column_1_3  et_pb_column_1 et_pb_css_mix_blend_mode_passthrough et-last-child">

@@ -5,15 +5,19 @@
 .category,
 .page-template-page-template-basic, 
 .page-template-page-template-landing,
-.page-template-archive-newsroom,
-.newsroom-template-default,
+.page-template-archive-newsroom_post,
+.post-type-archive-newsroom_post,
+.newsroom_post-template-default,
 .tax-newsroom_categories,
 .page-template-category,
 .page-template-archives,
 .page-template-archives-blog,
 .post-template-default,
-.single-newsroom,
-.search-results { 
+.single-newsroom_post,
+.search-results,
+.error404,
+.date,
+.tag { 
     #main-header {
         top: 0px !important;
         padding-top: 30px; 
@@ -70,6 +74,10 @@
     .widget_search {
         margin-bottom: 18.54%;
 
+        @include atSmallMax {
+            margin-bottom: 8%;
+        }
+
         .searchform {
             font-style: italic;
             font-size: 14px;
@@ -98,7 +106,7 @@
                 display: inline-block;
                 font-size: 16px;
                 padding: 10px 25px;
-                margin: 0 10px 20px 0;
+                margin: 0 6px 20px 0;
                 border-radius: 2px;
                 border: solid 1px $silver;
 
@@ -126,14 +134,26 @@
         }
 
         select {
+            font-family: 'Helvetica Neue LT W01_55 Roman' !important;
             font-style: italic;
             font-size: 14px;
             margin-top: 20px;
             height: 40px;
             width: 100%;
             border: 1px solid $silver !important;
-            color: $silver !important;
+            color: $grey !important;
         }
+    }
+
+    .widget_search #searchsubmit {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 70px;
+        color: $white !important;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        background-color: $orange !important;
     }
 
     .et_pb_widget_area .widget {
@@ -221,7 +241,7 @@
 
         &--heading {
             width: 100%;
-            height: 60px;
+            height: auto;
             background: $teal;
             text-align: left !important;
             letter-spacing: normal;
@@ -236,6 +256,11 @@
             @include atMedium {
                 font-size: 45px !important;
                 padding: 8px 10px;
+            }
+
+            @include atSmallMax {
+                margin-bottom: 0px;
+                margin-top: 5px;
             }
         }
     }
@@ -387,7 +412,8 @@
     }
 }
 
-.page-template-archive-newsroom {
+.page-template-archive-newsroom_post,
+.post-type-archive-newsroom_post {
     #main-content {
         background-color: rgba(255, 255, 255, 0) !important;
     }
@@ -401,17 +427,23 @@
     }
 
     .widgettitle {
+        font-family:"Helvetica Neue LT W01_65 Mediu" !important;
         color: $dark-blue;
         font-size: 16px;
-        font-weight: bold;
+        font-weight: 300;
         margin-bottom: 0px;
         text-transform: uppercase;
         border-bottom: solid 2px $silver;
     }
 }
 
-.archive,
-.search-results {
+.date,
+.category,
+.search-results,
+.term-press-releases,
+.term-events,
+.term-in-the-news,
+.tax-newsroom_categories {
     #main-content {
         background-color: rgba(255, 255, 255, 0) !important;
     }
@@ -450,17 +482,20 @@
     }
 
     .widgettitle {
+        font-family:"Helvetica Neue LT W01_65 Mediu" !important;
         color: $dark-blue;
         font-size: 16px;
-        font-weight: bold;
+        font-weight: 300;
         margin-bottom: 0px;
         text-transform: uppercase;
         border-bottom: solid 2px $silver;
     }
 }
 
+.archive,
+.error404,
 .post-template-default,
-.newsroom-template-default,
+.newsroom_post-template-default,
 .page-template-archives-blog {
     #main-content {
         background-color: rgba(255, 255, 255, 0) !important;
@@ -483,9 +518,10 @@
     }
 
     .widgettitle {
+        font-family:"Helvetica Neue LT W01_65 Mediu" !important;
         color: $dark-blue;
         font-size: 16px;
-        font-weight: bold;
+        font-weight: 300;
         margin-bottom: 0px;
         text-transform: uppercase;
         border-bottom: solid 2px $silver;
@@ -553,13 +589,9 @@
     margin: 0 auto 20px;
     z-index: 1;
 
-    // @include atTiny {
-    //     padding: 5px 0 5px 15px;
-    // }
-
-    // @include atXlarge {
-    //     padding: 5px 0;
-    // }
+    @include atSmallMax {
+        padding: 0 15px;
+    }
 }
 
 .basic-page-bkgd {
@@ -593,7 +625,7 @@
     &--heading {
         font-size: 50px;
         width: 350px;
-        @extend .Keyhole-Surgery-make;
+        @extend .keyhole-surgery-heading;
     }
 
     &--desc {
@@ -606,7 +638,6 @@
 
 .page-icon-with-list {
     padding: 0px;
-    min-height: 285px;
     margin-bottom: 0px !important;
     
     @include atMedium {
@@ -616,13 +647,19 @@
     @include atXlarge {
         padding: 0px;
     }
+
+    h6 {
+        padding-bottom: 0px !important;
+    }
+
     .fas {
         text-shadow: none;
     }
     .et_pb_blurb_content {
         position: relative;
+        width: 100%;
         max-width: 550px;
-        margin: 0 auto;
+        margin: 0;
         text-align: center;
     }
     .small-button, .smallblue, .bigblue {
@@ -658,8 +695,8 @@
     margin-bottom: 0px !important;
 
     @include atMedium {
-        min-height: 235px;
         padding: 0 10px;
+        // min-height: 235px;
         // margin-bottom: 30px !important;
     }
     @include atXlarge {
@@ -778,7 +815,7 @@
             }
 
             .et_pb_module_header {
-                @extend .Keyhole-Surgery-make;
+                @extend .keyhole-surgery-heading;
 
                 @include atTiny {
                     font-size: 44px !important;
@@ -1061,6 +1098,14 @@
         p {
             display: inline;
             @include P04---Caption-Breadcrumbs;
+            
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        strong {
+            display: none;
         }
     }
 }

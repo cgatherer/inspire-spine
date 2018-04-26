@@ -6,12 +6,12 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 
 ?>
 
-<div id="main-content">
+<div id="main-content" class="<?php $terms = get_the_terms( $post->ID, 'newsroom_post_category' ); foreach($terms as $term) {echo $term->name;}?>">
 	<div style="width:100%">
 			
 			<div class="page-title span12 group">
 				<div>
-					<h1 class="page-title--heading">Newsroom Taxonomy-newsroom-category</h1>
+					<h1 class="page-title--heading">Newsroom Tax_newsroom_Post</h1>
 				</div>
 			</div>
 
@@ -19,7 +19,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 
 				<div class="entry-content">
 					
-					<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#"><a href="<?php echo home_url('/');?>" rel="v:url" property="v:title">Home</a> <span class="delimiter">|</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="<?php echo home_url('/about');?>">About Us</a></span> <span class="delimiter">|</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="<?php echo home_url('/about/newsroom');?>">Newsroom</a></span> <span class="delimiter">|</span><?php $classes = get_body_class(); if (in_array('term-82',$classes)) { ?><span class="current">In The News</span><?php } ?><?php $classes = get_body_class(); if (in_array('term-80',$classes)) { ?><span class="current">Events</span><?php } ?><?php $classes = get_body_class(); if (in_array('term-81',$classes)) { ?><span class="current">Press Releases</span><?php } ?></div>
+					<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#"><a href="<?php echo home_url('/');?>" rel="v:url" property="v:title">Home</a> <span class="delimiter">|</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="<?php echo home_url('/about');?>">About Us</a></span> <span class="delimiter">|</span> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="<?php echo home_url('/about/newsroom');?>">Newsroom</a></span> <span class="delimiter">|</span><?php $classes = get_body_class(); if (in_array('term-84',$classes)) { ?><span class="current">In The News</span><?php } ?><?php $classes = get_body_class(); if (in_array('term-82',$classes)) { ?><span class="current">Events</span><?php } ?><?php $classes = get_body_class(); if (in_array('term-83',$classes)) { ?><span class="current">Press Releases</span><?php } ?></div>
 
 					<div class="results"><p>Newsroom Results in Category: "<?php $classes = get_body_class(); if (in_array('term-82',$classes)) { ?>In The News<?php } ?><?php $classes = get_body_class(); if (in_array('term-80',$classes)) { ?>Events<?php } ?><?php $classes = get_body_class(); if (in_array('term-81',$classes)) { ?>Press Releases<?php } ?>"</p></div>
 
@@ -28,12 +28,50 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 							<div class="et_pb_column et_pb_column_2_3  et_pb_column_0 et_pb_css_mix_blend_mode_passthrough">
 
 								<?php $classes = get_body_class();
+										if (in_array('term-83',$classes)) { ?>
+												
+											<?php 
+												$args_two = array( 
+													'posts_per_page' => 10, 
+													'post_type' => 'newsroom',  
+													'tax_query' => array(
+												        array(
+										                    'taxonomy' => 'newsroom_post_category',
+										                    'field' => 'term_id', 
+										                    'terms' => '83' //Term ID or Slug Name
+										                ),
+												    ),
+													'order'   => 'DESC',
+													'paged' => $paged
+												);
+
+												$query = new WP_Query($args_two);
+													if ( $query->have_posts() ) {
+														while ( $query->have_posts () ): $query->the_post(); 
+															echo get_template_part( 'content', 'newsroom' );
+														endwhile; 
+													} else {
+														echo "<h6 style='text-align:center;'>something went wrong!</h6>";
+													}
+												wp_reset_postdata();
+											?>
+										
+								<?php } ?>
+
+								<?php $classes = get_body_class();
 										if (in_array('term-82',$classes)) { ?>
 												
-											<?php  
+											<?php 
 												$args_two = array( 
 													'posts_per_page' => 10, 
 													'post_type' => 'newsroom',  
+													'tax_query' => array(
+												        array(
+										                    'taxonomy' => 'newsroom_post_category',
+										                    'field' => 'term_id', 
+										                    'terms' => '82' //Term ID or Slug Name
+										                ),
+												    ),
 													'order'   => 'DESC',
 													'paged' => $paged
 												);
@@ -52,36 +90,19 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 								<?php } ?>
 
 								<?php $classes = get_body_class();
-										if (in_array('term-80',$classes)) { ?>
+										if (in_array('term-84',$classes)) { ?>
 												
 											<?php 
 												$args_two = array( 
 													'posts_per_page' => 10, 
 													'post_type' => 'newsroom',  
-													'order'   => 'DESC',
-													'paged' => $paged
-												);
-
-												$query = new WP_Query($args_two);
-													if ( $query->have_posts() ) {
-														while ( $query->have_posts () ): $query->the_post(); 
-															echo get_template_part( 'content', 'newsroom' );
-														endwhile; 
-													} else {
-														echo "<h6 style='text-align:center;'>something went wrong!</h6>";
-													}
-												wp_reset_postdata();
-											?>
-										
-								<?php } ?>
-
-								<?php $classes = get_body_class();
-										if (in_array('term-81',$classes)) { ?>
-												
-											<?php 
-												$args_two = array( 
-													'posts_per_page' => 10, 
-													'post_type' => 'newsroom',  
+													'tax_query' => array(
+												        array(
+										                    'taxonomy' => 'newsroom_post_category',
+										                    'field' => 'term_id', 
+										                    'terms' => '84' //Term ID or Slug Name
+										                ),
+												    ),
 													'order'   => 'DESC',
 													'paged' => $paged
 												);

@@ -521,7 +521,7 @@ h4 {
   font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
   font-size: 30px;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.35;
   letter-spacing: 1px;
   text-align: left;
   color: #003150; }
@@ -566,6 +566,7 @@ p {
 .h7 {
   margin-bottom: 0px !important; }
   .h7 pre {
+    margin-bottom: 0px !important;
     font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
     font-size: 20px;
     font-weight: 500;
@@ -727,6 +728,7 @@ input {
   width: 100%;
   height: 40px;
   border-radius: 2px;
+  color: #444 !important;
   background-color: #ffffff;
   border: solid 1px #bdc1c9;
   font-family: 'Helvetica Neue LT W01_55 Roman' !important;
@@ -741,7 +743,8 @@ input {
 
 .gform_wrapper {
   margin: 0 !important;
-  max-width: 100%; }
+  max-width: 100%;
+  display: block !important; }
 
 .gform_wrapper ul.gform_fields li.gfield {
   padding: 0 16px !important; }
@@ -876,7 +879,8 @@ select:focus {
     .form-area--mobile .gform_button {
       border-radius: 2px !important;
       max-width: 100% !important;
-      margin-bottom: 0px !important; }
+      margin-bottom: 0px !important;
+      color: #ffffff !important; }
 
 .form-field {
   font-family: 'Helvetica Neue LT W01_55 Roman' !important;
@@ -885,8 +889,14 @@ select:focus {
   line-height: 1.5;
   text-align: left;
   color: #bdc1c9; }
+  .form-field input {
+    font-style: italic !important; }
   .form-field--dropdown select {
-    height: 40px !important; }
+    color: #666 !important;
+    font-style: italic !important;
+    font-size: 14px !important;
+    height: 40px !important;
+    width: 100% !important; }
 
 .footer-form_wrapper label {
   display: none !important; }
@@ -900,7 +910,8 @@ select:focus {
 .footer-form_wrapper .gform_button {
   max-width: 110px !important;
   width: 100% !important;
-  height: 44px !important; }
+  height: 44px !important;
+  color: #ffffff !important; }
 
 /* ==========================================
     @Header 
@@ -1103,7 +1114,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   top: 0;
   /* width: 100%; */ }
 
-.We-make-minimally-in {
+.site-description {
   padding: 20px 0;
   margin: 0px;
   font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
@@ -1113,33 +1124,13 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   text-align: left;
   color: #ffffff; }
   @media screen and (min-width: 1200px) {
-    .We-make-minimally-in {
+    .site-description {
       position: relative;
       left: 45px; } }
   @media screen and (min-width: 1280px) {
-    .We-make-minimally-in {
+    .site-description {
       position: relative;
       left: 0px; } }
-
-.INSPIRED-SPINE-PATIE {
-  font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 1px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff; }
-
-.Rosie-E {
-  font-family: "Helvetica Neue LT W01_71488914" !important;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.11;
-  letter-spacing: 1px;
-  text-align: left;
-  text-transform: uppercase;
-  color: #ffffff; }
 
 .header-phone {
   position: relative;
@@ -1394,6 +1385,10 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       text-align: left;
       color: #ffffff;
       border-bottom: none; }
+  .mobile-nav .active-page a {
+    color: #00c6d5 !important; }
+  .mobile-nav .active-parent a {
+    background-color: #00c6d5; }
   .mobile-nav .active-has-children {
     border-bottom: solid 1px #ffffff; }
     .mobile-nav .active-has-children:last-child {
@@ -1443,10 +1438,11 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       .mobile-nav .active-has-children .sub-menu li:last-child {
         padding: 0px; }
       .mobile-nav .active-has-children .sub-menu a {
+        width: 100%;
         padding: 10px 15px 10px !important;
         border-bottom: solid 1px #0077ad;
-        width: 100%;
         text-transform: initial !important;
+        background: none;
         font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
         font-size: 18px;
         font-weight: 500;
@@ -1472,292 +1468,8 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 /* ==========================================
     @Homepage
 =========================================== */
-.Rosie-E {
-  width: 86px;
-  height: 20px;
-  font-family: "Helvetica Neue LT W01_71488914" !important;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.11;
-  letter-spacing: 1px;
-  text-align: left;
-  text-transform: uppercase;
-  color: #ffffff; }
-
-.INSPIRED-SPINE-PATIE {
-  width: 195px;
-  height: 16px;
-  font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 1px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff; }
-
-.Easier-Treatment-Fa {
-  width: 657px;
-  height: 40px;
-  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
-  font-size: 45px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-align: center;
-  color: #003150; }
-
-.Stop-back-pain-easil {
-  font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 1.17;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: #003150; }
-  .Stop-back-pain-easil .text-style-1 {
-    color: #3498db; }
-
-.Routinely-Outpatient {
-  width: 105px;
-  height: 40px;
-  font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.25;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: #003150; }
-
-.LESS-THAN-DIME-SIZE {
-  width: 158px;
-  height: 40px;
-  font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.25;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: #003150; }
-
-.Shorter-Procedures {
-  width: 116px;
-  height: 40px;
-  font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.25;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: #003150; }
-
-.Faster-Recovery {
-  width: 91px;
-  height: 40px;
-  font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.25;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: #003150; }
-
-.---fas-fa-home {
-  width: 72px;
-  height: 64px;
-  text-shadow: 1px 3px 0 #e6e9ee;
-  font-family: "Font Awesome 5 Free";
-  font-size: 64px;
-  color: #009fda;
-  margin-bottom: 1rem; }
-
-.---fas-fa-search {
-  width: 64px;
-  height: 64px;
-  text-shadow: 1px 3px 0 #e6e9ee;
-  font-family: "Font Awesome 5 Free";
-  font-size: 64px;
-  color: #009fda;
-  margin-bottom: 1rem; }
-
-.-copy {
-  width: 40px;
-  height: 64px;
-  text-shadow: 1px 3px 0 #e6e9ee;
-  font-family: "Font Awesome 5 Free";
-  font-size: 64px;
-  color: #009fda;
-  margin-bottom: 1rem; }
-
-.layer {
-  width: 64px;
-  height: 64px;
-  text-shadow: 1px 3px 0 #e6e9ee;
-  font-family: "Font Awesome 5 Free";
-  font-size: 64px;
-  color: #009fda;
-  margin-bottom: 1rem; }
-
-.Keyhole-Surgery-make, .basic-page-bkgd--heading, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .et_pb_module_header {
-  text-shadow: 2px 2px 2px rgba(0, 49, 80, 0.1);
-  margin: 0px auto !important;
-  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 1;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: #ffffff; }
-
-.When-conservative-th {
-  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  color: #ffffff; }
-
-.Conditions {
-  width: 115px;
-  height: 24px;
-  font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
-  font-size: 26px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-align: left;
-  color: #ffffff; }
-
-.Treatments {
-  width: 124px;
-  height: 24px;
-  font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
-  font-size: 26px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-align: left;
-  color: #ffffff; }
-
-.Locations {
-  width: 105px;
-  height: 24px;
-  font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
-  font-size: 26px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-align: left;
-  color: #ffffff; }
-
-.Many-spine-condition {
-  width: 310px;
-  height: 102px;
-  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  color: #ffffff; }
-
-.Inspired-Spine-keyho {
-  width: 310px;
-  height: 121px;
-  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  color: #ffffff; }
-
-.Inspired-Spine-has-a {
-  width: 310px;
-  height: 77px;
-  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  color: #ffffff; }
-
-.Our-Innovative-Appro {
-  width: 306px;
-  height: 30px;
-  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 1px;
-  text-align: left;
-  color: #003150; }
-
-.Inspired-Spine-is-a {
-  width: 670px;
-  height: 120px;
-  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  color: #444444; }
-
-.outlined {
-  width: 239px;
-  height: 56px;
-  object-fit: contain; }
-
-.Keyhole-Surgery-make, .basic-page-bkgd--heading, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .et_pb_module_header {
-  max-width: 471px;
-  width: 100%;
-  height: auto;
-  line-height: 1.25 !important;
-  text-shadow: 2px 2px 2px rgba(0, 49, 80, 0.1);
-  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 1;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: #ffffff; }
-
-.When-conservative-th {
-  width: 470px;
-  height: 120px;
-  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  color: #ffffff; }
-
-.Our-Innovative-Appro {
-  width: 306px;
-  height: 30px;
-  font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 1px;
-  text-align: left;
-  color: #003150; }
-
-.Inspired-Spine-is-a {
-  width: 670px;
-  height: 120px;
-  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  color: #444444; }
-
-.keyhole-graphic-full {
-  position: absolute;
-  top: -123px;
-  max-width: 400px;
-  width: 100%;
-  object-fit: contain; }
-  @media screen and (max-width: 1200px) {
-    .keyhole-graphic-full {
-      position: relative;
-      top: 25px;
-      object-fit: contain; } }
-  @media screen and (max-width: 768px) {
-    .keyhole-graphic-full {
-      max-width: 560px; } }
-  @media screen and (min-width: 1280px) {
-    .keyhole-graphic-full {
-      top: -135px;
-      max-width: 345px !important; } }
+.callout {
+  color: #3498db; }
 
 .Rectangle-2 {
   background-color: #ffffff;
@@ -1772,7 +1484,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       padding-top: 0px !important;
       max-width: 100% !important; } }
 
-.Rectangle-3 {
+.callout-3 {
   padding: 0 15px;
   background-color: #00c6d5; }
 
@@ -1875,7 +1587,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   .hero-bkgd {
     padding-bottom: 0px !important;
     padding-top: 140px !important; } }
-.hero-bkgd .silhouette-flopped-web {
+.hero-bkgd .silhouette-img {
   max-width: 590px !important;
   width: 100% !important;
   height: auto !important;
@@ -1883,7 +1595,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   position: relative !important;
   left: 90px !important; }
   @media screen and (max-width: 1200px) {
-    .hero-bkgd .silhouette-flopped-web {
+    .hero-bkgd .silhouette-img {
       left: 10px !important;
       width: 100% !important; } }
 @media screen and (max-width: 1200px) {
@@ -1931,7 +1643,15 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       font-size: 59px !important; } }
   .hero-bkgd .Less-invasive--name {
     position: absolute !important;
-    width: 100%; }
+    width: 100%;
+    font-family: "Helvetica Neue LT W01_71488914" !important;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.11;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff; }
     @media screen and (min-width: 320px) {
       .hero-bkgd .Less-invasive--name {
         text-align: center;
@@ -1945,6 +1665,15 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
         text-align: left;
         padding-left: 90px;
         top: 225px !important; } }
+  .hero-bkgd .Less-invasive--patient {
+    font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff; }
   .hero-bkgd .Less-invasive--button {
     position: absolute !important;
     text-align: center;
@@ -1997,6 +1726,24 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 @media screen and (min-width: 599px) {
   .easier-treatment-container {
     padding: 30px 0; } }
+.easier-treatment-container--heading {
+  text-align: center; }
+  @media screen and (max-width: 414px) {
+    .easier-treatment-container--heading {
+      font-size: 45px !important;
+      line-height: .95 !important; } }
+  @media screen and (min-width: 599px) {
+    .easier-treatment-container--heading {
+      font-size: 45px !important;
+      line-height: 1.4 !important; } }
+.easier-treatment-container--tagline {
+  font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #003150; }
 @media screen and (max-width: 414px) {
   .easier-treatment-container .et_pb_column {
     margin-bottom: 0px !important; } }
@@ -2015,7 +1762,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
       font-size: 30px;
       font-weight: 500;
-      line-height: 1;
+      line-height: 1.35;
       letter-spacing: 1px;
       text-align: left;
       color: #003150; }
@@ -2040,15 +1787,6 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 
 .home .et_pb_cta_0.et_pb_promo {
   margin-bottom: 0 !important; }
-
-@media screen and (max-width: 414px) {
-  .easier-treatment-fa {
-    font-size: 45px !important;
-    line-height: .95 !important; } }
-@media screen and (min-width: 599px) {
-  .easier-treatment-fa {
-    font-size: 45px !important;
-    line-height: 1.4 !important; } }
 
 .home .et_pb_section_1 {
   border-top: 10px solid #00c6d5; }
@@ -2120,12 +1858,15 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 .page-template-page-template-landing .small-button,
 .page-template-page-template-landing .smallblue,
 .page-template-page-template-landing .bigblue,
-.page-template-archive-newsroom .small-button,
-.page-template-archive-newsroom .smallblue,
-.page-template-archive-newsroom .bigblue,
-.newsroom-template-default .small-button,
-.newsroom-template-default .smallblue,
-.newsroom-template-default .bigblue,
+.page-template-archive-newsroom_post .small-button,
+.page-template-archive-newsroom_post .smallblue,
+.page-template-archive-newsroom_post .bigblue,
+.post-type-archive-newsroom_post .small-button,
+.post-type-archive-newsroom_post .smallblue,
+.post-type-archive-newsroom_post .bigblue,
+.newsroom_post-template-default .small-button,
+.newsroom_post-template-default .smallblue,
+.newsroom_post-template-default .bigblue,
 .tax-newsroom_categories .small-button,
 .tax-newsroom_categories .smallblue,
 .tax-newsroom_categories .bigblue,
@@ -2141,12 +1882,21 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
 .post-template-default .small-button,
 .post-template-default .smallblue,
 .post-template-default .bigblue,
-.single-newsroom .small-button,
-.single-newsroom .smallblue,
-.single-newsroom .bigblue,
+.single-newsroom_post .small-button,
+.single-newsroom_post .smallblue,
+.single-newsroom_post .bigblue,
 .search-results .small-button,
 .search-results .smallblue,
-.search-results .bigblue, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue {
+.search-results .bigblue,
+.error404 .small-button,
+.error404 .smallblue,
+.error404 .bigblue,
+.date .small-button,
+.date .smallblue,
+.date .bigblue,
+.tag .small-button,
+.tag .smallblue,
+.tag .bigblue, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue {
   position: relative;
   padding: 11px 30px !important;
   border: 2px solid #00c6d5;
@@ -2172,12 +1922,15 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   .page-template-page-template-landing .small-button:after,
   .page-template-page-template-landing .smallblue:after,
   .page-template-page-template-landing .bigblue:after,
-  .page-template-archive-newsroom .small-button:after,
-  .page-template-archive-newsroom .smallblue:after,
-  .page-template-archive-newsroom .bigblue:after,
-  .newsroom-template-default .small-button:after,
-  .newsroom-template-default .smallblue:after,
-  .newsroom-template-default .bigblue:after,
+  .page-template-archive-newsroom_post .small-button:after,
+  .page-template-archive-newsroom_post .smallblue:after,
+  .page-template-archive-newsroom_post .bigblue:after,
+  .post-type-archive-newsroom_post .small-button:after,
+  .post-type-archive-newsroom_post .smallblue:after,
+  .post-type-archive-newsroom_post .bigblue:after,
+  .newsroom_post-template-default .small-button:after,
+  .newsroom_post-template-default .smallblue:after,
+  .newsroom_post-template-default .bigblue:after,
   .tax-newsroom_categories .small-button:after,
   .tax-newsroom_categories .smallblue:after,
   .tax-newsroom_categories .bigblue:after,
@@ -2193,12 +1946,21 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   .post-template-default .small-button:after,
   .post-template-default .smallblue:after,
   .post-template-default .bigblue:after,
-  .single-newsroom .small-button:after,
-  .single-newsroom .smallblue:after,
-  .single-newsroom .bigblue:after,
+  .single-newsroom_post .small-button:after,
+  .single-newsroom_post .smallblue:after,
+  .single-newsroom_post .bigblue:after,
   .search-results .small-button:after,
   .search-results .smallblue:after,
-  .search-results .bigblue:after, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button:after, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue:after, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue:after {
+  .search-results .bigblue:after,
+  .error404 .small-button:after,
+  .error404 .smallblue:after,
+  .error404 .bigblue:after,
+  .date .small-button:after,
+  .date .smallblue:after,
+  .date .bigblue:after,
+  .tag .small-button:after,
+  .tag .smallblue:after,
+  .tag .bigblue:after, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button:after, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue:after, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue:after {
     display: none; }
   .learn-more:hover, .category .small-button:hover, .category .smallblue:hover, .category .bigblue:hover,
   .page-template-page-template-basic .small-button:hover,
@@ -2207,12 +1969,15 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   .page-template-page-template-landing .small-button:hover,
   .page-template-page-template-landing .smallblue:hover,
   .page-template-page-template-landing .bigblue:hover,
-  .page-template-archive-newsroom .small-button:hover,
-  .page-template-archive-newsroom .smallblue:hover,
-  .page-template-archive-newsroom .bigblue:hover,
-  .newsroom-template-default .small-button:hover,
-  .newsroom-template-default .smallblue:hover,
-  .newsroom-template-default .bigblue:hover,
+  .page-template-archive-newsroom_post .small-button:hover,
+  .page-template-archive-newsroom_post .smallblue:hover,
+  .page-template-archive-newsroom_post .bigblue:hover,
+  .post-type-archive-newsroom_post .small-button:hover,
+  .post-type-archive-newsroom_post .smallblue:hover,
+  .post-type-archive-newsroom_post .bigblue:hover,
+  .newsroom_post-template-default .small-button:hover,
+  .newsroom_post-template-default .smallblue:hover,
+  .newsroom_post-template-default .bigblue:hover,
   .tax-newsroom_categories .small-button:hover,
   .tax-newsroom_categories .smallblue:hover,
   .tax-newsroom_categories .bigblue:hover,
@@ -2228,12 +1993,21 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   .post-template-default .small-button:hover,
   .post-template-default .smallblue:hover,
   .post-template-default .bigblue:hover,
-  .single-newsroom .small-button:hover,
-  .single-newsroom .smallblue:hover,
-  .single-newsroom .bigblue:hover,
+  .single-newsroom_post .small-button:hover,
+  .single-newsroom_post .smallblue:hover,
+  .single-newsroom_post .bigblue:hover,
   .search-results .small-button:hover,
   .search-results .smallblue:hover,
-  .search-results .bigblue:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue:hover {
+  .search-results .bigblue:hover,
+  .error404 .small-button:hover,
+  .error404 .smallblue:hover,
+  .error404 .bigblue:hover,
+  .date .small-button:hover,
+  .date .smallblue:hover,
+  .date .bigblue:hover,
+  .tag .small-button:hover,
+  .tag .smallblue:hover,
+  .tag .bigblue:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue:hover, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue:hover {
     color: #ffffff !important;
     border: 2px solid #00c6d5;
     padding: 11px 30px !important;
@@ -2247,12 +2021,15 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   .page-template-page-template-landing .small-button:active,
   .page-template-page-template-landing .smallblue:active,
   .page-template-page-template-landing .bigblue:active,
-  .page-template-archive-newsroom .small-button:active,
-  .page-template-archive-newsroom .smallblue:active,
-  .page-template-archive-newsroom .bigblue:active,
-  .newsroom-template-default .small-button:active,
-  .newsroom-template-default .smallblue:active,
-  .newsroom-template-default .bigblue:active,
+  .page-template-archive-newsroom_post .small-button:active,
+  .page-template-archive-newsroom_post .smallblue:active,
+  .page-template-archive-newsroom_post .bigblue:active,
+  .post-type-archive-newsroom_post .small-button:active,
+  .post-type-archive-newsroom_post .smallblue:active,
+  .post-type-archive-newsroom_post .bigblue:active,
+  .newsroom_post-template-default .small-button:active,
+  .newsroom_post-template-default .smallblue:active,
+  .newsroom_post-template-default .bigblue:active,
   .tax-newsroom_categories .small-button:active,
   .tax-newsroom_categories .smallblue:active,
   .tax-newsroom_categories .bigblue:active,
@@ -2268,12 +2045,21 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   .post-template-default .small-button:active,
   .post-template-default .smallblue:active,
   .post-template-default .bigblue:active,
-  .single-newsroom .small-button:active,
-  .single-newsroom .smallblue:active,
-  .single-newsroom .bigblue:active,
+  .single-newsroom_post .small-button:active,
+  .single-newsroom_post .smallblue:active,
+  .single-newsroom_post .bigblue:active,
   .search-results .small-button:active,
   .search-results .smallblue:active,
-  .search-results .bigblue:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue:active {
+  .search-results .bigblue:active,
+  .error404 .small-button:active,
+  .error404 .smallblue:active,
+  .error404 .bigblue:active,
+  .date .small-button:active,
+  .date .smallblue:active,
+  .date .bigblue:active,
+  .tag .small-button:active,
+  .tag .smallblue:active,
+  .tag .bigblue:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .small-button:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .smallblue:active, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .bigblue:active {
     color: #ffffff !important;
     border: 2px solid #00c6d5;
     padding: 11px 30px !important;
@@ -2308,6 +2094,44 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     border: 2px solid #dc6e22 !important;
     background-color: #dc6e22 !important;
     text-decoration: none !important; }
+
+.keyhole-surgery-heading, .basic-page-bkgd--heading, .page-banner-cta .et_pb_blurb_content .et_pb_blurb_container .et_pb_module_header {
+  text-shadow: 2px 2px 2px rgba(0, 49, 80, 0.1);
+  margin: 0px auto !important;
+  line-height: 1.25 !important;
+  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff; }
+
+.keyhole-surgery-copy {
+  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff; }
+
+.keyhole-graphic-full {
+  position: absolute;
+  top: -123px;
+  max-width: 400px;
+  width: 100%;
+  object-fit: contain; }
+  @media screen and (max-width: 1200px) {
+    .keyhole-graphic-full {
+      position: relative;
+      top: 25px;
+      object-fit: contain; } }
+  @media screen and (max-width: 768px) {
+    .keyhole-graphic-full {
+      max-width: 560px; } }
+  @media screen and (min-width: 1280px) {
+    .keyhole-graphic-full {
+      top: -135px;
+      max-width: 345px !important; } }
 
 .bkgd {
   max-width: 100% !important;
@@ -2391,12 +2215,14 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .second-columns {
     width: 100%;
     float: left;
-    display: inline-block; } }
+    display: flex;
+    flex-wrap: nowrap; } }
 @media screen and (min-width: 768px) {
   .second-columns {
     width: 50%;
     float: left;
-    display: inline-block; } }
+    display: flex;
+    flex-wrap: nowrap; } }
 
 .one-column {
   width: 100%;
@@ -2408,15 +2234,19 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 .category #main-header,
 .page-template-page-template-basic #main-header,
 .page-template-page-template-landing #main-header,
-.page-template-archive-newsroom #main-header,
-.newsroom-template-default #main-header,
+.page-template-archive-newsroom_post #main-header,
+.post-type-archive-newsroom_post #main-header,
+.newsroom_post-template-default #main-header,
 .tax-newsroom_categories #main-header,
 .page-template-category #main-header,
 .page-template-archives #main-header,
 .page-template-archives-blog #main-header,
 .post-template-default #main-header,
-.single-newsroom #main-header,
-.search-results #main-header {
+.single-newsroom_post #main-header,
+.search-results #main-header,
+.error404 #main-header,
+.date #main-header,
+.tag #main-header {
   top: 0px !important;
   padding-top: 30px;
   padding-bottom: 15px;
@@ -2425,41 +2255,53 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     .category #main-header,
     .page-template-page-template-basic #main-header,
     .page-template-page-template-landing #main-header,
-    .page-template-archive-newsroom #main-header,
-    .newsroom-template-default #main-header,
+    .page-template-archive-newsroom_post #main-header,
+    .post-type-archive-newsroom_post #main-header,
+    .newsroom_post-template-default #main-header,
     .tax-newsroom_categories #main-header,
     .page-template-category #main-header,
     .page-template-archives #main-header,
     .page-template-archives-blog #main-header,
     .post-template-default #main-header,
-    .single-newsroom #main-header,
-    .search-results #main-header {
+    .single-newsroom_post #main-header,
+    .search-results #main-header,
+    .error404 #main-header,
+    .date #main-header,
+    .tag #main-header {
       padding-top: 0px !important; } }
 .category .et_pb_section,
 .page-template-page-template-basic .et_pb_section,
 .page-template-page-template-landing .et_pb_section,
-.page-template-archive-newsroom .et_pb_section,
-.newsroom-template-default .et_pb_section,
+.page-template-archive-newsroom_post .et_pb_section,
+.post-type-archive-newsroom_post .et_pb_section,
+.newsroom_post-template-default .et_pb_section,
 .tax-newsroom_categories .et_pb_section,
 .page-template-category .et_pb_section,
 .page-template-archives .et_pb_section,
 .page-template-archives-blog .et_pb_section,
 .post-template-default .et_pb_section,
-.single-newsroom .et_pb_section,
-.search-results .et_pb_section {
+.single-newsroom_post .et_pb_section,
+.search-results .et_pb_section,
+.error404 .et_pb_section,
+.date .et_pb_section,
+.tag .et_pb_section {
   padding-top: 50px !important; }
   .category .et_pb_section:before,
   .page-template-page-template-basic .et_pb_section:before,
   .page-template-page-template-landing .et_pb_section:before,
-  .page-template-archive-newsroom .et_pb_section:before,
-  .newsroom-template-default .et_pb_section:before,
+  .page-template-archive-newsroom_post .et_pb_section:before,
+  .post-type-archive-newsroom_post .et_pb_section:before,
+  .newsroom_post-template-default .et_pb_section:before,
   .tax-newsroom_categories .et_pb_section:before,
   .page-template-category .et_pb_section:before,
   .page-template-archives .et_pb_section:before,
   .page-template-archives-blog .et_pb_section:before,
   .post-template-default .et_pb_section:before,
-  .single-newsroom .et_pb_section:before,
-  .search-results .et_pb_section:before {
+  .single-newsroom_post .et_pb_section:before,
+  .search-results .et_pb_section:before,
+  .error404 .et_pb_section:before,
+  .date .et_pb_section:before,
+  .tag .et_pb_section:before {
     content: "";
     position: absolute;
     left: 0;
@@ -2472,15 +2314,19 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .category .et_pb_section p a,
   .page-template-page-template-basic .et_pb_section p a,
   .page-template-page-template-landing .et_pb_section p a,
-  .page-template-archive-newsroom .et_pb_section p a,
-  .newsroom-template-default .et_pb_section p a,
+  .page-template-archive-newsroom_post .et_pb_section p a,
+  .post-type-archive-newsroom_post .et_pb_section p a,
+  .newsroom_post-template-default .et_pb_section p a,
   .tax-newsroom_categories .et_pb_section p a,
   .page-template-category .et_pb_section p a,
   .page-template-archives .et_pb_section p a,
   .page-template-archives-blog .et_pb_section p a,
   .post-template-default .et_pb_section p a,
-  .single-newsroom .et_pb_section p a,
-  .search-results .et_pb_section p a {
+  .single-newsroom_post .et_pb_section p a,
+  .search-results .et_pb_section p a,
+  .error404 .et_pb_section p a,
+  .date .et_pb_section p a,
+  .tag .et_pb_section p a {
     color: #009fda;
     text-decoration: none; }
     .category .et_pb_section p a:hover, .category .et_pb_section p a:focus,
@@ -2488,10 +2334,12 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     .page-template-page-template-basic .et_pb_section p a:focus,
     .page-template-page-template-landing .et_pb_section p a:hover,
     .page-template-page-template-landing .et_pb_section p a:focus,
-    .page-template-archive-newsroom .et_pb_section p a:hover,
-    .page-template-archive-newsroom .et_pb_section p a:focus,
-    .newsroom-template-default .et_pb_section p a:hover,
-    .newsroom-template-default .et_pb_section p a:focus,
+    .page-template-archive-newsroom_post .et_pb_section p a:hover,
+    .page-template-archive-newsroom_post .et_pb_section p a:focus,
+    .post-type-archive-newsroom_post .et_pb_section p a:hover,
+    .post-type-archive-newsroom_post .et_pb_section p a:focus,
+    .newsroom_post-template-default .et_pb_section p a:hover,
+    .newsroom_post-template-default .et_pb_section p a:focus,
     .tax-newsroom_categories .et_pb_section p a:hover,
     .tax-newsroom_categories .et_pb_section p a:focus,
     .page-template-category .et_pb_section p a:hover,
@@ -2502,24 +2350,34 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     .page-template-archives-blog .et_pb_section p a:focus,
     .post-template-default .et_pb_section p a:hover,
     .post-template-default .et_pb_section p a:focus,
-    .single-newsroom .et_pb_section p a:hover,
-    .single-newsroom .et_pb_section p a:focus,
+    .single-newsroom_post .et_pb_section p a:hover,
+    .single-newsroom_post .et_pb_section p a:focus,
     .search-results .et_pb_section p a:hover,
-    .search-results .et_pb_section p a:focus {
+    .search-results .et_pb_section p a:focus,
+    .error404 .et_pb_section p a:hover,
+    .error404 .et_pb_section p a:focus,
+    .date .et_pb_section p a:hover,
+    .date .et_pb_section p a:focus,
+    .tag .et_pb_section p a:hover,
+    .tag .et_pb_section p a:focus {
       color: #0077ad;
       text-decoration: underline; }
   .category .et_pb_section ul a,
   .page-template-page-template-basic .et_pb_section ul a,
   .page-template-page-template-landing .et_pb_section ul a,
-  .page-template-archive-newsroom .et_pb_section ul a,
-  .newsroom-template-default .et_pb_section ul a,
+  .page-template-archive-newsroom_post .et_pb_section ul a,
+  .post-type-archive-newsroom_post .et_pb_section ul a,
+  .newsroom_post-template-default .et_pb_section ul a,
   .tax-newsroom_categories .et_pb_section ul a,
   .page-template-category .et_pb_section ul a,
   .page-template-archives .et_pb_section ul a,
   .page-template-archives-blog .et_pb_section ul a,
   .post-template-default .et_pb_section ul a,
-  .single-newsroom .et_pb_section ul a,
-  .search-results .et_pb_section ul a {
+  .single-newsroom_post .et_pb_section ul a,
+  .search-results .et_pb_section ul a,
+  .error404 .et_pb_section ul a,
+  .date .et_pb_section ul a,
+  .tag .et_pb_section ul a {
     color: #0077ad;
     text-decoration: none; }
     .category .et_pb_section ul a:hover, .category .et_pb_section ul a:focus,
@@ -2527,10 +2385,12 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     .page-template-page-template-basic .et_pb_section ul a:focus,
     .page-template-page-template-landing .et_pb_section ul a:hover,
     .page-template-page-template-landing .et_pb_section ul a:focus,
-    .page-template-archive-newsroom .et_pb_section ul a:hover,
-    .page-template-archive-newsroom .et_pb_section ul a:focus,
-    .newsroom-template-default .et_pb_section ul a:hover,
-    .newsroom-template-default .et_pb_section ul a:focus,
+    .page-template-archive-newsroom_post .et_pb_section ul a:hover,
+    .page-template-archive-newsroom_post .et_pb_section ul a:focus,
+    .post-type-archive-newsroom_post .et_pb_section ul a:hover,
+    .post-type-archive-newsroom_post .et_pb_section ul a:focus,
+    .newsroom_post-template-default .et_pb_section ul a:hover,
+    .newsroom_post-template-default .et_pb_section ul a:focus,
     .tax-newsroom_categories .et_pb_section ul a:hover,
     .tax-newsroom_categories .et_pb_section ul a:focus,
     .page-template-category .et_pb_section ul a:hover,
@@ -2541,50 +2401,86 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     .page-template-archives-blog .et_pb_section ul a:focus,
     .post-template-default .et_pb_section ul a:hover,
     .post-template-default .et_pb_section ul a:focus,
-    .single-newsroom .et_pb_section ul a:hover,
-    .single-newsroom .et_pb_section ul a:focus,
+    .single-newsroom_post .et_pb_section ul a:hover,
+    .single-newsroom_post .et_pb_section ul a:focus,
     .search-results .et_pb_section ul a:hover,
-    .search-results .et_pb_section ul a:focus {
+    .search-results .et_pb_section ul a:focus,
+    .error404 .et_pb_section ul a:hover,
+    .error404 .et_pb_section ul a:focus,
+    .date .et_pb_section ul a:hover,
+    .date .et_pb_section ul a:focus,
+    .tag .et_pb_section ul a:hover,
+    .tag .et_pb_section ul a:focus {
       color: #009fda;
       text-decoration: underline; }
 .category .et_pb_widget,
 .page-template-page-template-basic .et_pb_widget,
 .page-template-page-template-landing .et_pb_widget,
-.page-template-archive-newsroom .et_pb_widget,
-.newsroom-template-default .et_pb_widget,
+.page-template-archive-newsroom_post .et_pb_widget,
+.post-type-archive-newsroom_post .et_pb_widget,
+.newsroom_post-template-default .et_pb_widget,
 .tax-newsroom_categories .et_pb_widget,
 .page-template-category .et_pb_widget,
 .page-template-archives .et_pb_widget,
 .page-template-archives-blog .et_pb_widget,
 .post-template-default .et_pb_widget,
-.single-newsroom .et_pb_widget,
-.search-results .et_pb_widget {
+.single-newsroom_post .et_pb_widget,
+.search-results .et_pb_widget,
+.error404 .et_pb_widget,
+.date .et_pb_widget,
+.tag .et_pb_widget {
   word-wrap: initial !important; }
 .category .widget_search,
 .page-template-page-template-basic .widget_search,
 .page-template-page-template-landing .widget_search,
-.page-template-archive-newsroom .widget_search,
-.newsroom-template-default .widget_search,
+.page-template-archive-newsroom_post .widget_search,
+.post-type-archive-newsroom_post .widget_search,
+.newsroom_post-template-default .widget_search,
 .tax-newsroom_categories .widget_search,
 .page-template-category .widget_search,
 .page-template-archives .widget_search,
 .page-template-archives-blog .widget_search,
 .post-template-default .widget_search,
-.single-newsroom .widget_search,
-.search-results .widget_search {
+.single-newsroom_post .widget_search,
+.search-results .widget_search,
+.error404 .widget_search,
+.date .widget_search,
+.tag .widget_search {
   margin-bottom: 18.54%; }
+  @media screen and (max-width: 599px) {
+    .category .widget_search,
+    .page-template-page-template-basic .widget_search,
+    .page-template-page-template-landing .widget_search,
+    .page-template-archive-newsroom_post .widget_search,
+    .post-type-archive-newsroom_post .widget_search,
+    .newsroom_post-template-default .widget_search,
+    .tax-newsroom_categories .widget_search,
+    .page-template-category .widget_search,
+    .page-template-archives .widget_search,
+    .page-template-archives-blog .widget_search,
+    .post-template-default .widget_search,
+    .single-newsroom_post .widget_search,
+    .search-results .widget_search,
+    .error404 .widget_search,
+    .date .widget_search,
+    .tag .widget_search {
+      margin-bottom: 8%; } }
   .category .widget_search .searchform,
   .page-template-page-template-basic .widget_search .searchform,
   .page-template-page-template-landing .widget_search .searchform,
-  .page-template-archive-newsroom .widget_search .searchform,
-  .newsroom-template-default .widget_search .searchform,
+  .page-template-archive-newsroom_post .widget_search .searchform,
+  .post-type-archive-newsroom_post .widget_search .searchform,
+  .newsroom_post-template-default .widget_search .searchform,
   .tax-newsroom_categories .widget_search .searchform,
   .page-template-category .widget_search .searchform,
   .page-template-archives .widget_search .searchform,
   .page-template-archives-blog .widget_search .searchform,
   .post-template-default .widget_search .searchform,
-  .single-newsroom .widget_search .searchform,
-  .search-results .widget_search .searchform {
+  .single-newsroom_post .widget_search .searchform,
+  .search-results .widget_search .searchform,
+  .error404 .widget_search .searchform,
+  .date .widget_search .searchform,
+  .tag .widget_search .searchform {
     font-style: italic;
     font-size: 14px;
     margin-top: 20px;
@@ -2592,15 +2488,19 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .category .widget_search .widget_search input#searchsubmit,
   .page-template-page-template-basic .widget_search .widget_search input#searchsubmit,
   .page-template-page-template-landing .widget_search .widget_search input#searchsubmit,
-  .page-template-archive-newsroom .widget_search .widget_search input#searchsubmit,
-  .newsroom-template-default .widget_search .widget_search input#searchsubmit,
+  .page-template-archive-newsroom_post .widget_search .widget_search input#searchsubmit,
+  .post-type-archive-newsroom_post .widget_search .widget_search input#searchsubmit,
+  .newsroom_post-template-default .widget_search .widget_search input#searchsubmit,
   .tax-newsroom_categories .widget_search .widget_search input#searchsubmit,
   .page-template-category .widget_search .widget_search input#searchsubmit,
   .page-template-archives .widget_search .widget_search input#searchsubmit,
   .page-template-archives-blog .widget_search .widget_search input#searchsubmit,
   .post-template-default .widget_search .widget_search input#searchsubmit,
-  .single-newsroom .widget_search .widget_search input#searchsubmit,
-  .search-results .widget_search .widget_search input#searchsubmit {
+  .single-newsroom_post .widget_search .widget_search input#searchsubmit,
+  .search-results .widget_search .widget_search input#searchsubmit,
+  .error404 .widget_search .widget_search input#searchsubmit,
+  .date .widget_search .widget_search input#searchsubmit,
+  .tag .widget_search .widget_search input#searchsubmit {
     height: 40px !important;
     margin: 0;
     padding: 0.7em;
@@ -2612,148 +2512,213 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 .category .widget_categories ul,
 .page-template-page-template-basic .widget_categories ul,
 .page-template-page-template-landing .widget_categories ul,
-.page-template-archive-newsroom .widget_categories ul,
-.newsroom-template-default .widget_categories ul,
+.page-template-archive-newsroom_post .widget_categories ul,
+.post-type-archive-newsroom_post .widget_categories ul,
+.newsroom_post-template-default .widget_categories ul,
 .tax-newsroom_categories .widget_categories ul,
 .page-template-category .widget_categories ul,
 .page-template-archives .widget_categories ul,
 .page-template-archives-blog .widget_categories ul,
 .post-template-default .widget_categories ul,
-.single-newsroom .widget_categories ul,
-.search-results .widget_categories ul {
+.single-newsroom_post .widget_categories ul,
+.search-results .widget_categories ul,
+.error404 .widget_categories ul,
+.date .widget_categories ul,
+.tag .widget_categories ul {
   margin-top: 20px; }
   .category .widget_categories ul li.cat-item,
   .page-template-page-template-basic .widget_categories ul li.cat-item,
   .page-template-page-template-landing .widget_categories ul li.cat-item,
-  .page-template-archive-newsroom .widget_categories ul li.cat-item,
-  .newsroom-template-default .widget_categories ul li.cat-item,
+  .page-template-archive-newsroom_post .widget_categories ul li.cat-item,
+  .post-type-archive-newsroom_post .widget_categories ul li.cat-item,
+  .newsroom_post-template-default .widget_categories ul li.cat-item,
   .tax-newsroom_categories .widget_categories ul li.cat-item,
   .page-template-category .widget_categories ul li.cat-item,
   .page-template-archives .widget_categories ul li.cat-item,
   .page-template-archives-blog .widget_categories ul li.cat-item,
   .post-template-default .widget_categories ul li.cat-item,
-  .single-newsroom .widget_categories ul li.cat-item,
-  .search-results .widget_categories ul li.cat-item {
+  .single-newsroom_post .widget_categories ul li.cat-item,
+  .search-results .widget_categories ul li.cat-item,
+  .error404 .widget_categories ul li.cat-item,
+  .date .widget_categories ul li.cat-item,
+  .tag .widget_categories ul li.cat-item {
     float: left;
     display: inline-block;
     font-size: 16px;
     padding: 10px 25px;
-    margin: 0 10px 20px 0;
+    margin: 0 6px 20px 0;
     border-radius: 2px;
     border: solid 1px #bdc1c9; }
     .category .widget_categories ul li.cat-item a,
     .page-template-page-template-basic .widget_categories ul li.cat-item a,
     .page-template-page-template-landing .widget_categories ul li.cat-item a,
-    .page-template-archive-newsroom .widget_categories ul li.cat-item a,
-    .newsroom-template-default .widget_categories ul li.cat-item a,
+    .page-template-archive-newsroom_post .widget_categories ul li.cat-item a,
+    .post-type-archive-newsroom_post .widget_categories ul li.cat-item a,
+    .newsroom_post-template-default .widget_categories ul li.cat-item a,
     .tax-newsroom_categories .widget_categories ul li.cat-item a,
     .page-template-category .widget_categories ul li.cat-item a,
     .page-template-archives .widget_categories ul li.cat-item a,
     .page-template-archives-blog .widget_categories ul li.cat-item a,
     .post-template-default .widget_categories ul li.cat-item a,
-    .single-newsroom .widget_categories ul li.cat-item a,
-    .search-results .widget_categories ul li.cat-item a {
+    .single-newsroom_post .widget_categories ul li.cat-item a,
+    .search-results .widget_categories ul li.cat-item a,
+    .error404 .widget_categories ul li.cat-item a,
+    .date .widget_categories ul li.cat-item a,
+    .tag .widget_categories ul li.cat-item a {
       color: #444444;
       text-decoration: none !important; }
   .category .widget_categories ul li.current-cat,
   .page-template-page-template-basic .widget_categories ul li.current-cat,
   .page-template-page-template-landing .widget_categories ul li.current-cat,
-  .page-template-archive-newsroom .widget_categories ul li.current-cat,
-  .newsroom-template-default .widget_categories ul li.current-cat,
+  .page-template-archive-newsroom_post .widget_categories ul li.current-cat,
+  .post-type-archive-newsroom_post .widget_categories ul li.current-cat,
+  .newsroom_post-template-default .widget_categories ul li.current-cat,
   .tax-newsroom_categories .widget_categories ul li.current-cat,
   .page-template-category .widget_categories ul li.current-cat,
   .page-template-archives .widget_categories ul li.current-cat,
   .page-template-archives-blog .widget_categories ul li.current-cat,
   .post-template-default .widget_categories ul li.current-cat,
-  .single-newsroom .widget_categories ul li.current-cat,
-  .search-results .widget_categories ul li.current-cat {
+  .single-newsroom_post .widget_categories ul li.current-cat,
+  .search-results .widget_categories ul li.current-cat,
+  .error404 .widget_categories ul li.current-cat,
+  .date .widget_categories ul li.current-cat,
+  .tag .widget_categories ul li.current-cat {
     background-color: #009fda;
     border: none !important; }
     .category .widget_categories ul li.current-cat a,
     .page-template-page-template-basic .widget_categories ul li.current-cat a,
     .page-template-page-template-landing .widget_categories ul li.current-cat a,
-    .page-template-archive-newsroom .widget_categories ul li.current-cat a,
-    .newsroom-template-default .widget_categories ul li.current-cat a,
+    .page-template-archive-newsroom_post .widget_categories ul li.current-cat a,
+    .post-type-archive-newsroom_post .widget_categories ul li.current-cat a,
+    .newsroom_post-template-default .widget_categories ul li.current-cat a,
     .tax-newsroom_categories .widget_categories ul li.current-cat a,
     .page-template-category .widget_categories ul li.current-cat a,
     .page-template-archives .widget_categories ul li.current-cat a,
     .page-template-archives-blog .widget_categories ul li.current-cat a,
     .post-template-default .widget_categories ul li.current-cat a,
-    .single-newsroom .widget_categories ul li.current-cat a,
-    .search-results .widget_categories ul li.current-cat a {
+    .single-newsroom_post .widget_categories ul li.current-cat a,
+    .search-results .widget_categories ul li.current-cat a,
+    .error404 .widget_categories ul li.current-cat a,
+    .date .widget_categories ul li.current-cat a,
+    .tag .widget_categories ul li.current-cat a {
       color: #ffffff !important;
       text-decoration: none !important; }
 .category .widget_archive .screen-reader-text,
 .page-template-page-template-basic .widget_archive .screen-reader-text,
 .page-template-page-template-landing .widget_archive .screen-reader-text,
-.page-template-archive-newsroom .widget_archive .screen-reader-text,
-.newsroom-template-default .widget_archive .screen-reader-text,
+.page-template-archive-newsroom_post .widget_archive .screen-reader-text,
+.post-type-archive-newsroom_post .widget_archive .screen-reader-text,
+.newsroom_post-template-default .widget_archive .screen-reader-text,
 .tax-newsroom_categories .widget_archive .screen-reader-text,
 .page-template-category .widget_archive .screen-reader-text,
 .page-template-archives .widget_archive .screen-reader-text,
 .page-template-archives-blog .widget_archive .screen-reader-text,
 .post-template-default .widget_archive .screen-reader-text,
-.single-newsroom .widget_archive .screen-reader-text,
-.search-results .widget_archive .screen-reader-text {
+.single-newsroom_post .widget_archive .screen-reader-text,
+.search-results .widget_archive .screen-reader-text,
+.error404 .widget_archive .screen-reader-text,
+.date .widget_archive .screen-reader-text,
+.tag .widget_archive .screen-reader-text {
   display: none; }
 .category .widget_archive select,
 .page-template-page-template-basic .widget_archive select,
 .page-template-page-template-landing .widget_archive select,
-.page-template-archive-newsroom .widget_archive select,
-.newsroom-template-default .widget_archive select,
+.page-template-archive-newsroom_post .widget_archive select,
+.post-type-archive-newsroom_post .widget_archive select,
+.newsroom_post-template-default .widget_archive select,
 .tax-newsroom_categories .widget_archive select,
 .page-template-category .widget_archive select,
 .page-template-archives .widget_archive select,
 .page-template-archives-blog .widget_archive select,
 .post-template-default .widget_archive select,
-.single-newsroom .widget_archive select,
-.search-results .widget_archive select {
+.single-newsroom_post .widget_archive select,
+.search-results .widget_archive select,
+.error404 .widget_archive select,
+.date .widget_archive select,
+.tag .widget_archive select {
+  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
   font-style: italic;
   font-size: 14px;
   margin-top: 20px;
   height: 40px;
   width: 100%;
   border: 1px solid #bdc1c9 !important;
-  color: #bdc1c9 !important; }
+  color: #444444 !important; }
+.category .widget_search #searchsubmit,
+.page-template-page-template-basic .widget_search #searchsubmit,
+.page-template-page-template-landing .widget_search #searchsubmit,
+.page-template-archive-newsroom_post .widget_search #searchsubmit,
+.post-type-archive-newsroom_post .widget_search #searchsubmit,
+.newsroom_post-template-default .widget_search #searchsubmit,
+.tax-newsroom_categories .widget_search #searchsubmit,
+.page-template-category .widget_search #searchsubmit,
+.page-template-archives .widget_search #searchsubmit,
+.page-template-archives-blog .widget_search #searchsubmit,
+.post-template-default .widget_search #searchsubmit,
+.single-newsroom_post .widget_search #searchsubmit,
+.search-results .widget_search #searchsubmit,
+.error404 .widget_search #searchsubmit,
+.date .widget_search #searchsubmit,
+.tag .widget_search #searchsubmit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70px;
+  color: #ffffff !important;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #ef7827 !important; }
 .category .et_pb_widget_area .widget,
 .page-template-page-template-basic .et_pb_widget_area .widget,
 .page-template-page-template-landing .et_pb_widget_area .widget,
-.page-template-archive-newsroom .et_pb_widget_area .widget,
-.newsroom-template-default .et_pb_widget_area .widget,
+.page-template-archive-newsroom_post .et_pb_widget_area .widget,
+.post-type-archive-newsroom_post .et_pb_widget_area .widget,
+.newsroom_post-template-default .et_pb_widget_area .widget,
 .tax-newsroom_categories .et_pb_widget_area .widget,
 .page-template-category .et_pb_widget_area .widget,
 .page-template-archives .et_pb_widget_area .widget,
 .page-template-archives-blog .et_pb_widget_area .widget,
 .post-template-default .et_pb_widget_area .widget,
-.single-newsroom .et_pb_widget_area .widget,
-.search-results .et_pb_widget_area .widget {
+.single-newsroom_post .et_pb_widget_area .widget,
+.search-results .et_pb_widget_area .widget,
+.error404 .et_pb_widget_area .widget,
+.date .et_pb_widget_area .widget,
+.tag .et_pb_widget_area .widget {
   margin-bottom: 18.54%; }
 .category .et_pb_text,
 .page-template-page-template-basic .et_pb_text,
 .page-template-page-template-landing .et_pb_text,
-.page-template-archive-newsroom .et_pb_text,
-.newsroom-template-default .et_pb_text,
+.page-template-archive-newsroom_post .et_pb_text,
+.post-type-archive-newsroom_post .et_pb_text,
+.newsroom_post-template-default .et_pb_text,
 .tax-newsroom_categories .et_pb_text,
 .page-template-category .et_pb_text,
 .page-template-archives .et_pb_text,
 .page-template-archives-blog .et_pb_text,
 .post-template-default .et_pb_text,
-.single-newsroom .et_pb_text,
-.search-results .et_pb_text {
+.single-newsroom_post .et_pb_text,
+.search-results .et_pb_text,
+.error404 .et_pb_text,
+.date .et_pb_text,
+.tag .et_pb_text {
   display: inline-block;
   width: 100%; }
 .category .et_pb_space,
 .page-template-page-template-basic .et_pb_space,
 .page-template-page-template-landing .et_pb_space,
-.page-template-archive-newsroom .et_pb_space,
-.newsroom-template-default .et_pb_space,
+.page-template-archive-newsroom_post .et_pb_space,
+.post-type-archive-newsroom_post .et_pb_space,
+.newsroom_post-template-default .et_pb_space,
 .tax-newsroom_categories .et_pb_space,
 .page-template-category .et_pb_space,
 .page-template-archives .et_pb_space,
 .page-template-archives-blog .et_pb_space,
 .post-template-default .et_pb_space,
-.single-newsroom .et_pb_space,
-.search-results .et_pb_space {
+.single-newsroom_post .et_pb_space,
+.search-results .et_pb_space,
+.error404 .et_pb_space,
+.date .et_pb_space,
+.tag .et_pb_space {
   box-sizing: content-box !important;
   height: 0px !important;
   border: none !important;
@@ -2761,71 +2726,91 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 .category .page-heading,
 .page-template-page-template-basic .page-heading,
 .page-template-page-template-landing .page-heading,
-.page-template-archive-newsroom .page-heading,
-.newsroom-template-default .page-heading,
+.page-template-archive-newsroom_post .page-heading,
+.post-type-archive-newsroom_post .page-heading,
+.newsroom_post-template-default .page-heading,
 .tax-newsroom_categories .page-heading,
 .page-template-category .page-heading,
 .page-template-archives .page-heading,
 .page-template-archives-blog .page-heading,
 .post-template-default .page-heading,
-.single-newsroom .page-heading,
-.search-results .page-heading {
+.single-newsroom_post .page-heading,
+.search-results .page-heading,
+.error404 .page-heading,
+.date .page-heading,
+.tag .page-heading {
   margin-bottom: 0px !important; }
 .category .widget_nav_menu,
 .page-template-page-template-basic .widget_nav_menu,
 .page-template-page-template-landing .widget_nav_menu,
-.page-template-archive-newsroom .widget_nav_menu,
-.newsroom-template-default .widget_nav_menu,
+.page-template-archive-newsroom_post .widget_nav_menu,
+.post-type-archive-newsroom_post .widget_nav_menu,
+.newsroom_post-template-default .widget_nav_menu,
 .tax-newsroom_categories .widget_nav_menu,
 .page-template-category .widget_nav_menu,
 .page-template-archives .widget_nav_menu,
 .page-template-archives-blog .widget_nav_menu,
 .post-template-default .widget_nav_menu,
-.single-newsroom .widget_nav_menu,
-.search-results .widget_nav_menu {
+.single-newsroom_post .widget_nav_menu,
+.search-results .widget_nav_menu,
+.error404 .widget_nav_menu,
+.date .widget_nav_menu,
+.tag .widget_nav_menu {
   padding: 15px;
   background-color: #003150; }
   .category .widget_nav_menu .widgettitle,
   .page-template-page-template-basic .widget_nav_menu .widgettitle,
   .page-template-page-template-landing .widget_nav_menu .widgettitle,
-  .page-template-archive-newsroom .widget_nav_menu .widgettitle,
-  .newsroom-template-default .widget_nav_menu .widgettitle,
+  .page-template-archive-newsroom_post .widget_nav_menu .widgettitle,
+  .post-type-archive-newsroom_post .widget_nav_menu .widgettitle,
+  .newsroom_post-template-default .widget_nav_menu .widgettitle,
   .tax-newsroom_categories .widget_nav_menu .widgettitle,
   .page-template-category .widget_nav_menu .widgettitle,
   .page-template-archives .widget_nav_menu .widgettitle,
   .page-template-archives-blog .widget_nav_menu .widgettitle,
   .post-template-default .widget_nav_menu .widgettitle,
-  .single-newsroom .widget_nav_menu .widgettitle,
-  .search-results .widget_nav_menu .widgettitle {
+  .single-newsroom_post .widget_nav_menu .widgettitle,
+  .search-results .widget_nav_menu .widgettitle,
+  .error404 .widget_nav_menu .widgettitle,
+  .date .widget_nav_menu .widgettitle,
+  .tag .widget_nav_menu .widgettitle {
     color: #00c6d5 !important;
     text-transform: uppercase;
     border-bottom: solid 1px #ffffff; }
   .category .widget_nav_menu li,
   .page-template-page-template-basic .widget_nav_menu li,
   .page-template-page-template-landing .widget_nav_menu li,
-  .page-template-archive-newsroom .widget_nav_menu li,
-  .newsroom-template-default .widget_nav_menu li,
+  .page-template-archive-newsroom_post .widget_nav_menu li,
+  .post-type-archive-newsroom_post .widget_nav_menu li,
+  .newsroom_post-template-default .widget_nav_menu li,
   .tax-newsroom_categories .widget_nav_menu li,
   .page-template-category .widget_nav_menu li,
   .page-template-archives .widget_nav_menu li,
   .page-template-archives-blog .widget_nav_menu li,
   .post-template-default .widget_nav_menu li,
-  .single-newsroom .widget_nav_menu li,
-  .search-results .widget_nav_menu li {
+  .single-newsroom_post .widget_nav_menu li,
+  .search-results .widget_nav_menu li,
+  .error404 .widget_nav_menu li,
+  .date .widget_nav_menu li,
+  .tag .widget_nav_menu li {
     padding: 5px 0;
     border-bottom: solid 1px #0077ad; }
     .category .widget_nav_menu li a,
     .page-template-page-template-basic .widget_nav_menu li a,
     .page-template-page-template-landing .widget_nav_menu li a,
-    .page-template-archive-newsroom .widget_nav_menu li a,
-    .newsroom-template-default .widget_nav_menu li a,
+    .page-template-archive-newsroom_post .widget_nav_menu li a,
+    .post-type-archive-newsroom_post .widget_nav_menu li a,
+    .newsroom_post-template-default .widget_nav_menu li a,
     .tax-newsroom_categories .widget_nav_menu li a,
     .page-template-category .widget_nav_menu li a,
     .page-template-archives .widget_nav_menu li a,
     .page-template-archives-blog .widget_nav_menu li a,
     .post-template-default .widget_nav_menu li a,
-    .single-newsroom .widget_nav_menu li a,
-    .search-results .widget_nav_menu li a {
+    .single-newsroom_post .widget_nav_menu li a,
+    .search-results .widget_nav_menu li a,
+    .error404 .widget_nav_menu li a,
+    .date .widget_nav_menu li a,
+    .tag .widget_nav_menu li a {
       font-size: 22px !important;
       font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
       font-size: 18px;
@@ -2839,15 +2824,19 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
       .category .widget_nav_menu li a:after,
       .page-template-page-template-basic .widget_nav_menu li a:after,
       .page-template-page-template-landing .widget_nav_menu li a:after,
-      .page-template-archive-newsroom .widget_nav_menu li a:after,
-      .newsroom-template-default .widget_nav_menu li a:after,
+      .page-template-archive-newsroom_post .widget_nav_menu li a:after,
+      .post-type-archive-newsroom_post .widget_nav_menu li a:after,
+      .newsroom_post-template-default .widget_nav_menu li a:after,
       .tax-newsroom_categories .widget_nav_menu li a:after,
       .page-template-category .widget_nav_menu li a:after,
       .page-template-archives .widget_nav_menu li a:after,
       .page-template-archives-blog .widget_nav_menu li a:after,
       .post-template-default .widget_nav_menu li a:after,
-      .single-newsroom .widget_nav_menu li a:after,
-      .search-results .widget_nav_menu li a:after {
+      .single-newsroom_post .widget_nav_menu li a:after,
+      .search-results .widget_nav_menu li a:after,
+      .error404 .widget_nav_menu li a:after,
+      .date .widget_nav_menu li a:after,
+      .tag .widget_nav_menu li a:after {
         float: right;
         font-family: "Font Awesome 5 Free";
         font-size: 22px;
@@ -2857,71 +2846,91 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
       .category .widget_nav_menu li a:hover,
       .page-template-page-template-basic .widget_nav_menu li a:hover,
       .page-template-page-template-landing .widget_nav_menu li a:hover,
-      .page-template-archive-newsroom .widget_nav_menu li a:hover,
-      .newsroom-template-default .widget_nav_menu li a:hover,
+      .page-template-archive-newsroom_post .widget_nav_menu li a:hover,
+      .post-type-archive-newsroom_post .widget_nav_menu li a:hover,
+      .newsroom_post-template-default .widget_nav_menu li a:hover,
       .tax-newsroom_categories .widget_nav_menu li a:hover,
       .page-template-category .widget_nav_menu li a:hover,
       .page-template-archives .widget_nav_menu li a:hover,
       .page-template-archives-blog .widget_nav_menu li a:hover,
       .post-template-default .widget_nav_menu li a:hover,
-      .single-newsroom .widget_nav_menu li a:hover,
-      .search-results .widget_nav_menu li a:hover {
+      .single-newsroom_post .widget_nav_menu li a:hover,
+      .search-results .widget_nav_menu li a:hover,
+      .error404 .widget_nav_menu li a:hover,
+      .date .widget_nav_menu li a:hover,
+      .tag .widget_nav_menu li a:hover {
         color: #0077ad !important;
         text-decoration: none !important; }
       .category .widget_nav_menu li a:visited,
       .page-template-page-template-basic .widget_nav_menu li a:visited,
       .page-template-page-template-landing .widget_nav_menu li a:visited,
-      .page-template-archive-newsroom .widget_nav_menu li a:visited,
-      .newsroom-template-default .widget_nav_menu li a:visited,
+      .page-template-archive-newsroom_post .widget_nav_menu li a:visited,
+      .post-type-archive-newsroom_post .widget_nav_menu li a:visited,
+      .newsroom_post-template-default .widget_nav_menu li a:visited,
       .tax-newsroom_categories .widget_nav_menu li a:visited,
       .page-template-category .widget_nav_menu li a:visited,
       .page-template-archives .widget_nav_menu li a:visited,
       .page-template-archives-blog .widget_nav_menu li a:visited,
       .post-template-default .widget_nav_menu li a:visited,
-      .single-newsroom .widget_nav_menu li a:visited,
-      .search-results .widget_nav_menu li a:visited {
+      .single-newsroom_post .widget_nav_menu li a:visited,
+      .search-results .widget_nav_menu li a:visited,
+      .error404 .widget_nav_menu li a:visited,
+      .date .widget_nav_menu li a:visited,
+      .tag .widget_nav_menu li a:visited {
         color: #ffffff !important;
         text-decoration: none !important; }
 @media screen and (min-width: 320px) {
   .category .basic-page-section,
   .page-template-page-template-basic .basic-page-section,
   .page-template-page-template-landing .basic-page-section,
-  .page-template-archive-newsroom .basic-page-section,
-  .newsroom-template-default .basic-page-section,
+  .page-template-archive-newsroom_post .basic-page-section,
+  .post-type-archive-newsroom_post .basic-page-section,
+  .newsroom_post-template-default .basic-page-section,
   .tax-newsroom_categories .basic-page-section,
   .page-template-category .basic-page-section,
   .page-template-archives .basic-page-section,
   .page-template-archives-blog .basic-page-section,
   .post-template-default .basic-page-section,
-  .single-newsroom .basic-page-section,
-  .search-results .basic-page-section {
+  .single-newsroom_post .basic-page-section,
+  .search-results .basic-page-section,
+  .error404 .basic-page-section,
+  .date .basic-page-section,
+  .tag .basic-page-section {
     padding: 27px 15px 85px !important; } }
 @media screen and (min-width: 1200px) {
   .category .basic-page-section,
   .page-template-page-template-basic .basic-page-section,
   .page-template-page-template-landing .basic-page-section,
-  .page-template-archive-newsroom .basic-page-section,
-  .newsroom-template-default .basic-page-section,
+  .page-template-archive-newsroom_post .basic-page-section,
+  .post-type-archive-newsroom_post .basic-page-section,
+  .newsroom_post-template-default .basic-page-section,
   .tax-newsroom_categories .basic-page-section,
   .page-template-category .basic-page-section,
   .page-template-archives .basic-page-section,
   .page-template-archives-blog .basic-page-section,
   .post-template-default .basic-page-section,
-  .single-newsroom .basic-page-section,
-  .search-results .basic-page-section {
+  .single-newsroom_post .basic-page-section,
+  .search-results .basic-page-section,
+  .error404 .basic-page-section,
+  .date .basic-page-section,
+  .tag .basic-page-section {
     padding: 27px 0px 85px !important; } }
 .category .page-title,
 .page-template-page-template-basic .page-title,
 .page-template-page-template-landing .page-title,
-.page-template-archive-newsroom .page-title,
-.newsroom-template-default .page-title,
+.page-template-archive-newsroom_post .page-title,
+.post-type-archive-newsroom_post .page-title,
+.newsroom_post-template-default .page-title,
 .tax-newsroom_categories .page-title,
 .page-template-category .page-title,
 .page-template-archives .page-title,
 .page-template-archives-blog .page-title,
 .post-template-default .page-title,
-.single-newsroom .page-title,
-.search-results .page-title {
+.single-newsroom_post .page-title,
+.search-results .page-title,
+.error404 .page-title,
+.date .page-title,
+.tag .page-title {
   width: 100%;
   max-width: 1200px;
   z-index: 1; }
@@ -2929,58 +2938,74 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     .category .page-title,
     .page-template-page-template-basic .page-title,
     .page-template-page-template-landing .page-title,
-    .page-template-archive-newsroom .page-title,
-    .newsroom-template-default .page-title,
+    .page-template-archive-newsroom_post .page-title,
+    .post-type-archive-newsroom_post .page-title,
+    .newsroom_post-template-default .page-title,
     .tax-newsroom_categories .page-title,
     .page-template-category .page-title,
     .page-template-archives .page-title,
     .page-template-archives-blog .page-title,
     .post-template-default .page-title,
-    .single-newsroom .page-title,
-    .search-results .page-title {
+    .single-newsroom_post .page-title,
+    .search-results .page-title,
+    .error404 .page-title,
+    .date .page-title,
+    .tag .page-title {
       margin: 155px auto 0; } }
   @media screen and (min-width: 768px) {
     .category .page-title,
     .page-template-page-template-basic .page-title,
     .page-template-page-template-landing .page-title,
-    .page-template-archive-newsroom .page-title,
-    .newsroom-template-default .page-title,
+    .page-template-archive-newsroom_post .page-title,
+    .post-type-archive-newsroom_post .page-title,
+    .newsroom_post-template-default .page-title,
     .tax-newsroom_categories .page-title,
     .page-template-category .page-title,
     .page-template-archives .page-title,
     .page-template-archives-blog .page-title,
     .post-template-default .page-title,
-    .single-newsroom .page-title,
-    .search-results .page-title {
+    .single-newsroom_post .page-title,
+    .search-results .page-title,
+    .error404 .page-title,
+    .date .page-title,
+    .tag .page-title {
       margin: 225px auto 0px; } }
   @media screen and (min-width: 1200px) {
     .category .page-title,
     .page-template-page-template-basic .page-title,
     .page-template-page-template-landing .page-title,
-    .page-template-archive-newsroom .page-title,
-    .newsroom-template-default .page-title,
+    .page-template-archive-newsroom_post .page-title,
+    .post-type-archive-newsroom_post .page-title,
+    .newsroom_post-template-default .page-title,
     .tax-newsroom_categories .page-title,
     .page-template-category .page-title,
     .page-template-archives .page-title,
     .page-template-archives-blog .page-title,
     .post-template-default .page-title,
-    .single-newsroom .page-title,
-    .search-results .page-title {
+    .single-newsroom_post .page-title,
+    .search-results .page-title,
+    .error404 .page-title,
+    .date .page-title,
+    .tag .page-title {
       margin: 180px auto 0px; } }
   .category .page-title--heading,
   .page-template-page-template-basic .page-title--heading,
   .page-template-page-template-landing .page-title--heading,
-  .page-template-archive-newsroom .page-title--heading,
-  .newsroom-template-default .page-title--heading,
+  .page-template-archive-newsroom_post .page-title--heading,
+  .post-type-archive-newsroom_post .page-title--heading,
+  .newsroom_post-template-default .page-title--heading,
   .tax-newsroom_categories .page-title--heading,
   .page-template-category .page-title--heading,
   .page-template-archives .page-title--heading,
   .page-template-archives-blog .page-title--heading,
   .post-template-default .page-title--heading,
-  .single-newsroom .page-title--heading,
-  .search-results .page-title--heading {
+  .single-newsroom_post .page-title--heading,
+  .search-results .page-title--heading,
+  .error404 .page-title--heading,
+  .date .page-title--heading,
+  .tag .page-title--heading {
     width: 100%;
-    height: 60px;
+    height: auto;
     background: #00c6d5;
     text-align: left !important;
     letter-spacing: normal;
@@ -2997,94 +3022,137 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
       .category .page-title--heading,
       .page-template-page-template-basic .page-title--heading,
       .page-template-page-template-landing .page-title--heading,
-      .page-template-archive-newsroom .page-title--heading,
-      .newsroom-template-default .page-title--heading,
+      .page-template-archive-newsroom_post .page-title--heading,
+      .post-type-archive-newsroom_post .page-title--heading,
+      .newsroom_post-template-default .page-title--heading,
       .tax-newsroom_categories .page-title--heading,
       .page-template-category .page-title--heading,
       .page-template-archives .page-title--heading,
       .page-template-archives-blog .page-title--heading,
       .post-template-default .page-title--heading,
-      .single-newsroom .page-title--heading,
-      .search-results .page-title--heading {
+      .single-newsroom_post .page-title--heading,
+      .search-results .page-title--heading,
+      .error404 .page-title--heading,
+      .date .page-title--heading,
+      .tag .page-title--heading {
         font-size: 30px !important;
         padding: 12px 10px; } }
     @media screen and (min-width: 768px) {
       .category .page-title--heading,
       .page-template-page-template-basic .page-title--heading,
       .page-template-page-template-landing .page-title--heading,
-      .page-template-archive-newsroom .page-title--heading,
-      .newsroom-template-default .page-title--heading,
+      .page-template-archive-newsroom_post .page-title--heading,
+      .post-type-archive-newsroom_post .page-title--heading,
+      .newsroom_post-template-default .page-title--heading,
       .tax-newsroom_categories .page-title--heading,
       .page-template-category .page-title--heading,
       .page-template-archives .page-title--heading,
       .page-template-archives-blog .page-title--heading,
       .post-template-default .page-title--heading,
-      .single-newsroom .page-title--heading,
-      .search-results .page-title--heading {
+      .single-newsroom_post .page-title--heading,
+      .search-results .page-title--heading,
+      .error404 .page-title--heading,
+      .date .page-title--heading,
+      .tag .page-title--heading {
         font-size: 45px !important;
         padding: 8px 10px; } }
+    @media screen and (max-width: 599px) {
+      .category .page-title--heading,
+      .page-template-page-template-basic .page-title--heading,
+      .page-template-page-template-landing .page-title--heading,
+      .page-template-archive-newsroom_post .page-title--heading,
+      .post-type-archive-newsroom_post .page-title--heading,
+      .newsroom_post-template-default .page-title--heading,
+      .tax-newsroom_categories .page-title--heading,
+      .page-template-category .page-title--heading,
+      .page-template-archives .page-title--heading,
+      .page-template-archives-blog .page-title--heading,
+      .post-template-default .page-title--heading,
+      .single-newsroom_post .page-title--heading,
+      .search-results .page-title--heading,
+      .error404 .page-title--heading,
+      .date .page-title--heading,
+      .tag .page-title--heading {
+        margin-bottom: 0px;
+        margin-top: 5px; } }
 .category .page-accordion,
 .page-template-page-template-basic .page-accordion,
 .page-template-page-template-landing .page-accordion,
-.page-template-archive-newsroom .page-accordion,
-.newsroom-template-default .page-accordion,
+.page-template-archive-newsroom_post .page-accordion,
+.post-type-archive-newsroom_post .page-accordion,
+.newsroom_post-template-default .page-accordion,
 .tax-newsroom_categories .page-accordion,
 .page-template-category .page-accordion,
 .page-template-archives .page-accordion,
 .page-template-archives-blog .page-accordion,
 .post-template-default .page-accordion,
-.single-newsroom .page-accordion,
-.search-results .page-accordion {
+.single-newsroom_post .page-accordion,
+.search-results .page-accordion,
+.error404 .page-accordion,
+.date .page-accordion,
+.tag .page-accordion {
   border: none; }
   .category .page-accordion .et_pb_toggle_open,
   .page-template-page-template-basic .page-accordion .et_pb_toggle_open,
   .page-template-page-template-landing .page-accordion .et_pb_toggle_open,
-  .page-template-archive-newsroom .page-accordion .et_pb_toggle_open,
-  .newsroom-template-default .page-accordion .et_pb_toggle_open,
+  .page-template-archive-newsroom_post .page-accordion .et_pb_toggle_open,
+  .post-type-archive-newsroom_post .page-accordion .et_pb_toggle_open,
+  .newsroom_post-template-default .page-accordion .et_pb_toggle_open,
   .tax-newsroom_categories .page-accordion .et_pb_toggle_open,
   .page-template-category .page-accordion .et_pb_toggle_open,
   .page-template-archives .page-accordion .et_pb_toggle_open,
   .page-template-archives-blog .page-accordion .et_pb_toggle_open,
   .post-template-default .page-accordion .et_pb_toggle_open,
-  .single-newsroom .page-accordion .et_pb_toggle_open,
-  .search-results .page-accordion .et_pb_toggle_open {
+  .single-newsroom_post .page-accordion .et_pb_toggle_open,
+  .search-results .page-accordion .et_pb_toggle_open,
+  .error404 .page-accordion .et_pb_toggle_open,
+  .date .page-accordion .et_pb_toggle_open,
+  .tag .page-accordion .et_pb_toggle_open {
     padding: 0px !important;
     background-color: #fff;
     border: none; }
     .category .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
     .page-template-page-template-basic .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
     .page-template-page-template-landing .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
-    .page-template-archive-newsroom .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
-    .newsroom-template-default .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
+    .page-template-archive-newsroom_post .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
+    .post-type-archive-newsroom_post .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
+    .newsroom_post-template-default .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
     .tax-newsroom_categories .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
     .page-template-category .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
     .page-template-archives .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
     .page-template-archives-blog .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
     .post-template-default .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
-    .single-newsroom .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
-    .search-results .page-accordion .et_pb_toggle_open .et_pb_toggle_title {
+    .single-newsroom_post .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
+    .search-results .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
+    .error404 .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
+    .date .page-accordion .et_pb_toggle_open .et_pb_toggle_title,
+    .tag .page-accordion .et_pb_toggle_open .et_pb_toggle_title {
       padding: 20px;
       background: #e6e9ee;
       border-top: solid 2px #009fda;
       font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
       font-size: 30px;
       font-weight: 500;
-      line-height: 1;
+      line-height: 1.35;
       letter-spacing: 1px;
       text-align: left;
       color: #003150; }
       .category .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
       .page-template-page-template-basic .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
       .page-template-page-template-landing .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
-      .page-template-archive-newsroom .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
-      .newsroom-template-default .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
+      .page-template-archive-newsroom_post .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
+      .post-type-archive-newsroom_post .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
+      .newsroom_post-template-default .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
       .tax-newsroom_categories .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
       .page-template-category .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
       .page-template-archives .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
       .page-template-archives-blog .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
       .post-template-default .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
-      .single-newsroom .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
-      .search-results .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after {
+      .single-newsroom_post .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
+      .search-results .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
+      .error404 .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
+      .date .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after,
+      .tag .page-accordion .et_pb_toggle_open .et_pb_toggle_title:after {
         position: absolute;
         right: 10px;
         font-family: "Font Awesome 5 Free";
@@ -3096,65 +3164,81 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .category .page-accordion .et_pb_toggle_close,
   .page-template-page-template-basic .page-accordion .et_pb_toggle_close,
   .page-template-page-template-landing .page-accordion .et_pb_toggle_close,
-  .page-template-archive-newsroom .page-accordion .et_pb_toggle_close,
-  .newsroom-template-default .page-accordion .et_pb_toggle_close,
+  .page-template-archive-newsroom_post .page-accordion .et_pb_toggle_close,
+  .post-type-archive-newsroom_post .page-accordion .et_pb_toggle_close,
+  .newsroom_post-template-default .page-accordion .et_pb_toggle_close,
   .tax-newsroom_categories .page-accordion .et_pb_toggle_close,
   .page-template-category .page-accordion .et_pb_toggle_close,
   .page-template-archives .page-accordion .et_pb_toggle_close,
   .page-template-archives-blog .page-accordion .et_pb_toggle_close,
   .post-template-default .page-accordion .et_pb_toggle_close,
-  .single-newsroom .page-accordion .et_pb_toggle_close,
-  .search-results .page-accordion .et_pb_toggle_close {
+  .single-newsroom_post .page-accordion .et_pb_toggle_close,
+  .search-results .page-accordion .et_pb_toggle_close,
+  .error404 .page-accordion .et_pb_toggle_close,
+  .date .page-accordion .et_pb_toggle_close,
+  .tag .page-accordion .et_pb_toggle_close {
     padding: 0px !important;
     background-color: #ffffff;
     border: none; }
     .category .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
     .page-template-page-template-basic .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
     .page-template-page-template-landing .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
-    .page-template-archive-newsroom .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
-    .newsroom-template-default .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
+    .page-template-archive-newsroom_post .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
+    .post-type-archive-newsroom_post .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
+    .newsroom_post-template-default .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
     .tax-newsroom_categories .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
     .page-template-category .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
     .page-template-archives .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
     .page-template-archives-blog .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
     .post-template-default .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
-    .single-newsroom .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
-    .search-results .page-accordion .et_pb_toggle_close .et_pb_toggle_title {
+    .single-newsroom_post .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
+    .search-results .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
+    .error404 .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
+    .date .page-accordion .et_pb_toggle_close .et_pb_toggle_title,
+    .tag .page-accordion .et_pb_toggle_close .et_pb_toggle_title {
       padding: 20px;
       background: #e6e9ee;
       border-top: solid 2px #009fda;
       font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
       font-size: 30px;
       font-weight: 500;
-      line-height: 1;
+      line-height: 1.35;
       letter-spacing: 1px;
       text-align: left;
       color: #003150; }
       .category .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
       .page-template-page-template-basic .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
       .page-template-page-template-landing .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
-      .page-template-archive-newsroom .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
-      .newsroom-template-default .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
+      .page-template-archive-newsroom_post .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
+      .post-type-archive-newsroom_post .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
+      .newsroom_post-template-default .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
       .tax-newsroom_categories .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
       .page-template-category .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
       .page-template-archives .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
       .page-template-archives-blog .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
       .post-template-default .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
-      .single-newsroom .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
-      .search-results .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before {
+      .single-newsroom_post .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
+      .search-results .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
+      .error404 .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
+      .date .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before,
+      .tag .page-accordion .et_pb_toggle_close .et_pb_toggle_title:before {
         display: none; }
       .category .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
       .page-template-page-template-basic .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
       .page-template-page-template-landing .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
-      .page-template-archive-newsroom .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
-      .newsroom-template-default .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
+      .page-template-archive-newsroom_post .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
+      .post-type-archive-newsroom_post .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
+      .newsroom_post-template-default .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
       .tax-newsroom_categories .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
       .page-template-category .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
       .page-template-archives .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
       .page-template-archives-blog .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
       .post-template-default .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
-      .single-newsroom .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
-      .search-results .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after {
+      .single-newsroom_post .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
+      .search-results .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
+      .error404 .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
+      .date .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after,
+      .tag .page-accordion .et_pb_toggle_close .et_pb_toggle_title:after {
         position: absolute;
         right: 10px;
         font-family: "Font Awesome 5 Free";
@@ -3165,28 +3249,36 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .category .page-accordion .et_pb_toggle_content,
   .page-template-page-template-basic .page-accordion .et_pb_toggle_content,
   .page-template-page-template-landing .page-accordion .et_pb_toggle_content,
-  .page-template-archive-newsroom .page-accordion .et_pb_toggle_content,
-  .newsroom-template-default .page-accordion .et_pb_toggle_content,
+  .page-template-archive-newsroom_post .page-accordion .et_pb_toggle_content,
+  .post-type-archive-newsroom_post .page-accordion .et_pb_toggle_content,
+  .newsroom_post-template-default .page-accordion .et_pb_toggle_content,
   .tax-newsroom_categories .page-accordion .et_pb_toggle_content,
   .page-template-category .page-accordion .et_pb_toggle_content,
   .page-template-archives .page-accordion .et_pb_toggle_content,
   .page-template-archives-blog .page-accordion .et_pb_toggle_content,
   .post-template-default .page-accordion .et_pb_toggle_content,
-  .single-newsroom .page-accordion .et_pb_toggle_content,
-  .search-results .page-accordion .et_pb_toggle_content {
+  .single-newsroom_post .page-accordion .et_pb_toggle_content,
+  .search-results .page-accordion .et_pb_toggle_content,
+  .error404 .page-accordion .et_pb_toggle_content,
+  .date .page-accordion .et_pb_toggle_content,
+  .tag .page-accordion .et_pb_toggle_content {
     padding: 30px; }
 .category h3,
 .page-template-page-template-basic h3,
 .page-template-page-template-landing h3,
-.page-template-archive-newsroom h3,
-.newsroom-template-default h3,
+.page-template-archive-newsroom_post h3,
+.post-type-archive-newsroom_post h3,
+.newsroom_post-template-default h3,
 .tax-newsroom_categories h3,
 .page-template-category h3,
 .page-template-archives h3,
 .page-template-archives-blog h3,
 .post-template-default h3,
-.single-newsroom h3,
-.search-results h3 {
+.single-newsroom_post h3,
+.search-results h3,
+.error404 h3,
+.date h3,
+.tag h3 {
   font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
   font-size: 40px;
   font-weight: bold;
@@ -3197,34 +3289,42 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 .category h4,
 .page-template-page-template-basic h4,
 .page-template-page-template-landing h4,
-.page-template-archive-newsroom h4,
-.newsroom-template-default h4,
+.page-template-archive-newsroom_post h4,
+.post-type-archive-newsroom_post h4,
+.newsroom_post-template-default h4,
 .tax-newsroom_categories h4,
 .page-template-category h4,
 .page-template-archives h4,
 .page-template-archives-blog h4,
 .post-template-default h4,
-.single-newsroom h4,
-.search-results h4 {
+.single-newsroom_post h4,
+.search-results h4,
+.error404 h4,
+.date h4,
+.tag h4 {
   font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
   font-size: 30px;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.35;
   letter-spacing: 1px;
   text-align: left;
   color: #003150; }
 .category h6,
 .page-template-page-template-basic h6,
 .page-template-page-template-landing h6,
-.page-template-archive-newsroom h6,
-.newsroom-template-default h6,
+.page-template-archive-newsroom_post h6,
+.post-type-archive-newsroom_post h6,
+.newsroom_post-template-default h6,
 .tax-newsroom_categories h6,
 .page-template-category h6,
 .page-template-archives h6,
 .page-template-archives-blog h6,
 .post-template-default h6,
-.single-newsroom h6,
-.search-results h6 {
+.single-newsroom_post h6,
+.search-results h6,
+.error404 h6,
+.date h6,
+.tag h6 {
   font-family: 'Helvetica Neue LT W01_65 Mediu' !important;
   font-size: 24px;
   font-weight: 500;
@@ -3235,15 +3335,19 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 .category .entry-content p,
 .page-template-page-template-basic .entry-content p,
 .page-template-page-template-landing .entry-content p,
-.page-template-archive-newsroom .entry-content p,
-.newsroom-template-default .entry-content p,
+.page-template-archive-newsroom_post .entry-content p,
+.post-type-archive-newsroom_post .entry-content p,
+.newsroom_post-template-default .entry-content p,
 .tax-newsroom_categories .entry-content p,
 .page-template-category .entry-content p,
 .page-template-archives .entry-content p,
 .page-template-archives-blog .entry-content p,
 .post-template-default .entry-content p,
-.single-newsroom .entry-content p,
-.search-results .entry-content p {
+.single-newsroom_post .entry-content p,
+.search-results .entry-content p,
+.error404 .entry-content p,
+.date .entry-content p,
+.tag .entry-content p {
   margin-bottom: 10px;
   font-family: 'Helvetica Neue LT W01_55 Roman' !important;
   font-size: 16px;
@@ -3257,12 +3361,15 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 .page-template-page-template-landing .small-button,
 .page-template-page-template-landing .smallblue,
 .page-template-page-template-landing .bigblue,
-.page-template-archive-newsroom .small-button,
-.page-template-archive-newsroom .smallblue,
-.page-template-archive-newsroom .bigblue,
-.newsroom-template-default .small-button,
-.newsroom-template-default .smallblue,
-.newsroom-template-default .bigblue,
+.page-template-archive-newsroom_post .small-button,
+.page-template-archive-newsroom_post .smallblue,
+.page-template-archive-newsroom_post .bigblue,
+.post-type-archive-newsroom_post .small-button,
+.post-type-archive-newsroom_post .smallblue,
+.post-type-archive-newsroom_post .bigblue,
+.newsroom_post-template-default .small-button,
+.newsroom_post-template-default .smallblue,
+.newsroom_post-template-default .bigblue,
 .tax-newsroom_categories .small-button,
 .tax-newsroom_categories .smallblue,
 .tax-newsroom_categories .bigblue,
@@ -3278,12 +3385,21 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 .post-template-default .small-button,
 .post-template-default .smallblue,
 .post-template-default .bigblue,
-.single-newsroom .small-button,
-.single-newsroom .smallblue,
-.single-newsroom .bigblue,
+.single-newsroom_post .small-button,
+.single-newsroom_post .smallblue,
+.single-newsroom_post .bigblue,
 .search-results .small-button,
 .search-results .smallblue,
-.search-results .bigblue {
+.search-results .bigblue,
+.error404 .small-button,
+.error404 .smallblue,
+.error404 .bigblue,
+.date .small-button,
+.date .smallblue,
+.date .bigblue,
+.tag .small-button,
+.tag .smallblue,
+.tag .bigblue {
   font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
   color: #ffffff !important;
   border-width: 0px !important;
@@ -3304,12 +3420,15 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .page-template-page-template-landing .small-button:hover,
   .page-template-page-template-landing .smallblue:hover,
   .page-template-page-template-landing .bigblue:hover,
-  .page-template-archive-newsroom .small-button:hover,
-  .page-template-archive-newsroom .smallblue:hover,
-  .page-template-archive-newsroom .bigblue:hover,
-  .newsroom-template-default .small-button:hover,
-  .newsroom-template-default .smallblue:hover,
-  .newsroom-template-default .bigblue:hover,
+  .page-template-archive-newsroom_post .small-button:hover,
+  .page-template-archive-newsroom_post .smallblue:hover,
+  .page-template-archive-newsroom_post .bigblue:hover,
+  .post-type-archive-newsroom_post .small-button:hover,
+  .post-type-archive-newsroom_post .smallblue:hover,
+  .post-type-archive-newsroom_post .bigblue:hover,
+  .newsroom_post-template-default .small-button:hover,
+  .newsroom_post-template-default .smallblue:hover,
+  .newsroom_post-template-default .bigblue:hover,
   .tax-newsroom_categories .small-button:hover,
   .tax-newsroom_categories .smallblue:hover,
   .tax-newsroom_categories .bigblue:hover,
@@ -3325,12 +3444,21 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .post-template-default .small-button:hover,
   .post-template-default .smallblue:hover,
   .post-template-default .bigblue:hover,
-  .single-newsroom .small-button:hover,
-  .single-newsroom .smallblue:hover,
-  .single-newsroom .bigblue:hover,
+  .single-newsroom_post .small-button:hover,
+  .single-newsroom_post .smallblue:hover,
+  .single-newsroom_post .bigblue:hover,
   .search-results .small-button:hover,
   .search-results .smallblue:hover,
-  .search-results .bigblue:hover {
+  .search-results .bigblue:hover,
+  .error404 .small-button:hover,
+  .error404 .smallblue:hover,
+  .error404 .bigblue:hover,
+  .date .small-button:hover,
+  .date .smallblue:hover,
+  .date .bigblue:hover,
+  .tag .small-button:hover,
+  .tag .smallblue:hover,
+  .tag .bigblue:hover {
     background: rgba(0, 159, 218, 0.72) !important;
     text-shadow: none !important;
     max-width: 370px;
@@ -3344,12 +3472,15 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .page-template-page-template-landing .small-button:active,
   .page-template-page-template-landing .smallblue:active,
   .page-template-page-template-landing .bigblue:active,
-  .page-template-archive-newsroom .small-button:active,
-  .page-template-archive-newsroom .smallblue:active,
-  .page-template-archive-newsroom .bigblue:active,
-  .newsroom-template-default .small-button:active,
-  .newsroom-template-default .smallblue:active,
-  .newsroom-template-default .bigblue:active,
+  .page-template-archive-newsroom_post .small-button:active,
+  .page-template-archive-newsroom_post .smallblue:active,
+  .page-template-archive-newsroom_post .bigblue:active,
+  .post-type-archive-newsroom_post .small-button:active,
+  .post-type-archive-newsroom_post .smallblue:active,
+  .post-type-archive-newsroom_post .bigblue:active,
+  .newsroom_post-template-default .small-button:active,
+  .newsroom_post-template-default .smallblue:active,
+  .newsroom_post-template-default .bigblue:active,
   .tax-newsroom_categories .small-button:active,
   .tax-newsroom_categories .smallblue:active,
   .tax-newsroom_categories .bigblue:active,
@@ -3365,12 +3496,21 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .post-template-default .small-button:active,
   .post-template-default .smallblue:active,
   .post-template-default .bigblue:active,
-  .single-newsroom .small-button:active,
-  .single-newsroom .smallblue:active,
-  .single-newsroom .bigblue:active,
+  .single-newsroom_post .small-button:active,
+  .single-newsroom_post .smallblue:active,
+  .single-newsroom_post .bigblue:active,
   .search-results .small-button:active,
   .search-results .smallblue:active,
-  .search-results .bigblue:active {
+  .search-results .bigblue:active,
+  .error404 .small-button:active,
+  .error404 .smallblue:active,
+  .error404 .bigblue:active,
+  .date .small-button:active,
+  .date .smallblue:active,
+  .date .bigblue:active,
+  .tag .small-button:active,
+  .tag .smallblue:active,
+  .tag .bigblue:active {
     background: #0077ad !important;
     text-shadow: none !important;
     max-width: 370px;
@@ -3379,15 +3519,19 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 .category .Rectangle-3,
 .page-template-page-template-basic .Rectangle-3,
 .page-template-page-template-landing .Rectangle-3,
-.page-template-archive-newsroom .Rectangle-3,
-.newsroom-template-default .Rectangle-3,
+.page-template-archive-newsroom_post .Rectangle-3,
+.post-type-archive-newsroom_post .Rectangle-3,
+.newsroom_post-template-default .Rectangle-3,
 .tax-newsroom_categories .Rectangle-3,
 .page-template-category .Rectangle-3,
 .page-template-archives .Rectangle-3,
 .page-template-archives-blog .Rectangle-3,
 .post-template-default .Rectangle-3,
-.single-newsroom .Rectangle-3,
-.search-results .Rectangle-3 {
+.single-newsroom_post .Rectangle-3,
+.search-results .Rectangle-3,
+.error404 .Rectangle-3,
+.date .Rectangle-3,
+.tag .Rectangle-3 {
   width: 100%;
   max-width: 500px;
   height: 60px;
@@ -3408,35 +3552,64 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .page-template-page-template-landing .et_pb_section:before {
     width: 75%; } }
 
-.page-template-archive-newsroom #main-content {
+.page-template-archive-newsroom_post #main-content,
+.post-type-archive-newsroom_post #main-content {
   background-color: rgba(255, 255, 255, 0) !important; }
 @media screen and (min-width: 320px) {
-  .page-template-archive-newsroom .et_pb_section:before {
+  .page-template-archive-newsroom_post .et_pb_section:before,
+  .post-type-archive-newsroom_post .et_pb_section:before {
     width: 100%; } }
-.page-template-archive-newsroom .widgettitle {
+.page-template-archive-newsroom_post .widgettitle,
+.post-type-archive-newsroom_post .widgettitle {
+  font-family: "Helvetica Neue LT W01_65 Mediu" !important;
   color: #003150;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 300;
   margin-bottom: 0px;
   text-transform: uppercase;
   border-bottom: solid 2px #bdc1c9; }
 
-.archive #main-content,
-.search-results #main-content {
+.date #main-content,
+.category #main-content,
+.search-results #main-content,
+.term-press-releases #main-content,
+.term-events #main-content,
+.term-in-the-news #main-content,
+.tax-newsroom_categories #main-content {
   background-color: rgba(255, 255, 255, 0) !important; }
-.archive .page-title--heading,
-.search-results .page-title--heading {
+.date .page-title--heading,
+.category .page-title--heading,
+.search-results .page-title--heading,
+.term-press-releases .page-title--heading,
+.term-events .page-title--heading,
+.term-in-the-news .page-title--heading,
+.tax-newsroom_categories .page-title--heading {
   margin-bottom: 0px !important; }
-.archive .et_pb_section,
-.search-results .et_pb_section {
+.date .et_pb_section,
+.category .et_pb_section,
+.search-results .et_pb_section,
+.term-press-releases .et_pb_section,
+.term-events .et_pb_section,
+.term-in-the-news .et_pb_section,
+.tax-newsroom_categories .et_pb_section {
   top: -35px !important;
   padding-top: 75px !important; }
   @media screen and (min-width: 320px) {
-    .archive .et_pb_section:before,
-    .search-results .et_pb_section:before {
+    .date .et_pb_section:before,
+    .category .et_pb_section:before,
+    .search-results .et_pb_section:before,
+    .term-press-releases .et_pb_section:before,
+    .term-events .et_pb_section:before,
+    .term-in-the-news .et_pb_section:before,
+    .tax-newsroom_categories .et_pb_section:before {
       width: 100%; } }
-.archive .widgettitle,
-.search-results .widgettitle {
+.date .widgettitle,
+.category .widgettitle,
+.search-results .widgettitle,
+.term-press-releases .widgettitle,
+.term-events .widgettitle,
+.term-in-the-news .widgettitle,
+.tax-newsroom_categories .widgettitle {
   color: #003150;
   font-size: 16px;
   font-weight: bold;
@@ -3448,36 +3621,48 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .page-template-archives .et_pb_section:before {
     width: 100%; } }
 .page-template-archives .widgettitle {
+  font-family: "Helvetica Neue LT W01_65 Mediu" !important;
   color: #003150;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 300;
   margin-bottom: 0px;
   text-transform: uppercase;
   border-bottom: solid 2px #bdc1c9; }
 
+.archive #main-content,
+.error404 #main-content,
 .post-template-default #main-content,
-.newsroom-template-default #main-content,
+.newsroom_post-template-default #main-content,
 .page-template-archives-blog #main-content {
   background-color: rgba(255, 255, 255, 0) !important; }
+.archive .et_section_regular,
+.error404 .et_section_regular,
 .post-template-default .et_section_regular,
-.newsroom-template-default .et_section_regular,
+.newsroom_post-template-default .et_section_regular,
 .page-template-archives-blog .et_section_regular {
   padding-top: 0px !important; }
 @media screen and (min-width: 320px) {
+  .archive .et_pb_section:before,
+  .error404 .et_pb_section:before,
   .post-template-default .et_pb_section:before,
-  .newsroom-template-default .et_pb_section:before,
+  .newsroom_post-template-default .et_pb_section:before,
   .page-template-archives-blog .et_pb_section:before {
     width: 100%; } }
+.archive .et_pb_post .entry-content,
+.error404 .et_pb_post .entry-content,
 .post-template-default .et_pb_post .entry-content,
-.newsroom-template-default .et_pb_post .entry-content,
+.newsroom_post-template-default .et_pb_post .entry-content,
 .page-template-archives-blog .et_pb_post .entry-content {
   padding-top: 0px !important; }
+.archive .widgettitle,
+.error404 .widgettitle,
 .post-template-default .widgettitle,
-.newsroom-template-default .widgettitle,
+.newsroom_post-template-default .widgettitle,
 .page-template-archives-blog .widgettitle {
+  font-family: "Helvetica Neue LT W01_65 Mediu" !important;
   color: #003150;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 300;
   margin-bottom: 0px;
   text-transform: uppercase;
   border-bottom: solid 2px #bdc1c9; }
@@ -3528,6 +3713,9 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   max-width: 1200px;
   margin: 0 auto 20px;
   z-index: 1; }
+  @media screen and (max-width: 599px) {
+    .results {
+      padding: 0 15px; } }
 
 .basic-page-bkgd {
   height: auto;
@@ -3569,7 +3757,6 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 
 .page-icon-with-list {
   padding: 0px;
-  min-height: 285px;
   margin-bottom: 0px !important; }
   @media screen and (min-width: 768px) {
     .page-icon-with-list {
@@ -3577,12 +3764,15 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   @media screen and (min-width: 1200px) {
     .page-icon-with-list {
       padding: 0px; } }
+  .page-icon-with-list h6 {
+    padding-bottom: 0px !important; }
   .page-icon-with-list .fas {
     text-shadow: none; }
   .page-icon-with-list .et_pb_blurb_content {
     position: relative;
+    width: 100%;
     max-width: 550px;
-    margin: 0 auto;
+    margin: 0;
     text-align: center; }
   .page-icon-with-list .small-button, .page-icon-with-list .smallblue, .page-icon-with-list .bigblue {
     font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
@@ -3611,7 +3801,6 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   margin-bottom: 0px !important; }
   @media screen and (min-width: 768px) {
     .page-buttons {
-      min-height: 235px;
       padding: 0 10px; } }
   @media screen and (min-width: 1200px) {
     .page-buttons {
@@ -3937,6 +4126,37 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
       line-height: 1.33;
       text-align: left;
       color: #444444; }
+      .footer-notes-container .easy-footnote-single p:hover {
+        text-decoration: underline; }
+    .footer-notes-container .easy-footnote-single strong {
+      display: none; }
+
+/* ==========================================
+    @Chart
+=========================================== */
+.inspired-chart h2 {
+  text-align: left !important;
+  font-family: 'Helvetica Neue LT W01_77 Bd Cn' !important;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #003150; }
+
+.wpDataTablesWrapper div.dt-buttons {
+  margin-bottom: 0px !important; }
+
+.wpDataTablesWrapper table.wpDataTable {
+  margin-bottom: 0px !important; }
+
+.wpDataTablesWrapper {
+  margin-bottom: -1px !important; }
+
+.wpdt-c .wpDataTablesWrapper table.wpDataTable tr.odd td {
+  background-color: #e6e9ee !important;
+  word-wrap: initial; }
+  .wpdt-c .wpDataTablesWrapper table.wpDataTable tr.odd td p {
+    padding-bottom: 5px !important; }
 
 /* ==========================================
     @Archieve Page
@@ -3947,9 +4167,10 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   .post-content--container {
     padding-bottom: 20px; }
   .post-content--date {
-    color: #003150;
+    font-family: "Helvetica Neue LT W01_65 Mediu" !important;
+    color: #003150 !important;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 300;
     margin-bottom: 10px;
     text-transform: uppercase; }
   .post-content--image {
@@ -3960,19 +4181,24 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     font-family: 'Helvetica Neue LT W01_67 Md Cn' !important;
     font-size: 30px;
     font-weight: 500;
-    line-height: 1;
+    line-height: 1.35;
     letter-spacing: 1px;
     text-align: left;
     color: #003150; }
+    .post-content--heading a:hover {
+      color: #003150 !important;
+      text-decoration: none !important; }
   .post-content--cat {
     margin-bottom: 10px !important;
     color: #009fda !important; }
+    .post-content--cat a {
+      text-decoration: none !important; }
   .post-content--btn {
     color: #ffffff !important;
     font-size: 16px !important;
     padding: 8px 25px;
     height: 40px;
-    margin: 30px 0px 0px !important;
+    margin: 30px 10px 0px 0px !important;
     border-radius: 2px;
     display: inline-block;
     background-color: #009fda; }
@@ -3985,6 +4211,22 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
     color: #444444; }
   .post-content--featured-image {
     margin-bottom: 20px !important; }
+  .post-content--tags {
+    display: inline-block; }
+    .post-content--tags ul {
+      padding-left: 0px !important;
+      list-style: none; }
+      .post-content--tags ul li {
+        float: left;
+        display: inline-block;
+        font-size: 16px;
+        padding: 10px 25px;
+        margin: 0 16px 20px 0;
+        border-radius: 2px;
+        background-color: #00c6d5; }
+        .post-content--tags ul li a {
+          color: #ffffff !important;
+          text-decoration: none !important; }
 
 .block-pagination .current {
   display: block;
@@ -4117,6 +4359,13 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
 
 .footerSection {
   padding: 30px 15px; }
+  .footerSection .footer-copy {
+    color: #ffffff !important;
+    font-family: 'Helvetica Neue LT W01_55 Roman' !important;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: #444444; }
 
 .bottom-nav {
   padding: 15px 0; }
@@ -4136,21 +4385,10 @@ body #page-container .see-more-btn, body #page-container .cta-widget-block .cta-
   max-width: 100%;
   text-align: center; }
 
-.InspiredSpine_logo_solid_reverse_stacked {
+.inspiredSpine-footer-logo {
   width: 225px;
   height: 100px;
   object-fit: contain; }
-
-.Inspired-Spine-is-a {
-  max-width: 273px;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  font-family: 'Helvetica Neue LT W01_55 Roman' !important;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  color: #e6e9ee; }
 
 .et_pb_scroll_top.et-pb-icon {
   display: none;

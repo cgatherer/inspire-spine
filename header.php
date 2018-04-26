@@ -38,7 +38,7 @@
 
 	<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5a4014ea7820fd001360b2c9&product=inline-share-buttons' async='async'></script>
 </head>
-<body <?php body_class(); ?> style="background-image: url('<?php echo home_url('/');?>/wp-content/uploads/background_pattern-2.png');background-position: center top;background-size: auto;background-repeat: repeat;background-attachment: scroll;">
+<body <?php body_class();?> style="background-image: url('<?php echo home_url('/');?>/wp-content/uploads/background_pattern-2.png');background-position: center top;background-size: auto;background-repeat: repeat;background-attachment: scroll;">
 	<?php
 		$product_tour_enabled = et_builder_is_product_tour_enabled();
 		$page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : ''; ?>
@@ -242,7 +242,7 @@
 				<div class="row">
 					<button class="BG--mobile">Request Free MRI Review</button>
 					<div class="form-area--mobile" style="display:none;">	
-						<?php echo do_shortcode('[gravityform id="4" title="false" description="false" ajax="true" tabindex="49"]');?>
+						<?php echo do_shortcode('[gravityform id="4" title="false" description="false" ajax="true" tabindex="10"]');?>
 					</div>
 				</div>
 
@@ -281,7 +281,7 @@
 
 						<div class="span4">
 							<div class="text-center">
-								<p class="We-make-minimally-in"><?php bloginfo('description'); ?></p>
+								<p class="site-description"><?php bloginfo('description'); ?></p>
 							</div>
 						</div>
 
@@ -340,7 +340,7 @@
 					<div class="row">
 						<button class="BG--mobile">Request Free MRI Review</button>
 						<div class="form-area--mobile" style="display:none;">	
-							<?php echo do_shortcode('[gravityform id="4" title="false" description="false" ajax="true" tabindex="49"]');?>
+							<?php echo do_shortcode('[gravityform id="4" title="false" description="false" ajax="true" tabindex="10"]');?>
 						</div>
 					</div>
 				</div>
@@ -363,7 +363,7 @@
 								</a>
 							</div>
 
-							<div class="right"><p class="We-make-minimally-in mobile-hide"><?php bloginfo('description'); ?></p></div>
+							<div class="right"><p class="site-description mobile-hide"><?php bloginfo('description'); ?></p></div>
 
 							<div id="et-top-navigation" data-height="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>" data-fixed-height="<?php echo esc_attr( et_get_option( 'minimized_menu_height', '40' ) ); ?>">
 										<?php if ( ! $et_slide_header || is_customize_preview() ) : ?>
@@ -416,7 +416,21 @@
 						</div>
 
 						<div class="span4">
-							<div class="move-right margin-center"><?php dynamic_sidebar( 'right-cta' ); ?></div>
+							<div class="move-right margin-center">
+								<?php //dynamic_sidebar( 'right-cta' ); ?>
+								<div class="text-center">
+									<p class="MY-SPINE">
+										<a href="tel:727-697-7463">(727)-MY-SPINE&nbsp;&nbsp;<i class="fas fa-phone mobile-phone"></i>
+										</a>
+									</p>
+								</div>
+								<div class="row">
+									<button class="BG--mobile">Request Free MRI Review</button>
+									<div class="form-area--mobile" style="display:none;">	
+										<?php echo do_shortcode('[gravityform id="4" title="false" description="false" ajax="true" tabindex="10"]');?>
+									</div>
+								</div>	
+							</div>
 						</div>
 					</div>
 				</div>

@@ -1,0 +1,31 @@
+/* ==========================================
+    @Chart
+=========================================== */
+
+.inspired-chart {
+    h2 {
+        text-align: left !important;
+        @include H05---center-dark-blue;
+    }
+}
+
+.wpDataTablesWrapper div.dt-buttons {
+    margin-bottom: 0px !important;
+}
+
+.wpDataTablesWrapper table.wpDataTable {
+    margin-bottom: 0px !important;
+}
+
+.wpDataTablesWrapper {
+    margin-bottom: -1px !important;
+}
+
+.wpdt-c .wpDataTablesWrapper table.wpDataTable tr.odd td {
+    background-color: #e6e9ee !important;
+    word-wrap: initial;
+
+    p {
+        padding-bottom: 5px !important;
+    }
+}

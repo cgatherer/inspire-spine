@@ -2,7 +2,10 @@
 // **************************************************
 
 jQuery(document).ready(function($){
-	  // Mobile Nav & Form
+    var element = $("body");
+    var article = $("article");
+	
+    // Mobile Nav & Form
     $('.BG').click(function(e) {
         e.preventDefault();
         $(this).toggleClass('BG--up');
@@ -36,4 +39,57 @@ jQuery(document).ready(function($){
          $('#main-header').removeClass('fixed-header');
       }
     });
+
+    // Custom Post Categories
+    if ( element.hasClass("term-press-releases") && element.hasClass("post-type-archive-newsroom_post")) {
+        $(".cat-item").addClass("current-cat");
+        $("#top-menu li:first-of-type").addClass("active-ancestor");
+        $("#top-menu li li:nth-of-type(4)").addClass("active-page");
+    } 
+
+    if ( element.hasClass("date") && element.hasClass("term-press-releases") && element.hasClass("post-type-archive-newsroom_post")) {
+        $(".cat-item").removeClass("current-cat");
+        $("#top-menu li:first-of-type").addClass("active-ancestor");
+        $("#top-menu li li:nth-of-type(4)").addClass("active-page");
+    }
+
+    if ( element.hasClass("term-events") && element.hasClass("post-type-archive-newsroom_post")) {
+        $(".cat-item").addClass("current-cat");
+        $("#top-menu li:first-of-type").addClass("active-ancestor");
+        $("#top-menu li li:nth-of-type(4)").addClass("active-page");
+    } 
+
+    if ( element.hasClass("date") && element.hasClass("term-events") && element.hasClass("post-type-archive-newsroom_post")) {
+        $(".cat-item").removeClass("current-cat");
+        $("#top-menu li:first-of-type").addClass("active-ancestor");
+        $("#top-menu li li:nth-of-type(4)").addClass("active-page");
+    }
+
+    if ( element.hasClass("term-in-the-news") && element.hasClass("post-type-archive-newsroom_post")) {
+        $(".cat-item").addClass("current-cat");
+        $("#top-menu li:first-of-type").addClass("active-ancestor");
+        $("#top-menu li li:nth-of-type(4)").addClass("active-page");
+    } 
+
+    if ( element.hasClass("date") && element.hasClass("term-in-the-news") && element.hasClass("post-type-archive-newsroom_post")) {
+        $(".cat-item").removeClass("current-cat");
+        $("#top-menu li:first-of-type").addClass("active-ancestor");
+        $("#top-menu li li:nth-of-type(4)").addClass("active-page");
+    }
+
+    // Blog Categories 
+    if ( element.hasClass("date") && article.hasClass("post")) {
+        $("#top-menu li:first-of-type").addClass("active-ancestor");
+        $("#top-menu li li:nth-of-type(3)").addClass("active-page");
+        $("#menu-main-menu li:first-of-type").addClass("active-parent");
+        $("#menu-main-menu li li:nth-of-type(3)").addClass("active-page");
+    }
+
+    if ( element.hasClass("category") && element.hasClass("archive")) {
+        $("#top-menu li:first-of-type").addClass("active-ancestor");
+        $("#top-menu li li:nth-of-type(3)").addClass("active-page");
+        $("#menu-main-menu li:first-of-type").addClass("active-parent");
+        $("#menu-main-menu li li:nth-of-type(3)").addClass("active-page");
+    }  
+
 });

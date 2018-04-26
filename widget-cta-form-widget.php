@@ -12,8 +12,10 @@
 	<button class="BG"><?php the_field('cta_form_title', $acfw); ?></button>
 	<div class="form-area" style="display:none;">	
 		<?php 
-		  	$shortcode = get_field( 'cta_form_shortcode', $acfw); 
-		  	echo do_shortcode($shortcode);
+		  	// $shortcode = get_field( 'cta_form_shortcode', $acfw); 
+		  	// echo do_shortcode($shortcode);
+		  	
+			// echo do_shortcode('[gravityform id="4" title="false" description="false" ajax="false" tabindex="1"]');
 		?>
 	</div>
 </div>

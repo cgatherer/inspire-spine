@@ -226,7 +226,7 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   /* width: 100%; */
 }
 
-.We-make-minimally-in {
+.site-description {
   padding: 20px 0;
   margin: 0px;
   @include H08;
@@ -238,13 +238,6 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     position: relative;
     left: 0px;
   }
-}
-
-.INSPIRED-SPINE-PATIE {
-  @include button02---uppercase;
-}
-.Rosie-E {
-  @include H09;
 }
 
 .header-phone {
@@ -562,6 +555,14 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       }
     }
   }
+  
+  .active-page a {
+    color: $teal !important;
+  }
+
+  .active-parent a {
+    background-color: $teal;
+  }
 
   .active-has-children {
     border-bottom: solid 1px $white;
@@ -623,10 +624,11 @@ body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
       }
         
       a {
+        width: 100%;
         padding: 10px 15px 10px !important;
         border-bottom: solid 1px $mid-blue;
-        width: 100%;
         text-transform: initial !important;
+        background: none;
         @include Nav02;
 
         &:after {

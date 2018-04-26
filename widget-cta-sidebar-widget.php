@@ -20,12 +20,16 @@
 	
 	<p class="cta-widget-desc"><?php the_field('cta_description', $acfw); ?></p>
 	
-	<?php if( get_field('cta_button_title', $acfw) ): ?>
-		<div align="left">
-			<a href="<?php the_field('cta_button', $acfw); ?>">
-				<button class="cta-widget-button"><?php the_field('cta_button_title', $acfw); ?></button>
-			</a>
-		</div>
+	<?php 
+		$link = get_field('cta_button_title', $acfw);
+		$button = get_field('cta_button', $acfw);
+
+		if( $link ): ?>
+			<div align="left">
+				<a href="<?php echo $button['url'];?>" target="<?php echo $button['target']?>">
+					<button class="cta-widget-button"><?php the_field('cta_button_title', $acfw); ?></button>
+				</a>
+			</div>
 	<?php endif; ?>
 		
 	<?php if( have_rows('cta_resources', $acfw) ): ?>
@@ -47,7 +51,7 @@
 
 				<?php if( $button ): ?>
 					<div align="left">
-						<a href="<?php echo $button; ?>">
+						<a href="<?php echo $button; ?>" target="<?php echo $button['target']; ?>">
 							<button class="cta-widget-button"><?php echo $text; ?></button>
 						</a>
 					</div>

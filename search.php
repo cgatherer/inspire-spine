@@ -21,7 +21,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 				<div class="entry-content">
 					
 					<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
-						<a href="<?php echo home_url('/');?>" rel="v:url" property="v:title">Home</a> <span class="delimiter">|</span> <span class="current">Search</span>
+						<a href="<?php echo home_url('/');?>" rel="v:url" property="v:title">Home</a> <span class="delimiter">|</span> <a href="<?php echo home_url('/blog');?>" rel="v:url" property="v:title">Blog</a> <span class="delimiter">|</span> <span class="current">Search</span>
 					</div>
 					
 					<div class="results"><p>Search Results for Term: “<?php $search_query = get_search_query(); echo $search_query; ?>”</p></div>
@@ -41,29 +41,137 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 										</div>
 									</form>
 								</div>
-								
-								<?php
-									$categories = get_the_category();
-									$cat = $categories[0]->term_id;
-									$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-										
-									$args = array( 
-										'posts_per_page' => -1, 
-										'post_type' => 'post',
-										'category__in' => array($cat),  
-										'order'   => 'ASC',
-										// 'paged' => $paged
+ 
+						        <?php 
+						        	$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+
+						        	$args = array(  
+										'posts_per_page' => 10,  
+										'paged' => $paged
 									);
 
-									$query = new WP_Query($args);
-										if ( $query->have_posts() ) {
-											while ( $query->have_posts () ): $query->the_post(); 
-												echo get_template_part( 'content', 'archive' );
-											endwhile; 
-										} else {
-											echo "<h6 style='text-align:center;margin-top:20px;'>No Search Results Available...</h6>";
-										}
-								wp_reset_postdata();?>
+						        	$query = new WP_Query($args);
+
+						        	if ( have_posts() ) : ?>
+						            <?php while ( have_posts() ) : the_post(); ?>
+						        
+						            	<?php 
+						            		// if(get_post_type() === 'newsroom_post'){
+						            		// 	echo get_template_part( 'content', 'newsroom' ); 
+						            		// } else {
+											 
+						            		// }
+						            		echo get_template_part( 'content', 'archive' );
+						            	?>
+						            <?php endwhile; ?>
+
+									<div class="block-pagination">
+										<?php
+											echo paginate_links( array(
+											    'base' => preg_replace('/\?.*/', '/', get_pagenum_link()) . '%_%',
+											    'total'        => $query->max_num_pages,
+											    'current'      => max( 1, get_query_var( 'paged' )),
+											    'format'       => '?paged=%#%',
+											    'show_all'     => false,
+											    'prev_next'    => true,
+											    'prev_text'    => __('<i class="fas fa-angle-left"></i>'),
+											    'next_text'    => __('<i class="fas fa-angle-right"></i>'),
+											    'add_args'     => false,
+											    'add_fragment' => '',
+											)); 
+										?>
+									</div>
+									
+						        <?php else : ?>
+						 
+						            <h6 style='text-align:center;margin-top:20px;'>No Search Results Available...</h6>
+						 
+						        <?php endif; ?>
+								
+								<?php
+									// $types = array('post', 'newsroom_post', 'pages');
+
+									// foreach ($types as $type) : 
+									// setup_postdata($type);
+										
+									// 	//Setup Post data
+									// 	$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+										
+									// 	$args = array( 
+									// 		'post_type' => $type, 
+									// 		'posts_per_page' => 10, 
+									// 		'order'   => 'DESC', 
+									// 		'paged' => $paged
+									// 	);
+
+									// 	$query = new WP_Query($args);
+
+									// 	if ( $query->have_posts() ) {
+									// 		while ( $query->have_posts () ): $query->the_post(); 
+									// 			echo get_template_part( 'content', 'archive' );
+									// 		endwhile; 
+									// 	} else {
+									// 		echo "<h6 style='text-align:center;margin-top:20px;'>No Search Results Available...</h6>";
+									// 	}
+
+									// endforeach;
+					  		// 		wp_reset_postdata();
+
+									// $categories = get_the_category();
+									// $cat = $categories[0]->term_id;
+									
+									// $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+										
+									// $args = array( 
+									// 	'posts_per_page' => -1, 
+									// 	'post_type' => 'post',
+									// 	'category__in' => array($cat),  
+									// 	'order'   => 'DESC',
+									// 	// 'paged' => $paged
+									// );
+
+									// $query = new WP_Query($args);
+									// 	if ( $query->have_posts() ) {
+									// 		while ( $query->have_posts () ): $query->the_post(); 
+									// 			echo get_template_part( 'content', 'archive' );
+									// 		endwhile; 
+									// 	} else {
+									// 		echo "<h6 style='text-align:center;margin-top:20px;'>No Search Results Available...</h6>";
+									// 	}
+									// wp_reset_postdata();
+
+									// if( have_posts() ){
+									//     $types = array('post', 'newsroom_post', 'pages');
+									//     foreach( $types as $type ){
+									//         echo 'your container opens here for ' . $type;
+									//         while( have_posts() ){
+									//             the_post();
+									//             if( $type == get_post_type() ){
+									//                 get_template_part('content', 'archive');
+									//             }
+									//         }
+									//         rewind_posts();
+									//         echo 'your container closes here for ' . $type;
+									//     }
+									// }
+								?>
+
+								<div class="block-pagination">
+									<?php
+										// echo paginate_links( array(
+										//     'base' => preg_replace('/\?.*/', '/', get_pagenum_link()) . '%_%',
+										//     'total'        => $query->max_num_pages,
+										//     'current'      => max( 1, get_query_var( 'paged' )),
+										//     'format'       => '?paged=%#%',
+										//     'show_all'     => false,
+										//     'prev_next'    => true,
+										//     'prev_text'    => __('<i class="fas fa-angle-left"></i>'),
+										//     'next_text'    => __('<i class="fas fa-angle-right"></i>'),
+										//     'add_args'     => false,
+										//     'add_fragment' => '',
+										// )); 
+									?>
+								</div>
 
 							</div>
 

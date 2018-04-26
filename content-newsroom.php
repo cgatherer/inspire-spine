@@ -1,17 +1,6 @@
-<?php 
-	$haystack    = get_the_category( $post->ID );
-	$i = count($haystack);
-	$string = "";
-
-	for ($j=0; $j < $i; $j++) {
-		$string     .= " ";
-		$string     .= $haystack[$j]->slug;
-		$stringName .= $haystack[$j]->name;
-	}
-											
-	$link = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'large', false );					
-	$href = get_the_permalink();										
-	$theCat = wp_get_post_categories($post->ID);
+<?php 										
+	$link = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'large', false );
+	$href = get_the_permalink();
 											
 	if (has_post_thumbnail($post->ID)){
 		$theCols = 'span12'; 
@@ -26,7 +15,7 @@
 	}
 ?>
 
-<div class="<?php echo $string;?>">
+<div class="newsroom-container">
 	<div id="post-<?php the_ID(); ?>" class="post-content <?php echo $theCols;?> group nopad">
 		<div class="post-content--image <?php echo $imgWidth;?>" style="<?php echo $noMargin;?>">
 			<a href="<?php echo $href;?>"><img src="<?php echo $link[0]; ?>"></a>
@@ -36,9 +25,13 @@
 		<div class="post-content--container <?php echo $contentWidth;?>" style="<?php echo $noMargin;?> <?php echo $paddingLeft; ?>">
 			<span class="post-content--date"><?php echo get_the_date('d M Y'); ?></span>
 			<h4 class="post-content--heading"><a href="<?php echo $href;?>"><?php echo the_title();?></a></h4>
-			<p class="post-content--cat">
-				<a href="<?php echo $href;?>"><?php echo $stringName;?></a>
-			</p>
+	
+			<?php $terms = get_the_terms( $post->ID, 'newsroom_post_category' ); 
+					foreach($terms as $term) {
+						$termlinks = get_term_link($term);
+							echo '<p class="post-content--cat">';
+								echo '<a href="' . $termlinks . '">' . $term->name . '</a>';  
+							echo '</p>'; }?>
 																		
 			<div class="post-content--text">
 				<?php

@@ -2,7 +2,7 @@
 /*
 Template Name: Blog
 */
-get_header();  
+get_header();   
 
 $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 
@@ -52,25 +52,58 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 								</div>
 								
 								<?php if (is_page( 'Blog' )) : ?>
-									<?php
-										$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-										
-										$args = array( 
-											'posts_per_page' => 10, 
-											'post_type' => 'post',  
-											'order'   => 'DESC',
-											'paged' => $paged
-										);
+									<?php 
+										$month = get_the_date('m');
+										$year = get_the_date('Y');
 
-										$query = new WP_Query($args);
-											if ( $query->have_posts() ) {
-												while ( $query->have_posts () ): $query->the_post(); 
-													echo get_template_part( 'content', 'archive' );
-												endwhile; 
-											} else {
-												echo "<h6 style='text-align:center;'>something went wrong!</h6>";
-											}
-										wp_reset_postdata();?>
+										if(is_month($month)){
+
+											$args = array(
+												'post_type' => 'post',
+											    'date_query' => array(
+											        array(
+											            'year'  =>  $year,
+											            'month' => $month
+											        )
+											    ),
+											    'posts_per_page'=> -1,
+											    'order' => 'DESC'
+											);
+											
+											$query = new WP_Query($args);
+												if ( $query->have_posts() ) {
+													while ( $query->have_posts () ): $query->the_post(); 
+														echo get_template_part( 'content', 'archive' );
+													endwhile; 
+												} else {
+													echo "<h6 style='text-align:center;'>something went wrong!</h6>";
+												}
+											wp_reset_postdata();
+
+										} else {
+											
+											$args = array(
+												'post_type' => 'post',
+											    'date_query' => array(
+											        array(
+											            'year'  =>  $year
+											        )
+											    ),
+											    'posts_per_page'=> -1,
+											    'order' => 'DESC'
+											);
+											
+											$query = new WP_Query($args);
+												if ( $query->have_posts() ) {
+													while ( $query->have_posts () ): $query->the_post(); 
+														echo get_template_part( 'content', 'archive' );
+													endwhile; 
+												} else {
+													echo "<h6 style='text-align:center;'>something went wrong!</h6>";
+												}
+											wp_reset_postdata();
+										}
+									?>
 								<?php else : ?>
 
 									<h6 style='text-align:center;'>something went wrong!</h6>

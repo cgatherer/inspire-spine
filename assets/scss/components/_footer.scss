@@ -84,6 +84,11 @@
 }
 .footerSection {
   padding: 30px 15px;
+
+  .footer-copy {
+    color: $white !important;
+    @include P02---grey-bullet-list;
+  }
 }
 .bottom-nav {
   padding: 15px 0;
@@ -97,17 +102,10 @@
   max-width: 100%;
   text-align: center;
 }
-.InspiredSpine_logo_solid_reverse_stacked {
+.inspiredSpine-footer-logo {
   width: 225px;
   height: 100px;
   object-fit: contain;
-}
-.Inspired-Spine-is-a {
-  max-width: 273px;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  @include P02---center-light-grey;
 }
 .et_pb_scroll_top.et-pb-icon {
   display: none;

@@ -1,8 +1,6 @@
 <?php
-/*
-Template Name: Archives
-*/
-get_header();  
+
+get_header(); 
 
 $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 
@@ -11,23 +9,11 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 <div id="main-content">
 	<div style="width:100%">
 			
-			<?php if ( is_category()) : ?>
-
-					<div class="page-title span12 group">
-						<div>
-							<h1 class="page-title--heading">Blog</h1>
-						</div>
-					</div>
-
-				<?php else : ?>
-
-					<div class="page-title span12 group">
-						<div>
-							<h1 class="page-title--heading"><?php the_archive_title(); ?></h1>
-						</div>
-					</div>
-
-			<?php endif; ?>
+			<div class="page-title span12 group">
+				<div>
+					<h1 class="page-title--heading"><?php the_archive_title(); ?></h1>
+				</div>
+			</div>
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 

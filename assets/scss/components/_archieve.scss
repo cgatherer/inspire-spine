@@ -6,21 +6,20 @@
     margin-bottom: 30px !important;
     border-bottom: solid 2px $silver;
 
-    &--container {
-        // padding-left: 15px;
+    &--container { 
         padding-bottom: 20px;
     }
 
     &--date {
-        color: $dark-blue;
+        font-family:"Helvetica Neue LT W01_65 Mediu" !important;
+        color: $dark-blue !important;
         font-size: 16px;
-        font-weight: bold;
+        font-weight: 300;
         margin-bottom: 10px;
         text-transform: uppercase;
     }
 
     &--image {
-        // padding-left: 15px;
         margin-left: 0px !important;
     }
 
@@ -28,11 +27,20 @@
         padding-bottom: 0px;
         margin-bottom: 20px;
         @include H04;
+
+        a:hover {
+           color: $dark-blue !important;
+           text-decoration: none !important; 
+        }
     }
 
     &--cat {
         margin-bottom: 10px !important;
         color: $light-blue !important;
+        
+        a {
+           text-decoration: none !important; 
+        }
     }
 
     &--btn {
@@ -40,7 +48,7 @@
         font-size: 16px !important;
         padding: 8px 25px;
         height: 40px;
-        margin: 30px 0px 0px !important;
+        margin: 30px 10px 0px 0px!important;
         border-radius: 2px;
         display: inline-block;
         background-color: $light-blue;
@@ -53,6 +61,28 @@
 
     &--featured-image {
         margin-bottom: 20px !important;
+    }
+
+    &--tags {
+        display: inline-block;
+        ul {
+            padding-left: 0px !important;
+            list-style: none;
+            li {
+                float: left;
+                display: inline-block;
+                font-size: 16px;
+                padding: 10px 25px;
+                margin: 0 16px 20px 0;
+                border-radius: 2px;
+                background-color: $teal;
+
+                a {
+                    color: $white !important;
+                    text-decoration: none !important;
+                }
+            }
+        }
     }
 }
 

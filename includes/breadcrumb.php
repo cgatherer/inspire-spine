@@ -8,6 +8,7 @@ function my_breadcrumbs() {
     $text['archive']     = 'Archive'; // text for a archive page
     $text['news']        = 'Newsroom'; // text for a newsroom page
     $text['category']    = 'Catergory';
+    $text['Newsroom category']    = 'Newsroom Catergory';
  
     $show_current   = 1; // 1 - show current post/page/category title in breadcrumbs, 0 - don't show
     $show_on_home   = 0; // 1 - show breadcrumbs on the homepage, 0 - don't show
@@ -19,14 +20,15 @@ function my_breadcrumbs() {
     /* === END OF OPTIONS === */
  
     global $post;
-    $home_link    = home_url('/');
-    $blog_link    = home_url('/about-us/blog');
-    $link_before  = '<span typeof="v:Breadcrumb">';
-    $link_after   = '</span>';
-    $link_attr    = ' rel="v:url" property="v:title"';
-    $link         = $link_before . '<a' . $link_attr . ' href="%1$s">%2$s</a>' . $link_after;
-    $parent_id    = $parent_id_2 = $post->post_parent;
-    $frontpage_id = get_option('page_on_front');
+    $home_link     = home_url('/');
+    $blog_link     = home_url('/about-us/blog');
+    $newsroom_link = home_url('/about-us/newsroom');
+    $link_before   = '<span typeof="v:Breadcrumb">';
+    $link_after    = '</span>';
+    $link_attr     = ' rel="v:url" property="v:title"';
+    $link          = $link_before . '<a' . $link_attr . ' href="%1$s">%2$s</a>' . $link_after;
+    $parent_id     = $parent_id_2 = $post->post_parent;
+    $frontpage_id  = get_option('page_on_front');
  
     if (is_home() || is_front_page()) {
  
@@ -52,6 +54,11 @@ function my_breadcrumbs() {
             }
             if ($show_current == 1) echo $before . sprintf($text['category'], single_cat_title('', false)) . $after;
  
+        } elseif ( is_tax('newsroom_post_category') ) {
+            $terms = get_the_terms( $post->ID, 'newsroom_post_category' );
+            foreach($terms as $term) {
+                echo $before . '<a' . $link_attr . ' href="'. $newsroom_link .'">' . sprintf($text['news']) . '</a>' . $after . $delimiter . $before . $term->name . $after;
+            }
         } elseif ( is_search() ) {
             echo $before . sprintf($text['search'], get_search_query()) . $after;
  

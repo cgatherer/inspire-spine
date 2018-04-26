@@ -100,6 +100,7 @@ input {
     width: 100%;
     height: 40px;
     border-radius: 2px;
+    color: #444 !important;
     background-color: $white;
     border: solid 1px $silver;
     @include Form-default-text---14-RomanCon57-Italic-left-light-grey;
@@ -112,6 +113,7 @@ input {
 .gform_wrapper {
     margin: 0 !important;
     max-width: 100%;
+    display: block !important;
 }
 
 .gform_wrapper ul.gform_fields li.gfield {
@@ -269,6 +271,7 @@ select:focus {
             border-radius: 2px !important;
             max-width: 100% !important;
             margin-bottom: 0px !important;
+            color: $white !important;
         }
     }
 }
@@ -276,8 +279,16 @@ select:focus {
 .form-field {
     @include Form-default-text---14-RomanCon57-Italic-left-light-grey;
 
+    input {
+        font-style: italic !important;
+    }
+
     &--dropdown select {
+        color: #666 !important;
+        font-style: italic !important;
+        font-size: 14px !important;
         height: 40px !important;
+        width: 100% !important;
     }
 }
 
@@ -299,5 +310,6 @@ select:focus {
         max-width: 110px !important;
         width:100% !important;
         height: 44px !important;
+        color: $white !important;
     }
 }
