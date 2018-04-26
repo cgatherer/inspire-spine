@@ -40,6 +40,18 @@ jQuery(document).ready(function($){
       }
     });
 
+    if(window.location.toString().indexOf("press-releases") != -1) {
+        $(".cat-item").addClass("current-cat");
+    }
+
+    if(window.location.toString().indexOf("events") != -1) {
+        $(".cat-item").addClass("current-cat");
+    } 
+
+    if(window.location.toString().indexOf("in-the-news") != -1) {
+        $(".cat-item").addClass("current-cat");
+    }  
+
     // Custom Post Categories
     if ( element.hasClass("term-press-releases") && element.hasClass("post-type-archive-newsroom_post")) {
         // $(".cat-item").addClass("current-cat");
