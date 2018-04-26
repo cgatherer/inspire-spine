@@ -42,37 +42,37 @@ jQuery(document).ready(function($){
 
     // Custom Post Categories
     if ( element.hasClass("term-press-releases") && element.hasClass("post-type-archive-newsroom_post")) {
-        $(".cat-item").addClass("current-cat");
+        // $(".cat-item").addClass("current-cat");
         $("#top-menu li:first-of-type").addClass("active-ancestor");
         $("#top-menu li li:nth-of-type(4)").addClass("active-page");
     } 
 
     if ( element.hasClass("date") && element.hasClass("term-press-releases") && element.hasClass("post-type-archive-newsroom_post")) {
-        $(".cat-item").removeClass("current-cat");
+        // $(".cat-item").removeClass("current-cat");
         $("#top-menu li:first-of-type").addClass("active-ancestor");
         $("#top-menu li li:nth-of-type(4)").addClass("active-page");
     }
 
     if ( element.hasClass("term-events") && element.hasClass("post-type-archive-newsroom_post")) {
-        $(".cat-item").addClass("current-cat");
+        // $(".cat-item").addClass("current-cat");
         $("#top-menu li:first-of-type").addClass("active-ancestor");
         $("#top-menu li li:nth-of-type(4)").addClass("active-page");
     } 
 
     if ( element.hasClass("date") && element.hasClass("term-events") && element.hasClass("post-type-archive-newsroom_post")) {
-        $(".cat-item").removeClass("current-cat");
+        // $(".cat-item").removeClass("current-cat");
         $("#top-menu li:first-of-type").addClass("active-ancestor");
         $("#top-menu li li:nth-of-type(4)").addClass("active-page");
     }
 
     if ( element.hasClass("term-in-the-news") && element.hasClass("post-type-archive-newsroom_post")) {
-        $(".cat-item").addClass("current-cat");
+        // $(".cat-item").addClass("current-cat");
         $("#top-menu li:first-of-type").addClass("active-ancestor");
         $("#top-menu li li:nth-of-type(4)").addClass("active-page");
     } 
 
     if ( element.hasClass("date") && element.hasClass("term-in-the-news") && element.hasClass("post-type-archive-newsroom_post")) {
-        $(".cat-item").removeClass("current-cat");
+        // $(".cat-item").removeClass("current-cat");
         $("#top-menu li:first-of-type").addClass("active-ancestor");
         $("#top-menu li li:nth-of-type(4)").addClass("active-page");
     }
